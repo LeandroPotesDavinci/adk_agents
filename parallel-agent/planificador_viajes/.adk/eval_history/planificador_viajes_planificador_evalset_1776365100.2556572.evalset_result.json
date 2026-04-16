@@ -1,0 +1,1514 @@
+{
+  "eval_set_result_id": "planificador_viajes_planificador_evalset_1776365100.2556572",
+  "eval_set_result_name": "planificador_viajes_planificador_evalset_1776365100.2556572",
+  "eval_set_id": "planificador_evalset",
+  "eval_case_results": [
+    {
+      "eval_set_file": "planificador_evalset",
+      "eval_set_id": "planificador_evalset",
+      "eval_id": "viaje_nueva_zelanda_case",
+      "final_eval_status": 1,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 1.0,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 0.4,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 0.6186556927297668,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-440ac700-2b74-4416-954a-12823f3060b6",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "quiero planear un viaje a nueva zelanda",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), que es el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG). El Aeropuerto de Auckland es la base principal de Air New Zealand.\n\nNumerosas aerolíneas internacionales ofrecen vuelos, destacando Air New Zealand (con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines.\n\nLos precios de los vuelos varían considerablemente. Aunque se han reportado vuelos de ida y vuelta desde $101 y sencillos desde $51 para periodos específicos, un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de $745. Otros vuelos baratos pueden encontrarse desde €467 (aproximadamente $500 USD). Es importante considerar que la mayoría de los vuelos internacionales requerirán al menos una escala.\n\n### Opciones de Alojamiento\nNueva Zelanda ofrece una amplia gama de alojamiento. Para una experiencia de alta gama, se pueden encontrar hoteles de lujo y lodges exclusivos como el Sofitel Auckland Viaduct Harbour y The Grand By Skycity en Auckland; Fable Christchurch y Peppers Clearwater Resort en Christchurch; Hulbert House Luxury Boutique Lodge y Azur Lodge en Queenstown; o Hapuku Lodge & Tree Houses en Kaikoura y Huka Lodge. Estos suelen ofrecer spas, diseños sofisticados y vistas panorámicas.\n\nLos hoteles boutique, como el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown, son populares por su estilo único y experiencia personalizada.\n\nPara viajeros con un presupuesto más ajustado, hay muchas opciones económicas como hostales y hoteles básicos en las principales ciudades. En Christchurch se encuentran City Centre o Homestay Family Room; en Queenstown, hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown; y en Auckland, Freemans Backpackers y Surf 'N' Snow Backpackers.\n\nLas zonas más populares para alojarse incluyen Auckland (Viaduct Harbour, CBD, Ponsonby, Newmarket), Queenstown (capital de la aventura), Rotorua (cultura maorí, parques geotérmicos), Wellington (centro cultural), Christchurch (Ciudad Jardín), Wanaka (paisajes de lago y montaña) y Te Anau (puerta de entrada a Fiordland). También hay opciones para familias (Novotel Auckland Airport), parejas (Sudima Auckland Airport) y alojamientos únicos como cabañas en los árboles.\n\n### Actividades Recomendadas\nNueva Zelanda ofrece una asombrosa diversidad natural y cultural. Las principales actividades incluyen:\n\n1.  **Explorar los paisajes volcánicos y realizar trekking en el Parque Nacional Tongariro**: Patrimonio de la Humanidad por la UNESCO, este parque ofrece vistas espectaculares de volcanes activos y lagos. La caminata Tongariro Alpine Crossing, una de las mejores del mundo, permite admirar los Emerald Lakes y el Monte Ngauruhoe (\"Monte del Destino\").\n2.  **Visitar Hobbiton**: Para los fanáticos de \"El Señor de los Anillos\" y \"El Hobbit\", el set de filmación en Matamata recrea fielmente La Comarca con agujeros hobbit y accesorios originales de las películas.\n3.  **Realizar un crucero por Milford Sound**: Considerado uno de los fiordos más espectaculares y la atracción más visitada de Nueva Zelanda, ofrece paisajes grandiosos con acantilados, valles glaciales y cataratas, además de la posibilidad de avistar delfines, focas y pingüinos.\n\nOtras experiencias disponibles incluyen la observación de ballenas en Kaikoura, la exploración de los glaciares Franz Josef y Fox, el avistamiento de luciérnagas en las Cuevas de Waitomo, el disfrute de la cultura maorí y las áreas geotérmicas (géiseres, piscinas de lodo) en Rotorua, y deportes extremos como el paracaidismo en Queenstown.\n\n### Conclusión del Plan\nNueva Zelanda ofrece una rica combinación de opciones de viaje, desde vuelos internacionales con diversas aerolíneas y precios variables hasta una amplia gama de alojamientos que se adaptan a todos los presupuestos y preferencias, en destinos clave. Las actividades, que van desde la exploración volcánica y la inmersión en escenarios de películas hasta la admiración de fiordos espectaculares, prometen una experiencia memorable basada en la diversidad natural y cultural del país.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": []
+            },
+            "creation_timestamp": 1776365085.2307022,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "InvestigadorActividades": {
+                  "name": "InvestigadorActividades",
+                  "instructions": "Eres un Asistente de IA especializado en turismo local.\nInvestiga y resume las principales actividades y atracciones turísticas para hacer en el destino indicado por el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando al menos 3 actividades populares.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorActividades\". The description about you is \"Investiga y resume actividades turísticas.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "InvestigadorVuelos": {
+                  "name": "InvestigadorVuelos",
+                  "instructions": "Eres un Asistente de IA especializado en turismo local.\nInvestiga y resume las principales actividades y atracciones turísticas para hacer en el destino indicado por el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando al menos 3 actividades populares.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorActividades\". The description about you is \"Investiga y resume actividades turísticas.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "InvestigadorHoteles": {
+                  "name": "InvestigadorHoteles",
+                  "instructions": "Eres un Asistente de IA especializado en viajes.\nInvestiga y resume las opciones de vuelos para un viaje segun indique el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando aerolíneas y rangos de precios aproximados.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorVuelos\". The description about you is \"Investiga y resume opciones de vuelos.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "AgenteSintesisItinerario": {
+                  "name": "AgenteSintesisItinerario",
+                  "instructions": "Eres un Asistente de IA experto en crear itinerarios de viaje.\n\nTu tarea principal es combinar los siguientes resúmenes de investigación en una propuesta de viaje clara y estructurada.\n\n**Fundamental: Tu respuesta completa DEBE basarse *exclusivamente* en la información proporcionada en los 'Resúmenes de Entrada' a continuación. NO añadas ningún conocimiento externo, hechos o detalles que no estén presentes en estos resúmenes específicos.**\n\n**Resúmenes de Entrada:**\n\n* **Vuelos:**\n    Para planear un viaje a Nueva Zelanda, es útil considerar las siguientes opciones de vuelos:\n\n**Principales Aeropuertos de Llegada:**\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG). El Aeropuerto de Auckland es la base principal de Air New Zealand.\n\n**Aerolíneas Comunes:**\nNumerosas aerolíneas internacionales ofrecen vuelos a Nueva Zelanda. Las más destacadas incluyen Air New Zealand (la aerolínea más popular con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines.\n\n**Rangos de Precios Aproximados:**\nLos precios de los vuelos a Nueva Zelanda pueden variar significativamente según la ciudad de origen, las fechas de viaje y la anticipación de la reserva. Si bien se han reportado vuelos de ida y vuelta desde $101 para períodos específicos o incluso $51 para vuelos sencillos, un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de los $745. Otros hallazgos muestran precios desde €467 (aproximadamente $500 USD) para vuelos baratos. Es importante tener en cuenta que las tarifas pueden ser mucho más altas y que la mayoría de los vuelos internacionales requerirán al menos una escala.\n\n* **Alojamiento:**\n    Nueva Zelanda ofrece una amplia gama de opciones de alojamiento para todos los presupuestos y preferencias. Encontrarás desde hoteles de lujo y boutiques con encanto hasta opciones económicas y hostales.\n\nPara quienes buscan una experiencia de alta gama, Nueva Zelanda cuenta con numerosos hoteles de lujo y lodges exclusivos. En Auckland, destacan el Sofitel Auckland Viaduct Harbour y The Grand By Skycity, mientras que Christchurch ofrece el Fable Christchurch y el Peppers Clearwater Resort. Queenstown es hogar de establecimientos como el Hulbert House Luxury Boutique Lodge y Azur Lodge, y en otras regiones se encuentran el Hapuku Lodge & Tree Houses en Kaikoura o el Huka Lodge. Muchos de estos alojamientos de lujo ofrecen comodidades como spas, diseños sofisticados y vistas panorámicas.\n\nLos hoteles boutique son populares por su estilo único y sofisticación. Ejemplos incluyen el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown. Estos suelen ofrecer una experiencia más personalizada y un ambiente distintivo.\n\nPara viajeros con un presupuesto más ajustado, hay muchas opciones económicas disponibles, especialmente hostales y hoteles básicos en las principales ciudades. En Christchurch, puedes encontrar alternativas como City Centre o Homestay Family Room. Queenstown ofrece numerosos hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown. Auckland también cuenta con una buena selección de opciones económicas, incluyendo Freemans Backpackers y Surf 'N' Snow Backpackers.\n\nLas zonas más populares para alojarse, dependiendo del tipo de viaje que se busque, incluyen:\n*   **Auckland:** Es la ciudad más grande y cosmopolita, sirviendo a menudo como puerta de entrada al país. Las áreas recomendadas son Viaduct Harbour, el Distrito Central de Negocios (CBD), Ponsonby y Newmarket.\n*   **Queenstown:** Conocida como la \"capital de la aventura\" en la Isla Sur, es ideal para actividades al aire libre y paisajes alpinos.\n*   **Rotorua:** En la Isla Norte, es famosa por su cultura maorí y sus parques geotérmicos.\n*   **Wellington:** La capital, en la Isla Norte, es un centro cultural y artístico.\n*   **Christchurch:** En la Isla Sur, es conocida como la \"Ciudad Jardín\" y es una base excelente para explorar los Alpes del Sur.\n*   **Wanaka:** Una alternativa más tranquila a Queenstown, también en la Isla Sur, con impresionantes paisajes de lago y montaña.\n*   **Te Anau:** Es la puerta de entrada a la región de Fiordland, incluyendo Milford Sound.\n\nAdemás, hay opciones para familias, como el Novotel Auckland Airport, y alojamientos diseñados para parejas, como el Sudima Auckland Airport. También se pueden encontrar opciones únicas como cabañas en los árboles o lodges remotos.\n\n* **Actividades:**\n    Si estás planeando un viaje a Nueva Zelanda, te espera un destino con una asombrosa diversidad natural y cultural. Entre las principales actividades y atracciones turísticas que no puedes perderte se encuentran:\n\n1.  **Explorar los paisajes volcánicos y realizar trekking en el Parque Nacional Tongariro**: Este parque es Patrimonio de la Humanidad por la UNESCO y ofrece vistas espectaculares de volcanes activos, lagos de colores intensos y bosques nativos. La caminata Tongariro Alpine Crossing es considerada una de las mejores del mundo, donde podrás admirar los Emerald Lakes y el Monte Ngauruhoe, conocido como el \"Monte del Destino\" en \"El Señor de los Anillos\".\n2.  **Visitar Hobbiton**: Para los fanáticos de \"El Señor de los Anillos\" y \"El Hobbit\", una visita al set de filmación de Hobbiton, en Matamata, es una experiencia imperdible. Este lugar recrea fielmente La Comarca con sus agujeros hobbit, decorados y accesorios originales de las películas.\n3.  **Realizar un crucero por Milford Sound**: Considerado uno de los fiordos más espectaculares y la atracción turística más visitada de Nueva Zelanda, Milford Sound te sumergirá en paisajes grandiosos con acantilados elevados, valles glaciales y cataratas atronadoras. También es un refugio para delfines, focas y pingüinos.\n\nAdemás, Nueva Zelanda ofrece muchas otras experiencias, como la observación de ballenas en Kaikoura, la exploración de los glaciares Franz Josef y Fox, el avistamiento de luciérnagas en las Cuevas de Waitomo, y el disfrute de la cultura maorí y las áreas geotérmicas en Rotorua, con sus géiseres y piscinas de lodo. Para los amantes de la aventura, Queenstown es ideal para deportes extremos como el paracaidismo.\n\n**Formato de Salida:**\n\n## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\n(Basado en los hallazgos del InvestigadorVuelos)\n[Sintetiza y detalla *únicamente* la información del resumen de vuelos proporcionado.]\n\n### Opciones de Alojamiento\n(Basado en los hallazgos del InvestigadorHoteles)\n[Sintetiza y detalla *únicamente* la información del resumen de hoteles proporcionado.]\n\n### Actividades Recomendadas\n(Basado en los hallazgos del InvestigadorActividades)\n[Sintetiza y detalla *únicamente* la información del resumen de actividades proporcionado.]\n\n### Conclusión del Plan\n[Ofrece una breve declaración final que conecte *únicamente* los hallazgos presentados anteriormente.]\n\nTu salida debe ser *únicamente* el reporte estructurado siguiendo este formato. No incluyas frases introductorias o finales fuera de esta estructura.\n\n\nYou are an agent. Your internal name is \"AgenteSintesisItinerario\". The description about you is \"Combina los hallazgos de los agentes de investigación en una propuesta de viaje estructurada.\".",
+                  "tool_declarations": []
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-45993913-8171-4ed2-ba78-84ed1fab1805",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "quiero planear un viaje a nueva zelanda",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nDiversas aerolíneas internacionales ofrecen vuelos a Nueva Zelanda, incluyendo Air New Zealand (la más popular), Qantas Airways, Emirates, Singapore Airlines, Cathay Pacific, United Airlines, American Airlines, Malaysia Airlines, Air Tahiti Nui, China Southern Airlines, Jetstar Airways, Hainan Airlines y Air Chathams Limited. Los aeropuertos principales y con mayor número de vuelos son Auckland (AKL), Christchurch (CHC) y Wellington (WLG), siendo Auckland el destino más frecuente para los viajeros.\n\nLos rangos de precios de los vuelos de ida y vuelta varían según el origen:\n*   **Desde México:** Pueden oscilar entre $10,821 MXN (para destinos como Auckland) y $33,094 MXN en general. Se han encontrado ofertas de ida desde Toluca a Auckland por tan solo $10,587 MXN. Agosto suele ser el mes más económico para volar desde México, con tarifas promedio de $28,748 MXN de ida y vuelta.\n*   **Desde España:** Pueden variar entre 921 € y 1363 €. Se han encontrado vuelos de solo ida desde 457 € y de ida y vuelta a partir de 2.423 € desde Madrid a Auckland. Diciembre puede ser un mes más económico (promedio de 1113 €), mientras que agosto suele ser el más caro.\n*   **Desde Colombia:** Vuelos de ida desde $712,940 COP (a Wellington con Avianca) y de ida y vuelta desde $2,854,955 COP (con LATAM Airlines). Junio suele ser el mes más barato, con tarifas promedio de $6,201,494 COP de ida y vuelta.\n\nPara encontrar tarifas más económicas, se recomienda reservar con varias semanas de antelación, ser flexible con las fechas de viaje y utilizar la opción \"Mes completo\" en los buscadores.\n\n### Opciones de Alojamiento\nNueva Zelanda ofrece una amplia gama de opciones de alojamiento. Los **tipos de hoteles** incluyen:\n*   **Hoteles de lujo y lodges:** Con entornos naturales impresionantes, instalaciones de spa y gastronomía de alta calidad, como Fable Christchurch, Peppers Clearwater Resort, Hulbert House Luxury Boutique Lodge y Azur Lodge en Queenstown, Delamore Lodge en la Isla Waiheke, y The Hotel Britomart en Auckland.\n*   **Hoteles boutique:** Con encanto único y servicio personalizado, como Orari Boutique Hotel en Christchurch y The Hotel Britomart en Auckland.\n*   **Opciones económicas:** Incluyen hostales y hoteles más sencillos en ciudades grandes y centros turísticos, como Drifter Christchurch, The Black Sheep Backpackers en Queenstown y Surf 'N' Snow Backpackers Across Sky Tower en Auckland.\n*   **Alojamientos únicos:** Como villas Art Deco, cabañas convertidas en faros y cúpulas de glamping.\n\nLas **zonas populares** para alojarse incluyen:\n*   **Isla Norte:**\n    *   **Auckland:** Puerta de entrada internacional, con áreas recomendadas como Viaduct Harbour, CBD, Ponsonby, Newmarket y Parnell.\n    *   **Rotorua:** Famosa por su cultura maorí y parques geotérmicos.\n    *   **Wellington:** Capital cultural y artística.\n    *   **Taupo:** Ideal para actividades al aire libre junto al lago.\n*   **Isla Sur:**\n    *   **Queenstown:** \"Capital mundial de la aventura\", con amplios alojamientos.\n    *   **Christchurch:** \"Ciudad Jardín\" y base para explorar los Alpes del Sur.\n    *   **Dunedin:** Conocida por su herencia escocesa y vida silvestre.\n    *   **Nelson:** Ciudad soleada y artística, con acceso a viñedos y al Parque Nacional Abel Tasman.\n    *   **Marlborough:** Región de bodegas y lodges exclusivos.\n    *   **Te Anau:** Puerta de entrada a Milford Sound y Doubtful Sound.\n\n### Actividades Recomendadas\nNueva Zelanda ofrece una impresionante variedad de actividades y atracciones:\n*   **Explorar Milford Sound:** Realizar cruceros para admirar acantilados, valles glaciales y cataratas, o disfrutar de caminatas.\n*   **Visitar Hobbiton:** Un recorrido por el set de filmación en Matamata para los entusiastas de \"El Señor de los Anillos\" y \"El Hobbit\", incluyendo una visita al Green Dragon Inn.\n*   **Descubrir la actividad geotérmica y la cultura maorí en Rotorua:** Observar piscinas de colores vibrantes y géiseres como Lady Knox y Pōhutu en parques como Wai-O-Tapu Thermal Wonderland y Whakarewarewa Geothermal Valley, y aprender sobre la cultura maorí con espectáculos y degustación de \"hangi\".\n\nOtros puntos de interés son el majestuoso **Monte Cook (Aoraki)**, con rutas de senderismo como el Hooker Valley Track; el **Parque Nacional Tongariro**, con volcanes activos y el Tongariro Alpine Crossing; y las **Cuevas de Waitomo**, famosas por sus luciérnagas que iluminan los paseos en barco. Para los amantes de la aventura, **Queenstown** es un destino destacado para actividades como el paracaidismo.\n\n### Conclusión del Plan\nNueva Zelanda ofrece un viaje diverso con opciones de vuelo desde varias regiones, una amplia gama de alojamientos que se adaptan a diferentes presupuestos y preferencias, y una multitud de actividades que van desde maravillas naturales y culturales hasta aventuras emocionantes.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "tool_uses": [],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 1776363816.6475222,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.4,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.6186556927297668,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "___eval___session___c9c32754-faf2-437b-85f0-3b08326db2d7",
+      "session_details": {
+        "id": "___eval___session___c9c32754-faf2-437b-85f0-3b08326db2d7",
+        "app_name": "planificador_viajes",
+        "user_id": "user",
+        "state": {
+          "resultado_vuelos": "Para planear un viaje a Nueva Zelanda, es útil considerar las siguientes opciones de vuelos:\n\n**Principales Aeropuertos de Llegada:**\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG). El Aeropuerto de Auckland es la base principal de Air New Zealand.\n\n**Aerolíneas Comunes:**\nNumerosas aerolíneas internacionales ofrecen vuelos a Nueva Zelanda. Las más destacadas incluyen Air New Zealand (la aerolínea más popular con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines.\n\n**Rangos de Precios Aproximados:**\nLos precios de los vuelos a Nueva Zelanda pueden variar significativamente según la ciudad de origen, las fechas de viaje y la anticipación de la reserva. Si bien se han reportado vuelos de ida y vuelta desde $101 para períodos específicos o incluso $51 para vuelos sencillos, un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de los $745. Otros hallazgos muestran precios desde €467 (aproximadamente $500 USD) para vuelos baratos. Es importante tener en cuenta que las tarifas pueden ser mucho más altas y que la mayoría de los vuelos internacionales requerirán al menos una escala.",
+          "resultado_hoteles": "Nueva Zelanda ofrece una amplia gama de opciones de alojamiento para todos los presupuestos y preferencias. Encontrarás desde hoteles de lujo y boutiques con encanto hasta opciones económicas y hostales.\n\nPara quienes buscan una experiencia de alta gama, Nueva Zelanda cuenta con numerosos hoteles de lujo y lodges exclusivos. En Auckland, destacan el Sofitel Auckland Viaduct Harbour y The Grand By Skycity, mientras que Christchurch ofrece el Fable Christchurch y el Peppers Clearwater Resort. Queenstown es hogar de establecimientos como el Hulbert House Luxury Boutique Lodge y Azur Lodge, y en otras regiones se encuentran el Hapuku Lodge & Tree Houses en Kaikoura o el Huka Lodge. Muchos de estos alojamientos de lujo ofrecen comodidades como spas, diseños sofisticados y vistas panorámicas.\n\nLos hoteles boutique son populares por su estilo único y sofisticación. Ejemplos incluyen el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown. Estos suelen ofrecer una experiencia más personalizada y un ambiente distintivo.\n\nPara viajeros con un presupuesto más ajustado, hay muchas opciones económicas disponibles, especialmente hostales y hoteles básicos en las principales ciudades. En Christchurch, puedes encontrar alternativas como City Centre o Homestay Family Room. Queenstown ofrece numerosos hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown. Auckland también cuenta con una buena selección de opciones económicas, incluyendo Freemans Backpackers y Surf 'N' Snow Backpackers.\n\nLas zonas más populares para alojarse, dependiendo del tipo de viaje que se busque, incluyen:\n*   **Auckland:** Es la ciudad más grande y cosmopolita, sirviendo a menudo como puerta de entrada al país. Las áreas recomendadas son Viaduct Harbour, el Distrito Central de Negocios (CBD), Ponsonby y Newmarket.\n*   **Queenstown:** Conocida como la \"capital de la aventura\" en la Isla Sur, es ideal para actividades al aire libre y paisajes alpinos.\n*   **Rotorua:** En la Isla Norte, es famosa por su cultura maorí y sus parques geotérmicos.\n*   **Wellington:** La capital, en la Isla Norte, es un centro cultural y artístico.\n*   **Christchurch:** En la Isla Sur, es conocida como la \"Ciudad Jardín\" y es una base excelente para explorar los Alpes del Sur.\n*   **Wanaka:** Una alternativa más tranquila a Queenstown, también en la Isla Sur, con impresionantes paisajes de lago y montaña.\n*   **Te Anau:** Es la puerta de entrada a la región de Fiordland, incluyendo Milford Sound.\n\nAdemás, hay opciones para familias, como el Novotel Auckland Airport, y alojamientos diseñados para parejas, como el Sudima Auckland Airport. También se pueden encontrar opciones únicas como cabañas en los árboles o lodges remotos.",
+          "resultado_actividades": "Si estás planeando un viaje a Nueva Zelanda, te espera un destino con una asombrosa diversidad natural y cultural. Entre las principales actividades y atracciones turísticas que no puedes perderte se encuentran:\n\n1.  **Explorar los paisajes volcánicos y realizar trekking en el Parque Nacional Tongariro**: Este parque es Patrimonio de la Humanidad por la UNESCO y ofrece vistas espectaculares de volcanes activos, lagos de colores intensos y bosques nativos. La caminata Tongariro Alpine Crossing es considerada una de las mejores del mundo, donde podrás admirar los Emerald Lakes y el Monte Ngauruhoe, conocido como el \"Monte del Destino\" en \"El Señor de los Anillos\".\n2.  **Visitar Hobbiton**: Para los fanáticos de \"El Señor de los Anillos\" y \"El Hobbit\", una visita al set de filmación de Hobbiton, en Matamata, es una experiencia imperdible. Este lugar recrea fielmente La Comarca con sus agujeros hobbit, decorados y accesorios originales de las películas.\n3.  **Realizar un crucero por Milford Sound**: Considerado uno de los fiordos más espectaculares y la atracción turística más visitada de Nueva Zelanda, Milford Sound te sumergirá en paisajes grandiosos con acantilados elevados, valles glaciales y cataratas atronadoras. También es un refugio para delfines, focas y pingüinos.\n\nAdemás, Nueva Zelanda ofrece muchas otras experiencias, como la observación de ballenas en Kaikoura, la exploración de los glaciares Franz Josef y Fox, el avistamiento de luciérnagas en las Cuevas de Waitomo, y el disfrute de la cultura maorí y las áreas geotérmicas en Rotorua, con sus géiseres y piscinas de lodo. Para los amantes de la aventura, Queenstown es ideal para deportes extremos como el paracaidismo.",
+          "__llm_request_key__": "6054855e-56a6-461f-9edb-cd40f1a02cc7"
+        },
+        "events": [
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "quiero planear un viaje a nueva zelanda",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-440ac700-2b74-4416-954a-12823f3060b6",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "5ee347cc-e1ae-45ad-b447-cf9da5b5a126",
+            "timestamp": 1776365067.3870327
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Para planear un viaje a Nueva Zelanda, es útil considerar las siguientes opciones de vuelos:\n\n**Principales Aeropuertos de Llegada:**\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG). El Aeropuerto de Auckland es la base principal de Air New Zealand.\n\n**Aerolíneas Comunes:**\nNumerosas aerolíneas internacionales ofrecen vuelos a Nueva Zelanda. Las más destacadas incluyen Air New Zealand (la aerolínea más popular con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines.\n\n**Rangos de Precios Aproximados:**\nLos precios de los vuelos a Nueva Zelanda pueden variar significativamente según la ciudad de origen, las fechas de viaje y la anticipación de la reserva. Si bien se han reportado vuelos de ida y vuelta desde $101 para períodos específicos o incluso $51 para vuelos sencillos, un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de los $745. Otros hallazgos muestran precios desde €467 (aproximadamente $500 USD) para vuelos baratos. Es importante tener en cuenta que las tarifas pueden ser mucho más altas y que la mayoría de los vuelos internacionales requerirán al menos una escala.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "aeropuertos.de",
+                    "title": "aeropuertos.de",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgjJr6UZ1X5Ll4NWO6YksOKxJCwcAxAIGmodoHE520S-yfWJ692638_4bvaWVEme-SveMXKwJjuTkeLXiyhRBiiu1M_Y4r3Qzxdxe2wdOH13c7O-0ltUqxISJ4R_C3v2DS2Lc-WPwNobWTzw03q30="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "datosmundial.com",
+                    "title": "datosmundial.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmjp8OfT1XWdEsY3x9MGN_4iH8mRWUvlC2MRY7v3W7Nea9SzRfJ2lFYGsVtS6jTwSfsteO7EgsazW84yOulO2K7acxWJoHHP5kAJSH_dsgjVmTK-Xt04SsNuZAf1SvevmaRPu2CnAi4HWKC9fnkljJfdVFeFFgFpwwagJib9k="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "wikipedia.org",
+                    "title": "wikipedia.org",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAf5ZDJe2PLATBfpJqSQznwmpQCh42meJcFSanhCJjsy_cT4eJxeXuSRkTNppdSsWdwUAhmXNDXyNpTLZvDMsBpuzteyRLzF_z0x-e51w3jKEj__OdUtWJRynHTrAgW_q_VapzTUflWTO3Nqhtz30P4pGigONJCwCaT7CGxw=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "expedia.com",
+                    "title": "expedia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoqbT76tK0tHE7cmTCFLziXt_uNIN9OuaUIRs_A_scFLEfoGGLDY9qJ5ULlNAEu7D0r2QLuJ7f0oPVYevsAm9X6Wx3pXmUtW0VLTLpVCnPxZmSOfIP_aGK4VTnGMZYo7M8-mmQOsmfZ4j1J7cer2YMpGqXA56ZHNMxCdFVvgz8B3-CWYLupk4CW9EkfQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "kiwi.com",
+                    "title": "kiwi.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVhH3VxFrIY-qI2g3FUI9_LnXDw2rmMSLQh0CVguxo1J9LCWWOZvDIcP8obLnGHqh4ro-XCG5kVHW5QH60bB5SX7nuy9HauPYhOowrtzQ4LVrqaFVzkdvsT6S5BvbDwVojYAAfS9O_"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "flightconnections.com",
+                    "title": "flightconnections.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt4fT6FVlnZi7keKaik3BRQbB-HC1BnzsEdDFuRYS47vzQo0pv0ZZYfJyEpXLG4PIQQJORqdZ-ct4HOB-RY1cBLhahhJohSrFSjbXLUzR4M0Ra4rw-xz-Z8OVj7zUh_hJ9TaQvmLO-VMgfAxBFV4BAK51fVKwdnEyX"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "wego.cl",
+                    "title": "wego.cl",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhBOLICdN4ozg_foPHDAZcIG9MDAT3QqcTGV97Q6RvdNjm2v8vvHSnlXpK1DG0ro5LEKvueWVEelfURW-UiX2PVRMo7piEVZtBOjGU-19hbbenrjP_Vb55w9yQeizr_5M9rAIS9nFwJRZdhWRAxwXgNGyizkSZbn6kK0jO93Tqbivo"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "orbitz.com",
+                    "title": "orbitz.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvzbCCJtP7C2ZY6oHwCHSZNOXyBFzxq5HVnhZPtvJfd0iulzu6-CQSrSl4suHNM5aAqPn-r8zK_0aOct-ZfgvzQmku0qewGWy7MEyEZp4FuvnjqERsUZHtMaRYlF2jblvV0eqSspWOoZW3mI13HZkaSTpzFVE99yYZ0fNe1Cn-cue6exeX2v1PyHyp"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "united.com",
+                    "title": "united.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEJicoAcLOu0F1bVLSeozW5WVdnFEgFFtPM-qnCHh6jdV2gWm8wdnOMbPoclnbBlxOzy5ELlScRGKi6BbwhfTITyVGMtsCMy7LRTNzIjgJ-cI0hh8XXMGZSRkcx7QKbxt83SnT5P4biuSszFH5aA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "latamairlines.com",
+                    "title": "latamairlines.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4geGksi7O_wWgwJvyB_AttDmimmZCUmU0w2NoJdUYJRwpCFBO-UJ99kTNB6PavqXef7eFun9gfgKz_9WP-0gt2AM9Wxb5iW8tNysGoYhInNC-e8fjzvNb-FCwANLyt-JOc7BQ1jHGb-s1t6mC3Xeq5zyQqU8="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "kayak.com",
+                    "title": "kayak.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBxKFuDuKEVc_b8IoTcmQmDD-hBU1tUxV2uMqy8IBzpr7q0RDhdJuttenO5f6V0nIXjf4CRSqs2I1Zi_oc7JEK-GXmeJ9nrKWx35HA2RyGVo_De4Z7s780WLvMBWwQErh2UfzSfETZft1ZEYlGf4Xk3svAEDVq5aX2rYQFriES"
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 95,
+                    "end_index": 391,
+                    "part_index": null,
+                    "text": "**Principales Aeropuertos de Llegada:**\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG)."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 392,
+                    "end_index": 458,
+                    "part_index": null,
+                    "text": "El Aeropuerto de Auckland es la base principal de Air New Zealand."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    1,
+                    7,
+                    8,
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 555,
+                    "end_index": 799,
+                    "part_index": null,
+                    "text": "Las más destacadas incluyen Air New Zealand (la aerolínea más popular con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 993,
+                    "end_index": 1079,
+                    "part_index": null,
+                    "text": "Si bien se han reportado vuelos de ida y vuelta desde $101 para períodos específicos"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 1080,
+                    "end_index": 1115,
+                    "part_index": null,
+                    "text": "o incluso $51 para vuelos sencillos"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10
+                  ],
+                  "segment": {
+                    "start_index": 1115,
+                    "end_index": 1243,
+                    "part_index": null,
+                    "text": ", un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de los $745."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 1244,
+                    "end_index": 1337,
+                    "part_index": null,
+                    "text": "Otros hallazgos muestran precios desde €467 (aproximadamente $500 USD) para vuelos baratos."
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNwPyn_JYqAE9lOMhaG_KMuZuooNtFt-jtsdSFdR1S9HG3uXqIeXLr79VGPC8a02sdoeQOwLh7mPibsK_dWSGSyR65EE6i92bkt_LcFEZ9pD_MRP8LDZc_E6KpEujxzPOwNRvuASpBEAkv7J2DbCWHg4DFfCVyo-HOvA0sAa8D9SgKxGNhYTisKTjSuljuO6fWSb8xXRl5tRqCIhJ2Jk9h30CYVUcf9bYnr03mAetQo54XUIuKU2uf7w==\">principales aeropuertos internacionales Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBo1UBUYIi754R7Pcc8E9vXEsJpq6M_HO58CWOBajd1vQLLiUktSsrR1ykI9K2PAGXx2gta8gIVV-9w_RoWWiQVNDXXZ1Nf_ymuy2YWqd4soFVzX4janM73iIAZQPj_Ud9ctLEGBpeN9RBeDJNTitlV_mQUVkrJ2CANwxGd2-ExCyq5ECtosKuICJMDsFTfMkCOAcqErAcGUo=\">vuelos a Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLtg6Z1c94kUFrVA9_fGvKJkOt_WTn2v6eANwiMbtKmj3Cx5px7IRLqotet0xzi15vqmgiMAk5jzaaeVCJuVtotYm0I7GQq8tT4fPME459WQGJjbv0N89zbLKQ34-STTFj5lkL3mgfYo7gzhw8nEiMBK1nGo5ymW7P0G8rCULgOjZoFq_qKAJdtZitqbrgXLhy7JCRsf8zGFigRwgyV86AJ2mBu-PilV0aQ3LY-Q==\">aerolíneas que vuelan a Nueva Zelanda</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "vuelos a Nueva Zelanda",
+                "aerolíneas que vuelan a Nueva Zelanda",
+                "principales aeropuertos internacionales Nueva Zelanda"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "79a2f69d-1608-42a7-be36-e11b03081958"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 326,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 326
+                }
+              ],
+              "prompt_token_count": 121,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 121
+                }
+              ],
+              "thoughts_token_count": 1760,
+              "tool_use_prompt_token_count": 785,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 785
+                }
+              ],
+              "total_token_count": 2992,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-440ac700-2b74-4416-954a-12823f3060b6",
+            "author": "InvestigadorVuelos",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "12608537-0b73-4bea-b8bb-30292f46db57",
+                "resultado_vuelos": "Para planear un viaje a Nueva Zelanda, es útil considerar las siguientes opciones de vuelos:\n\n**Principales Aeropuertos de Llegada:**\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG). El Aeropuerto de Auckland es la base principal de Air New Zealand.\n\n**Aerolíneas Comunes:**\nNumerosas aerolíneas internacionales ofrecen vuelos a Nueva Zelanda. Las más destacadas incluyen Air New Zealand (la aerolínea más popular con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines.\n\n**Rangos de Precios Aproximados:**\nLos precios de los vuelos a Nueva Zelanda pueden variar significativamente según la ciudad de origen, las fechas de viaje y la anticipación de la reserva. Si bien se han reportado vuelos de ida y vuelta desde $101 para períodos específicos o incluso $51 para vuelos sencillos, un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de los $745. Otros hallazgos muestran precios desde €467 (aproximadamente $500 USD) para vuelos baratos. Es importante tener en cuenta que las tarifas pueden ser mucho más altas y que la mayoría de los vuelos internacionales requerirán al menos una escala."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorVuelos",
+            "id": "0db0be9e-809c-4008-be83-cbbcd6f441ba",
+            "timestamp": 1776365067.3987844
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Nueva Zelanda ofrece una amplia gama de opciones de alojamiento para todos los presupuestos y preferencias. Encontrarás desde hoteles de lujo y boutiques con encanto hasta opciones económicas y hostales.\n\nPara quienes buscan una experiencia de alta gama, Nueva Zelanda cuenta con numerosos hoteles de lujo y lodges exclusivos. En Auckland, destacan el Sofitel Auckland Viaduct Harbour y The Grand By Skycity, mientras que Christchurch ofrece el Fable Christchurch y el Peppers Clearwater Resort. Queenstown es hogar de establecimientos como el Hulbert House Luxury Boutique Lodge y Azur Lodge, y en otras regiones se encuentran el Hapuku Lodge & Tree Houses en Kaikoura o el Huka Lodge. Muchos de estos alojamientos de lujo ofrecen comodidades como spas, diseños sofisticados y vistas panorámicas.\n\nLos hoteles boutique son populares por su estilo único y sofisticación. Ejemplos incluyen el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown. Estos suelen ofrecer una experiencia más personalizada y un ambiente distintivo.\n\nPara viajeros con un presupuesto más ajustado, hay muchas opciones económicas disponibles, especialmente hostales y hoteles básicos en las principales ciudades. En Christchurch, puedes encontrar alternativas como City Centre o Homestay Family Room. Queenstown ofrece numerosos hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown. Auckland también cuenta con una buena selección de opciones económicas, incluyendo Freemans Backpackers y Surf 'N' Snow Backpackers.\n\nLas zonas más populares para alojarse, dependiendo del tipo de viaje que se busque, incluyen:\n*   **Auckland:** Es la ciudad más grande y cosmopolita, sirviendo a menudo como puerta de entrada al país. Las áreas recomendadas son Viaduct Harbour, el Distrito Central de Negocios (CBD), Ponsonby y Newmarket.\n*   **Queenstown:** Conocida como la \"capital de la aventura\" en la Isla Sur, es ideal para actividades al aire libre y paisajes alpinos.\n*   **Rotorua:** En la Isla Norte, es famosa por su cultura maorí y sus parques geotérmicos.\n*   **Wellington:** La capital, en la Isla Norte, es un centro cultural y artístico.\n*   **Christchurch:** En la Isla Sur, es conocida como la \"Ciudad Jardín\" y es una base excelente para explorar los Alpes del Sur.\n*   **Wanaka:** Una alternativa más tranquila a Queenstown, también en la Isla Sur, con impresionantes paisajes de lago y montaña.\n*   **Te Anau:** Es la puerta de entrada a la región de Fiordland, incluyendo Milford Sound.\n\nAdemás, hay opciones para familias, como el Novotel Auckland Airport, y alojamientos diseñados para parejas, como el Sudima Auckland Airport. También se pueden encontrar opciones únicas como cabañas en los árboles o lodges remotos.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "mlkmemorial.org",
+                    "title": "mlkmemorial.org",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF09EivcygpQB8auH8Xuws8NbN2huWYFymfazjAfNkCBN_Bpn41ALXVqORFPC4BnnsL0fu6gusJsv32wiuyyBxB6Bd1SRiKCkGs3oD29Nc6m17R405id34r7vvb9EfJBpQX"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "luxury-hotels.com",
+                    "title": "luxury-hotels.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE487zKq3WhrkoMLa75KApjIuK_e-FL5N3fkIxFhOEWP2qHgNhcpoK-Pqc4eaKRn2sKGVSHoZULncEqxFKsHseOvSr0YHPCW5PIAwuMpZ8ymozZE2L7byD8IiXy-pPxjYceiIY="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "nuevosdestinosbymara.com",
+                    "title": "nuevosdestinosbymara.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_kmgG3IIHigAXyLtiGVxIJQqPmDsNgPHnj4OiX6rPWm-7i5VzmN07Kl1OCj7PM9ieKqYdo2oiPzAJcf7ScivC6HeVBECejMIqnDZRhqhpqwFJQubObhB-f79PnhRJCMDZYCQlGeVs65L-X_FzKlKPPzMDyCKwaA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "luxuryhotel.world",
+                    "title": "luxuryhotel.world",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL5mpq60p0U62G_cjkqfNUxIwGXF49hE1CiTnupGAEErmTGFzd-MmVMnqjyEPDaQ3qym5NlzyYnfGey_pzLa9s7TLfzeSzRGVenh9af-tMubmDeC4FKcaKuzJkeMMZq-l9Uxva"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "mrandmrssmith.com",
+                    "title": "mrandmrssmith.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjPE278Litjx8AaJfQhgkYwXr14RVfK7Fg6txcvweijC6h8EAG60ZGS1pySyIFZhSxwqPDl9w_In-RFEYcn5n3OVSQx3OAiIEHkymxrJOlEkU_t2VoubF0BBdodmxlSnneiacAJ0rSHnewxHrd_Th6MHpCalTStV4="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOgm3sFQ7AQ-fOft9ODclf7BIeMaO9lTmrmgO4jhX_yTYcjkKIcopvYjp66aYz2J6v8tH2LHiPF_o3bHbKFnNOqr2QlhYbAsp12l4mJxBDq75dzptWodbbdk_gNxLZDMl-rokYlP4v9XYTY9o="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "klook.com",
+                    "title": "klook.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn8Z0eRnP_rvcyvgY_u2rYcsCEF5PsCko5w-OdmmpmgzluaFGRxgWplneYLYSTTVO-RJ-eHymPOQw9YzzMElgeab2KJAAw6tBrfrRWik4WDBNoYStoFOSq06tIhFMlRicn7xQjRizOvQFq6Hwk9HvbWHuJXwKY"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "luxurylink.com",
+                    "title": "luxurylink.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxAqcKEwA2aFBdyfyYVsElRQRPRuaNdboN2ZIfJxDGMYUV7caMSzegqvB8j7qtQvT6MC-adkpb5AluhcGNedr4qw65eEJzuHkmUpEb7aluEOM37tBcl6XB6gcjTyThD9JDoU7_X2GDyfMJ0AF2QwdHT-5P"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "boutiquehotels.co.nz",
+                    "title": "boutiquehotels.co.nz",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt1dedFgHE2vQJwKlu5fezEDpmiI4hNOkYeKBOA7OV1Ty_zHGPjPy6uZSlVEmdomTFmbUB-d7cI8vkd5Tkaka5iVeNjKPUmIQ-CkJpBEOVeBEVHENL1Gh2KZPO3w=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "thehotelguru.com",
+                    "title": "thehotelguru.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFIEbA0PiVD1TBP618pLwIxL-zvFbfr7i1CXUANodf8CyZ_af5EvuY3fLwsCCiDzwWxyD-eYP4ZauPQ-G4_FJ-QqJWvIELXUM-ORgRVVPr2akCGQ8pdm72iwPthkNSMohDaoAiGwiyyonEh0o6sNRX-LV608wZ4OOI-6IuJEd3W5d9-xEjesyCh6PxjRtM"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "christchurch-hotels.net",
+                    "title": "christchurch-hotels.net",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcVg_nXQ2KTe-NMIZiKXlJvZLZUz0TO89FNfGn5xvmV-C16z-2NFk2QqHs_5UmBvBNd6a-UPc48722MZm9AY1-FsT3jDcV4-SZm72ORE_H0f0D0sn72ixZXl26UFYzDX_9JMNl2MhlyTWJtMFdRV5k1z1XpoiePnK9s7u0soPNASOY"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "queenstown-great-hotels.com",
+                    "title": "queenstown-great-hotels.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyRHznvZYrlU3He4PrFCRIdgZvwzGyC1aoNWUCFgtUkwH4yvcghaefd5xgZajlRzPydSOn2r1cWzOvFb0ijrIWjdESrpwe-gUdLoLMbZZQ5oxpR2tE2uQzI90TomSzi1Rj5j9fZDjIqrpjPlMdtSIt7ydtaqoQG1Opp5DcjqPo7duB8yP9LQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "besthotelsauckland.com",
+                    "title": "besthotelsauckland.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGb_AWELX4YKmtqvGZRGa4447zcuEWGk_cHXTR4xb1vNbRKi22FKTDgvfVnfPQOeQwTiTats6V1PIGuPt5ynFBGPJHaUElOTm7kcaVyZqXuMZE65sFq1tTCFLd1VLx5XpdbzzNLCNMUI-ULTjL-d3bwDQxYOQBBKGXGMgLnuHEeYs="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "mejoreszonas.com",
+                    "title": "mejoreszonas.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvzt7NlTMSFoXdmuwAdMXY2ivjQZEEpQT1O8Fed3gKOcRkylTZxAIaDToqGCE53Bdv03GZu0xd4qFeNVI5YSjF8WWwlQ5LqKKyUN7acXlniPfoLl83KA-bTOUCSVPahgsum5Z9ensLhOWTrbBs4zOlg8kqgJGTABWnLDZkuQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "lostraveleros.com",
+                    "title": "lostraveleros.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaV_tEVbPylLMdrv0gKCfiphUE_G9KmEC-1QqbTqWE0mh4cNNmL9V1vGwBksMzK0QWTzIT9FuQ23lirfTgSqrz6JBMi-wFKRrjuPfj07wgclZNMMMUPUi2AyvlfkBAiBk_4E_ch5CWITGfnEfydPzV"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "dondedormiren.com",
+                    "title": "dondedormiren.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTrCWPTx-1g8sZSAJlNfejk6dyNFdqwvF82KxnmjsVPqT-jhmVOcfVJwHM_hAdY4w2FFXeG1vfAgGoPk308goA9_WTTmMo6wyUMK0NUHs5QhrJ7lsZWg-dnNECZf8dZ1RX8mg="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "spinyourdestination.com",
+                    "title": "spinyourdestination.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTVeWmwcaXDo2O8oDc1KFGhNiuTV1EExIxULTCGWlsmcTQfCgdog8yAHcGdV2IukiRJ1TqXL3N9dKYmK82PyGDj30vr_ErVwuRqlznfa9m4mH2MOGzPv2LMdYWkMBi_NHrBaI39At5H1jzNYeoQp2wM23v2ENb5Tuh2dCHOIg="
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 329,
+                    "end_index": 497,
+                    "part_index": null,
+                    "text": "En Auckland, destacan el Sofitel Auckland Viaduct Harbour y The Grand By Skycity, mientras que Christchurch ofrece el Fable Christchurch y el Peppers Clearwater Resort."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2,
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 498,
+                    "end_index": 688,
+                    "part_index": null,
+                    "text": "Queenstown es hogar de establecimientos como el Hulbert House Luxury Boutique Lodge y Azur Lodge, y en otras regiones se encuentran el Hapuku Lodge & Tree Houses en Kaikoura o el Huka Lodge."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    4,
+                    1,
+                    5,
+                    2,
+                    6,
+                    7,
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 689,
+                    "end_index": 801,
+                    "part_index": null,
+                    "text": "Muchos de estos alojamientos de lujo ofrecen comodidades como spas, diseños sofisticados y vistas panorámicas."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 877,
+                    "end_index": 982,
+                    "part_index": null,
+                    "text": "Ejemplos incluyen el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    4,
+                    1,
+                    2,
+                    8,
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 983,
+                    "end_index": 1064,
+                    "part_index": null,
+                    "text": "Estos suelen ofrecer una experiencia más personalizada y un ambiente distintivo."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10
+                  ],
+                  "segment": {
+                    "start_index": 1230,
+                    "end_index": 1317,
+                    "part_index": null,
+                    "text": "En Christchurch, puedes encontrar alternativas como City Centre o Homestay Family Room."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    11
+                  ],
+                  "segment": {
+                    "start_index": 1318,
+                    "end_index": 1425,
+                    "part_index": null,
+                    "text": "Queenstown ofrece numerosos hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12
+                  ],
+                  "segment": {
+                    "start_index": 1426,
+                    "end_index": 1561,
+                    "part_index": null,
+                    "text": "Auckland también cuenta con una buena selección de opciones económicas, incluyendo Freemans Backpackers y Surf 'N' Snow Backpackers."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    13,
+                    9,
+                    14
+                  ],
+                  "segment": {
+                    "start_index": 1768,
+                    "end_index": 1873,
+                    "part_index": null,
+                    "text": "Las áreas recomendadas son Viaduct Harbour, el Distrito Central de Negocios (CBD), Ponsonby y Newmarket."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    15,
+                    6,
+                    16
+                  ],
+                  "segment": {
+                    "start_index": 1874,
+                    "end_index": 2011,
+                    "part_index": null,
+                    "text": "*   **Queenstown:** Conocida como la \"capital de la aventura\" en la Isla Sur, es ideal para actividades al aire libre y paisajes alpinos."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    15,
+                    16
+                  ],
+                  "segment": {
+                    "start_index": 2012,
+                    "end_index": 2106,
+                    "part_index": null,
+                    "text": "*   **Rotorua:** En la Isla Norte, es famosa por su cultura maorí y sus parques geotérmicos."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    15,
+                    16
+                  ],
+                  "segment": {
+                    "start_index": 2107,
+                    "end_index": 2192,
+                    "part_index": null,
+                    "text": "*   **Wellington:** La capital, en la Isla Norte, es un centro cultural y artístico."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1,
+                    15
+                  ],
+                  "segment": {
+                    "start_index": 2193,
+                    "end_index": 2324,
+                    "part_index": null,
+                    "text": "*   **Christchurch:** En la Isla Sur, es conocida como la \"Ciudad Jardín\" y es una base excelente para explorar los Alpes del Sur."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    16
+                  ],
+                  "segment": {
+                    "start_index": 2325,
+                    "end_index": 2458,
+                    "part_index": null,
+                    "text": "*   **Wanaka:** Una alternativa más tranquila a Queenstown, también en la Isla Sur, con impresionantes paisajes de lago y montaña."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    16
+                  ],
+                  "segment": {
+                    "start_index": 2459,
+                    "end_index": 2552,
+                    "part_index": null,
+                    "text": "*   **Te Anau:** Es la puerta de entrada a la región de Fiordland, incluyendo Milford Sound."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0
+                  ],
+                  "segment": {
+                    "start_index": 2554,
+                    "end_index": 2697,
+                    "part_index": null,
+                    "text": "Además, hay opciones para familias, como el Novotel Auckland Airport, y alojamientos diseñados para parejas, como el Sudima Auckland Airport."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2,
+                    7
+                  ],
+                  "segment": {
+                    "start_index": 2698,
+                    "end_index": 2791,
+                    "part_index": null,
+                    "text": "También se pueden encontrar opciones únicas como cabañas en los árboles o lodges remotos."
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_vvCOeyVJx6WAg8JREMicoCH2l8vsDTxqfuIjMRLPvX1v1kmBaEo0GIZQ9VTvlVVP-JFGz1NDCsWIBmWecjlHim6BRqKOoMjYZEscbFs-LeAGDWZiVOaGZYM9Szd2QgKqKb3rahMU__z5DCqBF7FQ7AsOvF4qw7Zuh_-q5IlGMfhl92mN4zWFg00WU7NkHuFcGsFnF_g5BVUYIU8utc7ysp3mJA785e9BJZ-8\">mejores zonas para alojarse Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc3EORRa4Nqm2L9zHSensb3_cK0JAxovGgmbrYRtjwxQMV7TKxGa3m4693ZN3NWSr5M7R_mfH4YUkri9eg1f4jyAQtKcW1eQSEdw0jEYJ2E8Cs5cbaxzaZt4GkEEvqN0NoPxOPWyxszwVbJACgGaUncbOdIWSq6LPqjLBC9tGS0txQaUEA1weMccLoZCtBdQiLNqa4ES1uon-GYcetSbY3nA==\">hoteles boutique Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSMEYh88JWxdTDjQhacP4rjb4AnEUc1l_HL_Ol8t8NxFaHQgoMp-TTLHyp1EcHdfuW-D1ST4IEMtBbB-sYVdo5dygz_mPUo-sBuNozW6hv5Xszn91mv2RP3Mb03AJgvlb3_SW5LqFxppebqbV1-VLq-zJZ3-IfhxTE0D_Xu851YCBMhVu71jp-c9_1MI90vrf21_PeUL_aq5eINmcskXEr\">hoteles de lujo Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcELGpcadT-vVreH5Uzm0Lt5X6mVm12JqR7WlhYJ86Og8fXyeLxxlAXyIivJZCkTM0K3h51ta03A2Onk5PE46gVN_yb6EtPAU75MHiHVeSJL9jXZdsK-MB6I0GDBV0TpAI2-ToVDITumd5RypaOv4XAnZWq4MVIoWGFb9utQMQYSqVbiaEDTajqqNln16l7-EuVfZLNr9oJxHrBnGUK6rrcsZ3pIIob_M=\">hoteles económicos Nueva Zelanda</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "hoteles de lujo Nueva Zelanda",
+                "hoteles boutique Nueva Zelanda",
+                "hoteles económicos Nueva Zelanda",
+                "mejores zonas para alojarse Nueva Zelanda"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "12608537-0b73-4bea-b8bb-30292f46db57"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 592,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 592
+                }
+              ],
+              "prompt_token_count": 125,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 125
+                }
+              ],
+              "thoughts_token_count": 1262,
+              "tool_use_prompt_token_count": 151,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 151
+                }
+              ],
+              "total_token_count": 2130,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-440ac700-2b74-4416-954a-12823f3060b6",
+            "author": "InvestigadorHoteles",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "6958973b-d5f4-4842-a84c-179f15528f56",
+                "resultado_hoteles": "Nueva Zelanda ofrece una amplia gama de opciones de alojamiento para todos los presupuestos y preferencias. Encontrarás desde hoteles de lujo y boutiques con encanto hasta opciones económicas y hostales.\n\nPara quienes buscan una experiencia de alta gama, Nueva Zelanda cuenta con numerosos hoteles de lujo y lodges exclusivos. En Auckland, destacan el Sofitel Auckland Viaduct Harbour y The Grand By Skycity, mientras que Christchurch ofrece el Fable Christchurch y el Peppers Clearwater Resort. Queenstown es hogar de establecimientos como el Hulbert House Luxury Boutique Lodge y Azur Lodge, y en otras regiones se encuentran el Hapuku Lodge & Tree Houses en Kaikoura o el Huka Lodge. Muchos de estos alojamientos de lujo ofrecen comodidades como spas, diseños sofisticados y vistas panorámicas.\n\nLos hoteles boutique son populares por su estilo único y sofisticación. Ejemplos incluyen el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown. Estos suelen ofrecer una experiencia más personalizada y un ambiente distintivo.\n\nPara viajeros con un presupuesto más ajustado, hay muchas opciones económicas disponibles, especialmente hostales y hoteles básicos en las principales ciudades. En Christchurch, puedes encontrar alternativas como City Centre o Homestay Family Room. Queenstown ofrece numerosos hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown. Auckland también cuenta con una buena selección de opciones económicas, incluyendo Freemans Backpackers y Surf 'N' Snow Backpackers.\n\nLas zonas más populares para alojarse, dependiendo del tipo de viaje que se busque, incluyen:\n*   **Auckland:** Es la ciudad más grande y cosmopolita, sirviendo a menudo como puerta de entrada al país. Las áreas recomendadas son Viaduct Harbour, el Distrito Central de Negocios (CBD), Ponsonby y Newmarket.\n*   **Queenstown:** Conocida como la \"capital de la aventura\" en la Isla Sur, es ideal para actividades al aire libre y paisajes alpinos.\n*   **Rotorua:** En la Isla Norte, es famosa por su cultura maorí y sus parques geotérmicos.\n*   **Wellington:** La capital, en la Isla Norte, es un centro cultural y artístico.\n*   **Christchurch:** En la Isla Sur, es conocida como la \"Ciudad Jardín\" y es una base excelente para explorar los Alpes del Sur.\n*   **Wanaka:** Una alternativa más tranquila a Queenstown, también en la Isla Sur, con impresionantes paisajes de lago y montaña.\n*   **Te Anau:** Es la puerta de entrada a la región de Fiordland, incluyendo Milford Sound.\n\nAdemás, hay opciones para familias, como el Novotel Auckland Airport, y alojamientos diseñados para parejas, como el Sudima Auckland Airport. También se pueden encontrar opciones únicas como cabañas en los árboles o lodges remotos."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorHoteles",
+            "id": "f56fab48-49ad-4e84-bb3d-3ad47ceb3ac8",
+            "timestamp": 1776365069.9020057
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Si estás planeando un viaje a Nueva Zelanda, te espera un destino con una asombrosa diversidad natural y cultural. Entre las principales actividades y atracciones turísticas que no puedes perderte se encuentran:\n\n1.  **Explorar los paisajes volcánicos y realizar trekking en el Parque Nacional Tongariro**: Este parque es Patrimonio de la Humanidad por la UNESCO y ofrece vistas espectaculares de volcanes activos, lagos de colores intensos y bosques nativos. La caminata Tongariro Alpine Crossing es considerada una de las mejores del mundo, donde podrás admirar los Emerald Lakes y el Monte Ngauruhoe, conocido como el \"Monte del Destino\" en \"El Señor de los Anillos\".\n2.  **Visitar Hobbiton**: Para los fanáticos de \"El Señor de los Anillos\" y \"El Hobbit\", una visita al set de filmación de Hobbiton, en Matamata, es una experiencia imperdible. Este lugar recrea fielmente La Comarca con sus agujeros hobbit, decorados y accesorios originales de las películas.\n3.  **Realizar un crucero por Milford Sound**: Considerado uno de los fiordos más espectaculares y la atracción turística más visitada de Nueva Zelanda, Milford Sound te sumergirá en paisajes grandiosos con acantilados elevados, valles glaciales y cataratas atronadoras. También es un refugio para delfines, focas y pingüinos.\n\nAdemás, Nueva Zelanda ofrece muchas otras experiencias, como la observación de ballenas en Kaikoura, la exploración de los glaciares Franz Josef y Fox, el avistamiento de luciérnagas en las Cuevas de Waitomo, y el disfrute de la cultura maorí y las áreas geotérmicas en Rotorua, con sus géiseres y piscinas de lodo. Para los amantes de la aventura, Queenstown es ideal para deportes extremos como el paracaidismo.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "viajeroscallejeros.com",
+                    "title": "viajeroscallejeros.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-g-CIJz_zQy7m03pZ24nr9pHhWAVsXK8m6UAj1Jyq8Z2XRjx7Q0zbY7HhM_jS5Tjofyg6ZCVtfcYRK8L28lHdAnxUQywYqVKOiiLTwUw5MgztkNsBTGiH9XBsG39LKFknC-ivaCYu_a-qWR37qo7OH_MNIkPrGz3iS_UfLsgN"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "egali.com.mx",
+                    "title": "egali.com.mx",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYg9o-ivBNDtdZZpuUUuBRSVjhBxLoG2DkFRhSiPqcmUlmPapar6y767TqatuBROOSDENcAnCu-3OYkbEseAe-sHxHttxYORoUZUdv9NiRCGGwbnC1EuFekqyLEHgeV4VyFCJwENp0b1QGV7QdD0XTtjg="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "yomeanimo.com",
+                    "title": "yomeanimo.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFROAJ5JnjdLiYCyp9yPnBSivcX17ZnWXaLcNCfMP9fJBWOPibF6oN24ox-ybpJdacXcfqwaN4C2gepxX7BV7LMWjz9EXhswWg3caEfSWTNC7f0cPjoideaZvnkL4vasmp4jFySKHkI0WNrzkin"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "aquidepaso.com",
+                    "title": "aquidepaso.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiO-a6QOTSWcFpK4BqlJ6SUJrQm2R1yeE_RlKQTYFg2iIr2vPj4eMNlSvf8Yv9dXE-34uYF5P_D2kiwt8aP6KCQ0wdE4GUs70Hu4QkBgwyeN2l6kqLzbFuz3yfQBGWs0ycpRlH3JI8VHTwZCq_wInIy4aEn0w65etMHXA="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "rumbo.es",
+                    "title": "rumbo.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuMT9YRapgwuwmJs7Wi3xxCjXbGxEdM45fgenN4trN1NKEsZ380gB3M8fpzC9DjD6JnXCHgKBJ_CV0GtZHh662aUNZYTRL6bGQR1-2MEo4S_T_f4ry5c5393Hfu-rdPtAQ6fviuJehC4LZn1CSsnhEYHI1vfFBbMVOuLAXXn3LWisO"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "viator.com",
+                    "title": "viator.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkcJU8cVQ8mO3omQEKHaIka2-TxqR2gpaLdDNHjPjdrtNEQ7lrmGFfQ4zWYBv1mUM3J57M7Hm60Q7i2_3mEJ1wMviWh1um2UbLNNoSMZJTEMidllkMW-sxvMdp5JmavpkqOu91bQKO"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "mochileandoporelmundo.com",
+                    "title": "mochileandoporelmundo.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-V6rV3mJmicCUNM_XYAYVa9iikO5iOKrlHMp57C_wJbrh-b8seCWUcEZ0wp_DhwCZBXB0SXSQ0aWeeshY0lDNNVBMudZsKo_WF7XC6_Cv9hD2wmaw_FyKxHv18WtGalfLNpvSOcl_j5LKiL5eVOktcCW3n6oZ65wcw42d5MDtUkIyTP9Pu1kXpF_QzsXN4dY="
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 463,
+                    "end_index": 675,
+                    "part_index": null,
+                    "text": "La caminata Tongariro Alpine Crossing es considerada una de las mejores del mundo, donde podrás admirar los Emerald Lakes y el Monte Ngauruhoe, conocido como el \"Monte del Destino\" en \"El Señor de los Anillos\"."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    4,
+                    5
+                  ],
+                  "segment": {
+                    "start_index": 856,
+                    "end_index": 972,
+                    "part_index": null,
+                    "text": "Este lugar recrea fielmente La Comarca con sus agujeros hobbit, decorados y accesorios originales de las películas."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    4,
+                    5,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 1249,
+                    "end_index": 1306,
+                    "part_index": null,
+                    "text": "También es un refugio para delfines, focas y pingüinos."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 1308,
+                    "end_index": 1409,
+                    "part_index": null,
+                    "text": "Además, Nueva Zelanda ofrece muchas otras experiencias, como la observación de ballenas en Kaikoura"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 1409,
+                    "end_index": 1461,
+                    "part_index": null,
+                    "text": ", la exploración de los glaciares Franz Josef y Fox"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 1461,
+                    "end_index": 1519,
+                    "part_index": null,
+                    "text": ", el avistamiento de luciérnagas en las Cuevas de Waitomo"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    5
+                  ],
+                  "segment": {
+                    "start_index": 1519,
+                    "end_index": 1631,
+                    "part_index": null,
+                    "text": ", y el disfrute de la cultura maorí y las áreas geotérmicas en Rotorua, con sus géiseres y piscinas de lodo."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 1632,
+                    "end_index": 1729,
+                    "part_index": null,
+                    "text": "Para los amantes de la aventura, Queenstown es ideal para deportes extremos como el paracaidismo."
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlLMdU0cHIk3u6fbXbGae9InY_RLDRESB_8DIikqdmGa89IfU9Jc6QvxfTH07zxOjgSyIARRs1K7MgmUcx0yKxff4EWNOu9yKizRBrWFYMlwFzdzhVNje---6P-cPYPDafVQtSontOYQakqY0YDXxOrXHQkV-bYGAHuzwcvZi3mGU5kDq75dF2EmFnvE5A5CFHccc0qLPNEK7QSCM=\">imperdibles Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJVClz-OE1roJ0YtRBwqV6S3NO9iBPpb6iNgkA7m8eIzCNLXishu_gmV2NG_hqg3ZXENUQO7clpoju1H7iMIsSGRaX4ZtyAa3LkTX5ybRNdxmz2pj1MH_0jauMip-N0i4OgZHbajfj4vruQ6gpgFoD55xjm77mnp-_MxNuYa_L5KJi8dRawAZcyqI_XdNk8SyL0UHfDHYcLTSYGvtI4627XIg=\">qué hacer en Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt-U4p8AAX6okdnz9ablkFDYyx2_-zGQLKwQE79z7A9Jamd38F2rD4ScORhopW54xwwym9V4TGKzLqmfYaCUYXQ8bQ_lHz_7OW0nR8bJ1brOSLJBZ-IM25oOo9H6RiiWQ-WtjPzSz4FC0AnLoGQJ2I0PIWHO3FUqhSTHvpQyl-D3_6s8yYg743qKLnBR3-nxIqM2dJTmEWSllzvcUlenDXrvhAOfmUuNsW0iNZ4c5paHtCLtGHii0=\">actividades turísticas populares Nueva Zelanda</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHy93B62cD4E7IH9eadPPphuRWxPS-wR8dWYlgneF0lH54kL0w6KmeqR4bSouAa-uBnnkBX8CKvHouchcVUXnqK8VFlT4FRmbhoJVffN39tOXxbR7n30M-Akg_NwolT_RBhddB9jwWrColaJTwwqtM5bgMcRKTy20yPBn8Rbud_GctlwyAqX7uaQ4-92rau_4RGi6w1cqDnmrRqAsLEChmKTCdwg==\">mejores atracciones Nueva Zelanda</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "actividades turísticas populares Nueva Zelanda",
+                "mejores atracciones Nueva Zelanda",
+                "qué hacer en Nueva Zelanda",
+                "imperdibles Nueva Zelanda"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "79a2f69d-1608-42a7-be36-e11b03081958"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 407,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 407
+                }
+              ],
+              "prompt_token_count": 123,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 123
+                }
+              ],
+              "thoughts_token_count": 670,
+              "tool_use_prompt_token_count": 43,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 43
+                }
+              ],
+              "total_token_count": 1243,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-440ac700-2b74-4416-954a-12823f3060b6",
+            "author": "InvestigadorActividades",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "79a2f69d-1608-42a7-be36-e11b03081958",
+                "resultado_actividades": "Si estás planeando un viaje a Nueva Zelanda, te espera un destino con una asombrosa diversidad natural y cultural. Entre las principales actividades y atracciones turísticas que no puedes perderte se encuentran:\n\n1.  **Explorar los paisajes volcánicos y realizar trekking en el Parque Nacional Tongariro**: Este parque es Patrimonio de la Humanidad por la UNESCO y ofrece vistas espectaculares de volcanes activos, lagos de colores intensos y bosques nativos. La caminata Tongariro Alpine Crossing es considerada una de las mejores del mundo, donde podrás admirar los Emerald Lakes y el Monte Ngauruhoe, conocido como el \"Monte del Destino\" en \"El Señor de los Anillos\".\n2.  **Visitar Hobbiton**: Para los fanáticos de \"El Señor de los Anillos\" y \"El Hobbit\", una visita al set de filmación de Hobbiton, en Matamata, es una experiencia imperdible. Este lugar recrea fielmente La Comarca con sus agujeros hobbit, decorados y accesorios originales de las películas.\n3.  **Realizar un crucero por Milford Sound**: Considerado uno de los fiordos más espectaculares y la atracción turística más visitada de Nueva Zelanda, Milford Sound te sumergirá en paisajes grandiosos con acantilados elevados, valles glaciales y cataratas atronadoras. También es un refugio para delfines, focas y pingüinos.\n\nAdemás, Nueva Zelanda ofrece muchas otras experiencias, como la observación de ballenas en Kaikoura, la exploración de los glaciares Franz Josef y Fox, el avistamiento de luciérnagas en las Cuevas de Waitomo, y el disfrute de la cultura maorí y las áreas geotérmicas en Rotorua, con sus géiseres y piscinas de lodo. Para los amantes de la aventura, Queenstown es ideal para deportes extremos como el paracaidismo."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorActividades",
+            "id": "6e952b78-238c-4917-aab7-88412d606548",
+            "timestamp": 1776365072.3007963
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nLos principales puntos de entrada internacionales a Nueva Zelanda son el Aeropuerto Internacional de Auckland (AKL), que es el más grande y concurrido, así como el Aeropuerto Internacional de Christchurch (CHC) y el Aeropuerto Internacional de Wellington (WLG). El Aeropuerto de Auckland es la base principal de Air New Zealand.\n\nNumerosas aerolíneas internacionales ofrecen vuelos, destacando Air New Zealand (con el 74% de los vuelos de llegada), Qantas Airways, Emirates, Cathay Pacific, Singapore Airlines, Malaysia Airlines, United Airlines, American Airlines y LATAM Airlines.\n\nLos precios de los vuelos varían considerablemente. Aunque se han reportado vuelos de ida y vuelta desde $101 y sencillos desde $51 para periodos específicos, un precio más representativo para un vuelo redondo, como desde Dallas-Fort Worth a Auckland, se sitúa alrededor de $745. Otros vuelos baratos pueden encontrarse desde €467 (aproximadamente $500 USD). Es importante considerar que la mayoría de los vuelos internacionales requerirán al menos una escala.\n\n### Opciones de Alojamiento\nNueva Zelanda ofrece una amplia gama de alojamiento. Para una experiencia de alta gama, se pueden encontrar hoteles de lujo y lodges exclusivos como el Sofitel Auckland Viaduct Harbour y The Grand By Skycity en Auckland; Fable Christchurch y Peppers Clearwater Resort en Christchurch; Hulbert House Luxury Boutique Lodge y Azur Lodge en Queenstown; o Hapuku Lodge & Tree Houses en Kaikoura y Huka Lodge. Estos suelen ofrecer spas, diseños sofisticados y vistas panorámicas.\n\nLos hoteles boutique, como el Hotel DeBrett y The Hotel Britomart en Auckland, o el QT Wellington y QT Queenstown, son populares por su estilo único y experiencia personalizada.\n\nPara viajeros con un presupuesto más ajustado, hay muchas opciones económicas como hostales y hoteles básicos en las principales ciudades. En Christchurch se encuentran City Centre o Homestay Family Room; en Queenstown, hostales como The Black Sheep Backpackers, Tahuna Pod Hostel y Lylo Queenstown; y en Auckland, Freemans Backpackers y Surf 'N' Snow Backpackers.\n\nLas zonas más populares para alojarse incluyen Auckland (Viaduct Harbour, CBD, Ponsonby, Newmarket), Queenstown (capital de la aventura), Rotorua (cultura maorí, parques geotérmicos), Wellington (centro cultural), Christchurch (Ciudad Jardín), Wanaka (paisajes de lago y montaña) y Te Anau (puerta de entrada a Fiordland). También hay opciones para familias (Novotel Auckland Airport), parejas (Sudima Auckland Airport) y alojamientos únicos como cabañas en los árboles.\n\n### Actividades Recomendadas\nNueva Zelanda ofrece una asombrosa diversidad natural y cultural. Las principales actividades incluyen:\n\n1.  **Explorar los paisajes volcánicos y realizar trekking en el Parque Nacional Tongariro**: Patrimonio de la Humanidad por la UNESCO, este parque ofrece vistas espectaculares de volcanes activos y lagos. La caminata Tongariro Alpine Crossing, una de las mejores del mundo, permite admirar los Emerald Lakes y el Monte Ngauruhoe (\"Monte del Destino\").\n2.  **Visitar Hobbiton**: Para los fanáticos de \"El Señor de los Anillos\" y \"El Hobbit\", el set de filmación en Matamata recrea fielmente La Comarca con agujeros hobbit y accesorios originales de las películas.\n3.  **Realizar un crucero por Milford Sound**: Considerado uno de los fiordos más espectaculares y la atracción más visitada de Nueva Zelanda, ofrece paisajes grandiosos con acantilados, valles glaciales y cataratas, además de la posibilidad de avistar delfines, focas y pingüinos.\n\nOtras experiencias disponibles incluyen la observación de ballenas en Kaikoura, la exploración de los glaciares Franz Josef y Fox, el avistamiento de luciérnagas en las Cuevas de Waitomo, el disfrute de la cultura maorí y las áreas geotérmicas (géiseres, piscinas de lodo) en Rotorua, y deportes extremos como el paracaidismo en Queenstown.\n\n### Conclusión del Plan\nNueva Zelanda ofrece una rica combinación de opciones de viaje, desde vuelos internacionales con diversas aerolíneas y precios variables hasta una amplia gama de alojamientos que se adaptan a todos los presupuestos y preferencias, en destinos clave. Las actividades, que van desde la exploración volcánica y la inmersión en escenarios de películas hasta la admiración de fiordos espectaculares, prometen una experiencia memorable basada en la diversidad natural y cultural del país.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "6054855e-56a6-461f-9edb-cd40f1a02cc7"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 991,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 991
+                }
+              ],
+              "prompt_token_count": 3078,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 3078
+                }
+              ],
+              "thoughts_token_count": 164,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 4233,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": -0.20185464037174414,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-440ac700-2b74-4416-954a-12823f3060b6",
+            "author": "AgenteSintesisItinerario",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "6054855e-56a6-461f-9edb-cd40f1a02cc7"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "7fd6003c-e647-466c-b898-75af9074a796",
+            "timestamp": 1776365090.4013524
+          }
+        ],
+        "last_update_time": 1776365090.4013524
+      },
+      "user_id": "user"
+    }
+  ],
+  "creation_timestamp": 1776365100.2556572
+}

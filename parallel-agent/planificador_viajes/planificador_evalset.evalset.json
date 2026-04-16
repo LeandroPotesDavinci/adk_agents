@@ -1,0 +1,115 @@
+{
+  "eval_set_id": "planificador_evalset",
+  "name": "planificador_evalset",
+  "eval_cases": [
+    {
+      "eval_id": "viaje_italia_case",
+      "conversation": [
+        {
+          "invocation_id": "e-20bb715b-9468-4d70-89e5-d9a01faa6216",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Hola quiero realizar un vaje a la emilia romagna en italia"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nEl principal punto de entrada para Emilia Romagna es el Aeropuerto Guglielmo Marconi de Bolonia (BLQ), considerado el más importante de la región. Otros aeropuertos internacionales disponibles son el de Rímini (RMI), Parma (PMF) y Forlì (FRL). Diversas aerolíneas operan vuelos a Bolonia, incluyendo Ryanair, Vueling, Iberia, Lufthansa, ITA Airways, Swiss, TAP Portugal, Eurowings, Air Europa, KLM, Austrian Airlines, Neos Air y Wizz Air.\n\nEn cuanto a precios, se han registrado vuelos directos de ida desde España a Bolonia a partir de 15€ con aerolíneas como Ryanair (ej. desde Palma de Mallorca). Vuelos directos de ida desde Barcelona con Vueling pueden costar entre 29€ y 31€. El costo promedio de un viaje de ida y vuelta desde Barcelona a Bolonia es de 235€. Para obtener precios más precisos, se requiere la ciudad de salida y las fechas deseadas.\n\n### Opciones de Alojamiento\nEmilia-Romagna ofrece una vasta selección de alojamiento que se adapta a diversos gustos y presupuestos, con más de 7000 hoteles listados.\n\nSe pueden encontrar:\n*   **Hoteles de lujo y boutique:** Ofrecen estancias elegantes y servicios personalizados. Ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Hotel Orologio y Art Hotel Commercianti en Bolonia, Casa Maria Luigia en Módena, Antico Borgo di Tabiano Castello en Salsomaggiore Terme, y Relais Roncolo 1888 en Quattro Castella/Roncolo.\n*   **Opciones económicas y con encanto:** Para presupuestos ajustados, hay agriturismos (casas de campo convertidas), B&Bs románticos en centros urbanos como Santa Maria Foris en Rávena y Gregorini Bingham - Art Luxury Suites en Bolonia, y hoteles económicos bien valorados como Hotel Castello Artemide Congressi en Castel San Pietro Terme y Atlas Hotel en Riccione.\n*   **Hoteles modernos y con servicios específicos:** Incluyen opciones con diseño moderno como The Box Hotel en Riccione, y establecimientos que ofrecen piscinas, spas y habitaciones familiares.\n\nLas **zonas populares para alojarse** varían según el interés:\n*   **Amantes de la gastronomía:** Parma y Módena.\n*   **Escapada urbana y cultural:** Bolonia, Ferrara y Rávena.\n*   **Disfrute de la playa:** Ciudades costeras como Rímini, Riccione, Milano Marittima y Cattolica en la Riviera Adriática.\n*   **Experiencia rural e histórica:** Pueblos como Salsomaggiore Terme, Castelvetro y Quattro Castella.\n\n### Actividades Recomendadas\nEmilia-Romagna es una región rica en gastronomía, historia, cultura y paisajes, ofreciendo múltiples actividades:\n\n1.  **Exploración Gastronómica:** Considerada el \"Valle de la Gastronomía\", la región es ideal para tours de comida en Bolonia, Parma y Módena. Se pueden degustar productos como Parmigiano Reggiano, Prosciutto di Parma, vinagre balsámico tradicional de Módena, tortellini y piadina romagnola. Existen 24 Museos del Gusto (como el del Parmigiano Reggiano o el Jamón de Parma) y la posibilidad de visitar fábricas de producción.\n2.  **Visita a Ciudades Históricas y Culturales:**\n    *   **Bolonia:** Capital con torres inclinadas y Piazza Maggiore.\n    *   **Rávena:** Famosa por sus mosaicos bizantinos y ocho sitios UNESCO.\n    *   **Módena:** Casco antiguo medieval, Piazza Grande y Museo Enzo Ferrari.\n    *   **Parma:** Arte, música, gastronomía, con su Catedral y Baptisterio.\n    *   **Ferrara:** Arquitectura medieval y renacentista, Patrimonio de la Humanidad por la UNESCO, con murallas para pasear.\n3.  **El \"Valle del Motor\" y la Costa Adriática:**\n    *   **Valle del Motor:** Para entusiastas, con museos de marcas legendarias como Ferrari (Maranello y Módena), Lamborghini y Ducati.\n    *   **Riviera Romagnola:** Playas de arena en la costa adriática, con localidades como Rímini y Cervia.\n    *   **Delta del Po:** Área natural para la observación de flamencos en los Valles de Comacchio, conocida como la \"pequeña Venecia\".\n\n### Conclusión del Plan\nLa región de Emilia Romagna ofrece una experiencia de viaje completa, con una excelente conectividad aérea a través de varios aeropuertos, una amplia gama de opciones de alojamiento para todos los presupuestos e intereses, y un sinfín de actividades que van desde la exploración gastronómica y cultural hasta la pasión por el motor y el disfrute de la costa."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1776295700.0979676
+        }
+      ],
+      "session_input": {
+        "app_name": "planificador_viajes",
+        "user_id": "user",
+        "state": {
+          "resultado_vuelos": "",
+          "resultado_hoteles": "",
+          "resultado_actividades": ""
+        }
+      },
+      "creation_timestamp": 1776295810.556715
+    },
+    {
+      "eval_id": "viaje_argentina_case",
+      "conversation": [
+        {
+          "invocation_id": "e-9f44e42b-5158-4f71-b834-c2c7bd47fc00",
+          "user_content": {
+            "parts": [
+              {
+                "text": "ahora quiero planificar un viaje para Bariloche, argentina"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nPara viajar a Bariloche, Argentina, se pueden encontrar vuelos directos desde diversas ciudades argentinas como Buenos Aires, Córdoba, El Calafate, Rosario y Mendoza, operados por Aerolíneas Argentinas, JetSMART y Flybondi. Desde el extranjero, SKY Airline y LATAM ofrecen vuelos desde Santiago (Chile), y Aerolíneas Argentinas, junto con otras aerolíneas, opera desde Montevideo (Uruguay) durante ciertos meses (ej. marzo).\n\nLos rangos de precios aproximados de ida y vuelta son:\n*   Desde Buenos Aires: entre ARS 80.789 y ARS 114.019, o $151 USD.\n*   Desde Santiago: entre CLP 152.320 y CLP 257.943 con SKY Airline.\n*   Desde Montevideo: promedio $359 USD en mayo, con ofertas desde $279 USD.\n*   El costo promedio general de un vuelo a Bariloche es de ARS 147.718.\n\nSe recomienda reservar con aproximadamente 54 días de antelación para mejores precios. Mayo suele ser el mes más económico para volar, mientras que enero y febrero son los más caros. La flexibilidad con las fechas también puede generar tarifas más accesibles.\n\n### Opciones de Alojamiento\nBariloche ofrece una amplia variedad de alojamientos con arquitectura rústica de piedra y madera, influenciada por el norte de Europa, distribuidos en varias zonas:\n\n*   **Centro de Bariloche:** Conveniente por su cercanía a servicios, restaurantes y transporte público, ideal sin vehículo. Ofrece desde hoteles 4 estrellas hasta hostales.\n*   **Avenida Bustillo:** Se extiende a lo largo del lago Nahuel Huapi con vistas panorámicas. Las zonas del Kilómetro 1 a 4 están cerca del centro con tranquilidad, el Kilómetro 5 a 8 (Playa Bonita) ofrece equilibrio y actividades acuáticas, y los kilómetros más altos son para mayor conexión con la naturaleza.\n*   **Zona Llao Llao:** Destaca por sus paisajes y hoteles de lujo como el Llao Llao Resort, Golf & Spa, ideal para una experiencia premium.\n*   **Cerro Catedral:** Ideal para amantes del esquí con acceso directo a pistas en invierno. Fuera de temporada, es más tranquilo y se recomienda vehículo.\n*   **Lago Gutiérrez y Colonia Suiza:** Opciones tranquilas y rústicas, excelentes para senderismo y ambiente local, requieren vehículo.\n*   **Melipal y barrios residenciales:** Ofrecen equilibrio entre tranquilidad y cercanía al centro, con alojamientos espaciosos y precios accesibles, bien conectados por bus.\n\nEn cuanto a tipos de alojamiento, se encuentran:\n*   **Hoteles de Lujo (5 estrellas):** Como Llao Llao Resort, Alma del Lago Suites & Spa, Design Suites Bariloche, Villa Beluno Hotel & Spa, y Charming Luxury Lodge & Private Spa, muchos con spa y vistas panorámicas.\n*   **Hoteles Boutique:** Ejemplos incluyen El Monasterio Hotel Boutique y Boutique Hotel & Spa Bosque del Nahuel.\n*   **Hoteles y Alojamientos Económicos:** Numerosas opciones para presupuestos limitados, como hostels (Hostel Capsula Refugio Oeste, Bonita Lake House), cabañas y hoteles más sencillos en el centro o Melipal.\n\n### Actividades Recomendadas\nBariloche, ubicada en el Parque Nacional Nahuel Huapi, ofrece actividades para todo el año:\n\n*   **Paseos lacustres por el Lago Nahuel Huapi:** Permiten explorar la Isla Victoria, el Bosque de Arrayanes y Puerto Blest, con posibilidades de caminatas y descubrimiento de pinturas rupestres.\n*   **Recorrer el Circuito Chico y el Cerro Campanario:** El Circuito Chico es un recorrido escénico de 65 km con vistas panorámicas del Lago Nahuel Huapi y Lago Moreno, incluyendo Colonia Suiza. El Cerro Campanario ofrece vistas consideradas \"las mejores de Bariloche\", abarcando la península de San Pedro, el lago Moreno y montañas nevadas desde sus 1050 metros.\n*   **Esquí y deportes de nieve en el Cerro Catedral:** En invierno, es un gran centro de esquí sudamericano con más de 120 km de pistas. También se puede practicar snowboard, moto de nieve y caminatas con raquetas.\n*   **Otros atractivos:** Incluyen la Ruta de los Siete Lagos hacia Villa La Angostura y San Martín de los Andes, disfrute de la gastronomía local con chocolates artesanales y cervezas. Actividades de aventura como rafting en el río Manso, canopy y senderismo a refugios de montaña como el Frey también están disponibles.\n\n### Conclusión del Plan\nBariloche ofrece una experiencia completa con diversas opciones de vuelos desde Argentina y países vecinos, una amplia gama de alojamientos que se adaptan a distintos gustos y presupuestos, y una rica variedad de actividades que van desde el disfrute de paisajes lacustres y montañosos hasta deportes de nieve y aventura, complementado por su reconocida gastronomía."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1776298160.4934654
+        }
+      ],
+      "session_input": {
+        "app_name": "planificador_viajes",
+        "user_id": "user",
+        "state": {
+          "resultado_vuelos": "",
+          "resultado_hoteles": "",
+          "resultado_actividades": ""
+        }
+      },
+      "creation_timestamp": 1776298241.2590446
+    },
+    {
+      "eval_id": "viaje_nueva_zelanda_case",
+      "conversation": [
+        {
+          "invocation_id": "e-45993913-8171-4ed2-ba78-84ed1fab1805",
+          "user_content": {
+            "parts": [
+              {
+                "text": "quiero planear un viaje a nueva zelanda"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nDiversas aerolíneas internacionales ofrecen vuelos a Nueva Zelanda, incluyendo Air New Zealand (la más popular), Qantas Airways, Emirates, Singapore Airlines, Cathay Pacific, United Airlines, American Airlines, Malaysia Airlines, Air Tahiti Nui, China Southern Airlines, Jetstar Airways, Hainan Airlines y Air Chathams Limited. Los aeropuertos principales y con mayor número de vuelos son Auckland (AKL), Christchurch (CHC) y Wellington (WLG), siendo Auckland el destino más frecuente para los viajeros.\n\nLos rangos de precios de los vuelos de ida y vuelta varían según el origen:\n*   **Desde México:** Pueden oscilar entre $10,821 MXN (para destinos como Auckland) y $33,094 MXN en general. Se han encontrado ofertas de ida desde Toluca a Auckland por tan solo $10,587 MXN. Agosto suele ser el mes más económico para volar desde México, con tarifas promedio de $28,748 MXN de ida y vuelta.\n*   **Desde España:** Pueden variar entre 921 € y 1363 €. Se han encontrado vuelos de solo ida desde 457 € y de ida y vuelta a partir de 2.423 € desde Madrid a Auckland. Diciembre puede ser un mes más económico (promedio de 1113 €), mientras que agosto suele ser el más caro.\n*   **Desde Colombia:** Vuelos de ida desde $712,940 COP (a Wellington con Avianca) y de ida y vuelta desde $2,854,955 COP (con LATAM Airlines). Junio suele ser el mes más barato, con tarifas promedio de $6,201,494 COP de ida y vuelta.\n\nPara encontrar tarifas más económicas, se recomienda reservar con varias semanas de antelación, ser flexible con las fechas de viaje y utilizar la opción \"Mes completo\" en los buscadores.\n\n### Opciones de Alojamiento\nNueva Zelanda ofrece una amplia gama de opciones de alojamiento. Los **tipos de hoteles** incluyen:\n*   **Hoteles de lujo y lodges:** Con entornos naturales impresionantes, instalaciones de spa y gastronomía de alta calidad, como Fable Christchurch, Peppers Clearwater Resort, Hulbert House Luxury Boutique Lodge y Azur Lodge en Queenstown, Delamore Lodge en la Isla Waiheke, y The Hotel Britomart en Auckland.\n*   **Hoteles boutique:** Con encanto único y servicio personalizado, como Orari Boutique Hotel en Christchurch y The Hotel Britomart en Auckland.\n*   **Opciones económicas:** Incluyen hostales y hoteles más sencillos en ciudades grandes y centros turísticos, como Drifter Christchurch, The Black Sheep Backpackers en Queenstown y Surf 'N' Snow Backpackers Across Sky Tower en Auckland.\n*   **Alojamientos únicos:** Como villas Art Deco, cabañas convertidas en faros y cúpulas de glamping.\n\nLas **zonas populares** para alojarse incluyen:\n*   **Isla Norte:**\n    *   **Auckland:** Puerta de entrada internacional, con áreas recomendadas como Viaduct Harbour, CBD, Ponsonby, Newmarket y Parnell.\n    *   **Rotorua:** Famosa por su cultura maorí y parques geotérmicos.\n    *   **Wellington:** Capital cultural y artística.\n    *   **Taupo:** Ideal para actividades al aire libre junto al lago.\n*   **Isla Sur:**\n    *   **Queenstown:** \"Capital mundial de la aventura\", con amplios alojamientos.\n    *   **Christchurch:** \"Ciudad Jardín\" y base para explorar los Alpes del Sur.\n    *   **Dunedin:** Conocida por su herencia escocesa y vida silvestre.\n    *   **Nelson:** Ciudad soleada y artística, con acceso a viñedos y al Parque Nacional Abel Tasman.\n    *   **Marlborough:** Región de bodegas y lodges exclusivos.\n    *   **Te Anau:** Puerta de entrada a Milford Sound y Doubtful Sound.\n\n### Actividades Recomendadas\nNueva Zelanda ofrece una impresionante variedad de actividades y atracciones:\n*   **Explorar Milford Sound:** Realizar cruceros para admirar acantilados, valles glaciales y cataratas, o disfrutar de caminatas.\n*   **Visitar Hobbiton:** Un recorrido por el set de filmación en Matamata para los entusiastas de \"El Señor de los Anillos\" y \"El Hobbit\", incluyendo una visita al Green Dragon Inn.\n*   **Descubrir la actividad geotérmica y la cultura maorí en Rotorua:** Observar piscinas de colores vibrantes y géiseres como Lady Knox y Pōhutu en parques como Wai-O-Tapu Thermal Wonderland y Whakarewarewa Geothermal Valley, y aprender sobre la cultura maorí con espectáculos y degustación de \"hangi\".\n\nOtros puntos de interés son el majestuoso **Monte Cook (Aoraki)**, con rutas de senderismo como el Hooker Valley Track; el **Parque Nacional Tongariro**, con volcanes activos y el Tongariro Alpine Crossing; y las **Cuevas de Waitomo**, famosas por sus luciérnagas que iluminan los paseos en barco. Para los amantes de la aventura, **Queenstown** es un destino destacado para actividades como el paracaidismo.\n\n### Conclusión del Plan\nNueva Zelanda ofrece un viaje diverso con opciones de vuelo desde varias regiones, una amplia gama de alojamientos que se adaptan a diferentes presupuestos y preferencias, y una multitud de actividades que van desde maravillas naturales y culturales hasta aventuras emocionantes."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1776363816.6475222
+        }
+      ],
+      "session_input": {
+        "app_name": "planificador_viajes",
+        "user_id": "user",
+        "state": {
+          "resultado_vuelos": "",
+          "resultado_hoteles": "",
+          "resultado_actividades": ""
+        }
+      },
+      "creation_timestamp": 1776364055.3983479
+    }
+  ],
+  "creation_timestamp": 1776295786.119225
+}

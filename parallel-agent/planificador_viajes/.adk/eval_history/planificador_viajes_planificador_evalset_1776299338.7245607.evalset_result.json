@@ -1,0 +1,1679 @@
+{
+  "eval_set_result_id": "planificador_viajes_planificador_evalset_1776299338.7245607",
+  "eval_set_result_name": "planificador_viajes_planificador_evalset_1776299338.7245607",
+  "eval_set_id": "planificador_evalset",
+  "eval_case_results": [
+    {
+      "eval_set_file": "planificador_evalset",
+      "eval_set_id": "planificador_evalset",
+      "eval_id": "viaje_argentina_case",
+      "final_eval_status": 1,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 1.0,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 0.5,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 0.6529745042492919,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-72b06f96-4300-4577-bbcb-d7ace9d8cb84",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ahora quiero planificar un viaje para Bariloche, argentina",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nPara viajar a Bariloche, Argentina, diversas aerolíneas ofrecen rutas. Las principales aerolíneas incluyen Aerolíneas Argentinas, Flybondi, JetSMART, LATAM, Azul y Gol. Desde Santiago de Chile, SKY también ofrece vuelos.\n\nLos precios varían según el origen:\n*   Desde ciudades dentro de Argentina:\n    *   Desde Buenos Aires (JetSMART): desde ARS 64,200.\n    *   Otras opciones desde Buenos Aires (EZE): alrededor de ARS 114,019 y ARS 162,585.\n    *   Desde Córdoba (COR) con escala: desde ARS 143,856.\n    *   Desde Salta (SLA) con escala: desde ARS 177,022.\n*   Desde Santiago de Chile (SCL): desde CLP 152,320.\n*   Vuelos internacionales con conexión en Buenos Aires:\n    *   Desde Miami (ida y vuelta): aproximadamente USD 958.\n    *   Desde Madrid (ida y vuelta): alrededor de € 1,133.\n\nSe recomienda verificar tarifas y disponibilidad directamente con las aerolíneas o en buscadores de vuelos.\n\n### Opciones de Alojamiento\nBariloche ofrece una amplia gama de alojamientos en distintas zonas, adaptándose a preferencias de proximidad al centro, vistas, tranquilidad o acceso a actividades.\n\n**Zonas populares para alojarse:**\n*   **Centro de Bariloche:** Conveniente si no se dispone de coche, con cercanía a restaurantes, tiendas y transporte público. Ofrece variedad de hospedajes y precios más económicos, aunque puede ser más ruidoso.\n*   **Avenida Bustillo o \"Los Kilómetros\":** Ideal para tranquilidad, vistas al lago Nahuel Huapi y las montañas. Predominan cabañas, apart-hoteles y hoteles boutique.\n    *   **Kilómetro 5 a 8 (Playa Bonita):** Equilibrio entre proximidad al centro (10 minutos en coche) y tranquilidad con acceso a la playa.\n    *   **Kilómetro 20 (Llao Llao):** Alojamientos exclusivos en un entorno natural para desconectar, incluyendo el Hotel Llao Llao.\n*   **Cerro Catedral:** Preferido para amantes del esquí y deportes de nieve en invierno, con acceso directo a pistas.\n*   **Lago Gutiérrez:** Recomendado para actividades en la naturaleza como trekking, con bosques y paisajes hermosos. La oferta de alojamientos es más limitada.\n\n**Tipos de hoteles:**\n*   **Hoteles de Lujo:** Ofrecen servicios de alta gama y vistas impresionantes. Ejemplos incluyen Llao Llao Resort, Golf-Spa; Alma Del Lago Suites & Spa; Sheraton Bariloche Hotel; Villa Beluno Hotel & Spa; y Design Suites Bariloche.\n*   **Hoteles Boutique:** Para una experiencia personalizada y con encanto. Algunos son Monasterio Hotel Boutique, Hosteria El Condado by Nordic, Hotel Nahuel Huapi y Rochester Bariloche Suites & Spa.\n*   **Hoteles Económicos:** Opciones asequibles, especialmente en el centro. Ejemplos incluyen Hostel Capsula Refugio Oeste, Bonita Lake House - Hostel & Bungalows, Hotel Cottbus o Huinid Pioneros Hotel. Diciembre y octubre suelen tener tarifas más bajas.\n\n### Actividades Recomendadas\nBariloche ofrece una combinación de naturaleza, aventura y gastronomía.\n\n**Principales actividades y atracciones:**\n*   **Recorrer el Circuito Chico:** Recorrido circular de 60 km con vistas panorámicas. Incluye paradas en Punto Panorámico, Hotel Llao Llao, Capilla San Eduardo y Colonia Suiza.\n*   **Subir al Cerro Campanario:** Mirador con vistas de 360 grados de lagos (Nahuel Huapi, Moreno), laguna El Trébol, península San Pedro e Isla Victoria. Accesible mediante aerosilla.\n*   **Visitar el Cerro Catedral:** Centro de esquí en invierno. En verano, ofrece actividades de montaña y vistas.\n*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Paseos en barco a Isla Victoria y Bosque de Arrayanes (árboles milenarios). Excursiones a Puerto Blest y Cascada de los Cántaros.\n*   **Disfrutar de la gastronomía local:** Famosa por chocolates artesanales y cervezas locales. La Calle Mitre destaca por chocolaterías como Mamuschka y Rapa Nui.\n\n**Otras actividades populares:**\n*   Recorrer la Ruta de los 7 Lagos.\n*   Practicar senderismo en el Parque Nacional Nahuel Huapi.\n*   Visitar el Centro Cívico de Bariloche.\n*   Ascender al Cerro Otto.\n*   En verano, los lagos ofrecen kayak, stand up paddle y navegación.\n\n### Conclusión del Plan\nBariloche ofrece un destino completo con diversas opciones de vuelo adaptadas a distintos presupuestos y orígenes, una variada oferta de alojamiento en entornos que van desde el centro urbano hasta la exclusiva paz natural, y una riqueza de actividades que abarcan desde el esquí y el senderismo hasta paseos en barco y experiencias gastronómicas con chocolates y cervezas locales.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": []
+            },
+            "creation_timestamp": 1776299312.6440604,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "InvestigadorVuelos": {
+                  "name": "InvestigadorVuelos",
+                  "instructions": "Eres un Asistente de IA especializado en turismo local.\nInvestiga y resume las principales actividades y atracciones turísticas para hacer en el destino indicado por el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando al menos 3 actividades populares.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorActividades\". The description about you is \"Investiga y resume actividades turísticas.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "InvestigadorActividades": {
+                  "name": "InvestigadorActividades",
+                  "instructions": "Eres un Asistente de IA especializado en viajes.\nInvestiga y resume las opciones de vuelos para un viaje segun indique el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando aerolíneas y rangos de precios aproximados.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorVuelos\". The description about you is \"Investiga y resume opciones de vuelos.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "InvestigadorHoteles": {
+                  "name": "InvestigadorHoteles",
+                  "instructions": "Eres un Asistente de IA especializado en turismo local.\nInvestiga y resume las principales actividades y atracciones turísticas para hacer en el destino indicado por el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando al menos 3 actividades populares.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorActividades\". The description about you is \"Investiga y resume actividades turísticas.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "AgenteSintesisItinerario": {
+                  "name": "AgenteSintesisItinerario",
+                  "instructions": "Eres un Asistente de IA experto en crear itinerarios de viaje.\n\nTu tarea principal es combinar los siguientes resúmenes de investigación en una propuesta de viaje clara y estructurada.\n\n**Fundamental: Tu respuesta completa DEBE basarse *exclusivamente* en la información proporcionada en los 'Resúmenes de Entrada' a continuación. NO añadas ningún conocimiento externo, hechos o detalles que no estén presentes en estos resúmenes específicos.**\n\n**Resúmenes de Entrada:**\n\n* **Vuelos:**\n    Para planificar tu viaje a Bariloche, Argentina, varias aerolíneas ofrecen vuelos a este popular destino patagónico.\n\nLas principales aerolíneas que vuelan a Bariloche incluyen Aerolíneas Argentinas, Flybondi, JetSMART, LATAM, Azul y Gol. También SKY ofrece vuelos desde Santiago de Chile.\n\nLos precios de los vuelos varían considerablemente según el origen y la aerolínea:\n*   Desde ciudades dentro de Argentina, los vuelos directos o con una escala a Bariloche pueden encontrarse desde aproximadamente ARS 64,200 con JetSMART desde Buenos Aires.\n*   Otras opciones desde Buenos Aires (EZE) comienzan alrededor de ARS 114,019 y ARS 162,585.\n*   Desde Córdoba (COR) con una escala, los precios parten de ARS 143,856.\n*   Desde Salta (SLA) con una escala, los vuelos inician desde ARS 177,022.\n*   Si viajas desde Santiago de Chile (SCL), puedes encontrar pasajes desde CLP 152,320.\n*   Para vuelos internacionales con conexión en Buenos Aires, como desde Miami, los precios de ida y vuelta a Bariloche pueden ser de aproximadamente USD 958, y desde Madrid, alrededor de € 1,133.\n\nSe recomienda verificar las tarifas y disponibilidad directamente con las aerolíneas o en buscadores de vuelos, ya que los precios pueden fluctuar.\n\n* **Alojamiento:**\n    Bariloche, Argentina, ofrece una amplia gama de opciones de alojamiento adaptadas a diversos gustos y presupuestos, distribuidas en distintas zonas populares que se destacan por sus características únicas. La elección de dónde hospedarse dependerá de las prioridades del viajero, como la proximidad al centro, las vistas, la tranquilidad o el acceso a actividades específicas.\n\n**Zonas populares para alojarse:**\n\n*   **Centro de Bariloche:** Es ideal para quienes no disponen de coche, ya que ofrece cercanía a restaurantes, tiendas, y transporte público, así como una mayor variedad de hospedajes y precios más económicos. Sin embargo, puede ser más ruidoso y menos conectado con la naturaleza inmediata.\n*   **Avenida Bustillo o \"Los Kilómetros\":** Esta zona, que se extiende a lo largo del lago Nahuel Huapi, es perfecta para quienes buscan tranquilidad, vistas espectaculares al lago y las montañas, y un ambiente más natural. Aquí predominan las cabañas, apart-hoteles y hoteles boutique. Es una excelente opción si se cuenta con coche.\n    *   **Kilómetro 5 a 8 (Playa Bonita):** Combina la proximidad al centro (unos 10 minutos en coche) con tranquilidad y acceso a la playa. Es uno de los mejores equilibrios entre ciudad y paisaje.\n    *   **Kilómetro 20 (Llao Llao):** Ofrece alojamientos más exclusivos en un entorno natural impresionante, ideal para desconectar y disfrutar de la paz patagónica. Aquí se encuentra el icónico Hotel Llao Llao.\n*   **Cerro Catedral:** Es la zona predilecta para los amantes del esquí y los deportes de nieve en invierno, con acceso directo a las pistas y servicios cercanos.\n*   **Lago Gutiérrez:** Recomendado para quienes buscan disfrutar de actividades en la naturaleza como el trekking, rodeados de bosques y paisajes hermosos. La oferta de alojamientos es más limitada pero vale la pena por su tranquilidad.\n\n**Tipos de hoteles:**\n\n*   **Hoteles de Lujo:** Bariloche cuenta con opciones exclusivas que ofrecen servicios de alta gama y vistas impresionantes. Entre ellos destacan el Llao Llao Resort, Golf-Spa, conocido por su arquitectura de estilo alpino y su entorno elegante, Alma Del Lago Suites & Spa, Sheraton Bariloche Hotel, Villa Beluno Hotel & Spa y Design Suites Bariloche.\n*   **Hoteles Boutique:** Para una experiencia más personalizada y con encanto, hay hoteles boutique como Monasterio Hotel Boutique, con su decoración alpina y vistas al bosque, Hosteria El Condado by Nordic, Hotel Nahuel Huapi y Rochester Bariloche Suites & Spa.\n*   **Hoteles Económicos:** Existen diversas opciones asequibles, especialmente en el centro de la ciudad y algunos hostales. Algunos ejemplos incluyen Hostel Capsula Refugio Oeste y Bonita Lake House - Hostel & Bungalows, así como hoteles como Hotel Cottbus o Huinid Pioneros Hotel. Los precios varían significativamente según la temporada, siendo diciembre y octubre meses con tarifas más bajas.\n\n* **Actividades:**\n    Bariloche, cuyo nombre oficial es San Carlos de Bariloche, es un destino turístico destacado en la Patagonia argentina, conocido por sus impresionantes paisajes de montañas, lagos glaciares y bosques andino-patagónicos. La ciudad ofrece una combinación de naturaleza, aventura y una gastronomía excepcional, lo que la convierte en un lugar atractivo en cualquier época del año.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Recorrer el Circuito Chico:** Este es un recorrido circular de aproximadamente 60 kilómetros que bordea el lago Nahuel Huapi, ofreciendo vistas panorámicas y paisajes emblemáticos. Incluye paradas en puntos como el famoso Punto Panorámico, el imponente Hotel Llao Llao, la Capilla San Eduardo y la pintoresca Colonia Suiza.\n*   **Subir al Cerro Campanario:** Considerado uno de los miradores con las \"mejores vistas del mundo\", ofrece una panorámica de 360 grados de los lagos Nahuel Huapi y Moreno, la laguna El Trébol, la península San Pedro y la Isla Victoria, entre otros. Se puede acceder mediante una aerosilla abierta.\n*   **Visitar el Cerro Catedral:** Es uno de los centros de esquí más grandes de Sudamérica y un paraíso para los deportes de nieve en invierno, con pistas para todos los niveles. Durante el verano, el Cerro Catedral también ofrece actividades de montaña y vistas espectaculares.\n*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Se pueden realizar paseos en barco para visitar la Isla Victoria y el Bosque de Arrayanes, un lugar único con árboles milenarios de color canela intenso. También se ofrecen excursiones a Puerto Blest y la Cascada de los Cántaros.\n*   **Disfrutar de la gastronomía local:** Bariloche es famosa por sus chocolates artesanales y cervezas locales, destacando la Calle Mitre por sus chocolaterías como Mamuschka y Rapa Nui. La ciudad es conocida como la Capital Nacional del Chocolate en Argentina.\n\nOtras actividades populares incluyen recorrer la Ruta de los 7 Lagos, practicar senderismo en el Parque Nacional Nahuel Huapi, visitar el Centro Cívico de Bariloche y ascender al Cerro Otto. En verano, los lagos ofrecen oportunidades para kayak, stand up paddle y navegación.\n\n**Formato de Salida:**\n\n## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\n(Basado en los hallazgos del InvestigadorVuelos)\n[Sintetiza y detalla *únicamente* la información del resumen de vuelos proporcionado.]\n\n### Opciones de Alojamiento\n(Basado en los hallazgos del InvestigadorHoteles)\n[Sintetiza y detalla *únicamente* la información del resumen de hoteles proporcionado.]\n\n### Actividades Recomendadas\n(Basado en los hallazgos del InvestigadorActividades)\n[Sintetiza y detalla *únicamente* la información del resumen de actividades proporcionado.]\n\n### Conclusión del Plan\n[Ofrece una breve declaración final que conecte *únicamente* los hallazgos presentados anteriormente.]\n\nTu salida debe ser *únicamente* el reporte estructurado siguiendo este formato. No incluyas frases introductorias o finales fuera de esta estructura.\n\n\nYou are an agent. Your internal name is \"AgenteSintesisItinerario\". The description about you is \"Combina los hallazgos de los agentes de investigación en una propuesta de viaje estructurada.\".",
+                  "tool_declarations": []
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-9f44e42b-5158-4f71-b834-c2c7bd47fc00",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ahora quiero planificar un viaje para Bariloche, argentina",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nPara viajar a Bariloche, Argentina, se pueden encontrar vuelos directos desde diversas ciudades argentinas como Buenos Aires, Córdoba, El Calafate, Rosario y Mendoza, operados por Aerolíneas Argentinas, JetSMART y Flybondi. Desde el extranjero, SKY Airline y LATAM ofrecen vuelos desde Santiago (Chile), y Aerolíneas Argentinas, junto con otras aerolíneas, opera desde Montevideo (Uruguay) durante ciertos meses (ej. marzo).\n\nLos rangos de precios aproximados de ida y vuelta son:\n*   Desde Buenos Aires: entre ARS 80.789 y ARS 114.019, o $151 USD.\n*   Desde Santiago: entre CLP 152.320 y CLP 257.943 con SKY Airline.\n*   Desde Montevideo: promedio $359 USD en mayo, con ofertas desde $279 USD.\n*   El costo promedio general de un vuelo a Bariloche es de ARS 147.718.\n\nSe recomienda reservar con aproximadamente 54 días de antelación para mejores precios. Mayo suele ser el mes más económico para volar, mientras que enero y febrero son los más caros. La flexibilidad con las fechas también puede generar tarifas más accesibles.\n\n### Opciones de Alojamiento\nBariloche ofrece una amplia variedad de alojamientos con arquitectura rústica de piedra y madera, influenciada por el norte de Europa, distribuidos en varias zonas:\n\n*   **Centro de Bariloche:** Conveniente por su cercanía a servicios, restaurantes y transporte público, ideal sin vehículo. Ofrece desde hoteles 4 estrellas hasta hostales.\n*   **Avenida Bustillo:** Se extiende a lo largo del lago Nahuel Huapi con vistas panorámicas. Las zonas del Kilómetro 1 a 4 están cerca del centro con tranquilidad, el Kilómetro 5 a 8 (Playa Bonita) ofrece equilibrio y actividades acuáticas, y los kilómetros más altos son para mayor conexión con la naturaleza.\n*   **Zona Llao Llao:** Destaca por sus paisajes y hoteles de lujo como el Llao Llao Resort, Golf & Spa, ideal para una experiencia premium.\n*   **Cerro Catedral:** Ideal para amantes del esquí con acceso directo a pistas en invierno. Fuera de temporada, es más tranquilo y se recomienda vehículo.\n*   **Lago Gutiérrez y Colonia Suiza:** Opciones tranquilas y rústicas, excelentes para senderismo y ambiente local, requieren vehículo.\n*   **Melipal y barrios residenciales:** Ofrecen equilibrio entre tranquilidad y cercanía al centro, con alojamientos espaciosos y precios accesibles, bien conectados por bus.\n\nEn cuanto a tipos de alojamiento, se encuentran:\n*   **Hoteles de Lujo (5 estrellas):** Como Llao Llao Resort, Alma del Lago Suites & Spa, Design Suites Bariloche, Villa Beluno Hotel & Spa, y Charming Luxury Lodge & Private Spa, muchos con spa y vistas panorámicas.\n*   **Hoteles Boutique:** Ejemplos incluyen El Monasterio Hotel Boutique y Boutique Hotel & Spa Bosque del Nahuel.\n*   **Hoteles y Alojamientos Económicos:** Numerosas opciones para presupuestos limitados, como hostels (Hostel Capsula Refugio Oeste, Bonita Lake House), cabañas y hoteles más sencillos en el centro o Melipal.\n\n### Actividades Recomendadas\nBariloche, ubicada en el Parque Nacional Nahuel Huapi, ofrece actividades para todo el año:\n\n*   **Paseos lacustres por el Lago Nahuel Huapi:** Permiten explorar la Isla Victoria, el Bosque de Arrayanes y Puerto Blest, con posibilidades de caminatas y descubrimiento de pinturas rupestres.\n*   **Recorrer el Circuito Chico y el Cerro Campanario:** El Circuito Chico es un recorrido escénico de 65 km con vistas panorámicas del Lago Nahuel Huapi y Lago Moreno, incluyendo Colonia Suiza. El Cerro Campanario ofrece vistas consideradas \"las mejores de Bariloche\", abarcando la península de San Pedro, el lago Moreno y montañas nevadas desde sus 1050 metros.\n*   **Esquí y deportes de nieve en el Cerro Catedral:** En invierno, es un gran centro de esquí sudamericano con más de 120 km de pistas. También se puede practicar snowboard, moto de nieve y caminatas con raquetas.\n*   **Otros atractivos:** Incluyen la Ruta de los Siete Lagos hacia Villa La Angostura y San Martín de los Andes, disfrute de la gastronomía local con chocolates artesanales y cervezas. Actividades de aventura como rafting en el río Manso, canopy y senderismo a refugios de montaña como el Frey también están disponibles.\n\n### Conclusión del Plan\nBariloche ofrece una experiencia completa con diversas opciones de vuelos desde Argentina y países vecinos, una amplia gama de alojamientos que se adaptan a distintos gustos y presupuestos, y una rica variedad de actividades que van desde el disfrute de paisajes lacustres y montañosos hasta deportes de nieve y aventura, complementado por su reconocida gastronomía.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "tool_uses": [],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 1776298160.4934654,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.5,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.6529745042492919,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "___eval___session___5a5b5df4-1cc0-4895-8c7d-f5d089d82db6",
+      "session_details": {
+        "id": "___eval___session___5a5b5df4-1cc0-4895-8c7d-f5d089d82db6",
+        "app_name": "planificador_viajes",
+        "user_id": "user",
+        "state": {
+          "resultado_vuelos": "Para planificar tu viaje a Bariloche, Argentina, varias aerolíneas ofrecen vuelos a este popular destino patagónico.\n\nLas principales aerolíneas que vuelan a Bariloche incluyen Aerolíneas Argentinas, Flybondi, JetSMART, LATAM, Azul y Gol. También SKY ofrece vuelos desde Santiago de Chile.\n\nLos precios de los vuelos varían considerablemente según el origen y la aerolínea:\n*   Desde ciudades dentro de Argentina, los vuelos directos o con una escala a Bariloche pueden encontrarse desde aproximadamente ARS 64,200 con JetSMART desde Buenos Aires.\n*   Otras opciones desde Buenos Aires (EZE) comienzan alrededor de ARS 114,019 y ARS 162,585.\n*   Desde Córdoba (COR) con una escala, los precios parten de ARS 143,856.\n*   Desde Salta (SLA) con una escala, los vuelos inician desde ARS 177,022.\n*   Si viajas desde Santiago de Chile (SCL), puedes encontrar pasajes desde CLP 152,320.\n*   Para vuelos internacionales con conexión en Buenos Aires, como desde Miami, los precios de ida y vuelta a Bariloche pueden ser de aproximadamente USD 958, y desde Madrid, alrededor de € 1,133.\n\nSe recomienda verificar las tarifas y disponibilidad directamente con las aerolíneas o en buscadores de vuelos, ya que los precios pueden fluctuar.",
+          "resultado_hoteles": "Bariloche, Argentina, ofrece una amplia gama de opciones de alojamiento adaptadas a diversos gustos y presupuestos, distribuidas en distintas zonas populares que se destacan por sus características únicas. La elección de dónde hospedarse dependerá de las prioridades del viajero, como la proximidad al centro, las vistas, la tranquilidad o el acceso a actividades específicas.\n\n**Zonas populares para alojarse:**\n\n*   **Centro de Bariloche:** Es ideal para quienes no disponen de coche, ya que ofrece cercanía a restaurantes, tiendas, y transporte público, así como una mayor variedad de hospedajes y precios más económicos. Sin embargo, puede ser más ruidoso y menos conectado con la naturaleza inmediata.\n*   **Avenida Bustillo o \"Los Kilómetros\":** Esta zona, que se extiende a lo largo del lago Nahuel Huapi, es perfecta para quienes buscan tranquilidad, vistas espectaculares al lago y las montañas, y un ambiente más natural. Aquí predominan las cabañas, apart-hoteles y hoteles boutique. Es una excelente opción si se cuenta con coche.\n    *   **Kilómetro 5 a 8 (Playa Bonita):** Combina la proximidad al centro (unos 10 minutos en coche) con tranquilidad y acceso a la playa. Es uno de los mejores equilibrios entre ciudad y paisaje.\n    *   **Kilómetro 20 (Llao Llao):** Ofrece alojamientos más exclusivos en un entorno natural impresionante, ideal para desconectar y disfrutar de la paz patagónica. Aquí se encuentra el icónico Hotel Llao Llao.\n*   **Cerro Catedral:** Es la zona predilecta para los amantes del esquí y los deportes de nieve en invierno, con acceso directo a las pistas y servicios cercanos.\n*   **Lago Gutiérrez:** Recomendado para quienes buscan disfrutar de actividades en la naturaleza como el trekking, rodeados de bosques y paisajes hermosos. La oferta de alojamientos es más limitada pero vale la pena por su tranquilidad.\n\n**Tipos de hoteles:**\n\n*   **Hoteles de Lujo:** Bariloche cuenta con opciones exclusivas que ofrecen servicios de alta gama y vistas impresionantes. Entre ellos destacan el Llao Llao Resort, Golf-Spa, conocido por su arquitectura de estilo alpino y su entorno elegante, Alma Del Lago Suites & Spa, Sheraton Bariloche Hotel, Villa Beluno Hotel & Spa y Design Suites Bariloche.\n*   **Hoteles Boutique:** Para una experiencia más personalizada y con encanto, hay hoteles boutique como Monasterio Hotel Boutique, con su decoración alpina y vistas al bosque, Hosteria El Condado by Nordic, Hotel Nahuel Huapi y Rochester Bariloche Suites & Spa.\n*   **Hoteles Económicos:** Existen diversas opciones asequibles, especialmente en el centro de la ciudad y algunos hostales. Algunos ejemplos incluyen Hostel Capsula Refugio Oeste y Bonita Lake House - Hostel & Bungalows, así como hoteles como Hotel Cottbus o Huinid Pioneros Hotel. Los precios varían significativamente según la temporada, siendo diciembre y octubre meses con tarifas más bajas.",
+          "resultado_actividades": "Bariloche, cuyo nombre oficial es San Carlos de Bariloche, es un destino turístico destacado en la Patagonia argentina, conocido por sus impresionantes paisajes de montañas, lagos glaciares y bosques andino-patagónicos. La ciudad ofrece una combinación de naturaleza, aventura y una gastronomía excepcional, lo que la convierte en un lugar atractivo en cualquier época del año.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Recorrer el Circuito Chico:** Este es un recorrido circular de aproximadamente 60 kilómetros que bordea el lago Nahuel Huapi, ofreciendo vistas panorámicas y paisajes emblemáticos. Incluye paradas en puntos como el famoso Punto Panorámico, el imponente Hotel Llao Llao, la Capilla San Eduardo y la pintoresca Colonia Suiza.\n*   **Subir al Cerro Campanario:** Considerado uno de los miradores con las \"mejores vistas del mundo\", ofrece una panorámica de 360 grados de los lagos Nahuel Huapi y Moreno, la laguna El Trébol, la península San Pedro y la Isla Victoria, entre otros. Se puede acceder mediante una aerosilla abierta.\n*   **Visitar el Cerro Catedral:** Es uno de los centros de esquí más grandes de Sudamérica y un paraíso para los deportes de nieve en invierno, con pistas para todos los niveles. Durante el verano, el Cerro Catedral también ofrece actividades de montaña y vistas espectaculares.\n*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Se pueden realizar paseos en barco para visitar la Isla Victoria y el Bosque de Arrayanes, un lugar único con árboles milenarios de color canela intenso. También se ofrecen excursiones a Puerto Blest y la Cascada de los Cántaros.\n*   **Disfrutar de la gastronomía local:** Bariloche es famosa por sus chocolates artesanales y cervezas locales, destacando la Calle Mitre por sus chocolaterías como Mamuschka y Rapa Nui. La ciudad es conocida como la Capital Nacional del Chocolate en Argentina.\n\nOtras actividades populares incluyen recorrer la Ruta de los 7 Lagos, practicar senderismo en el Parque Nacional Nahuel Huapi, visitar el Centro Cívico de Bariloche y ascender al Cerro Otto. En verano, los lagos ofrecen oportunidades para kayak, stand up paddle y navegación.",
+          "__llm_request_key__": "c45bbe95-9279-45e0-8f15-6ac6d877aeb6"
+        },
+        "events": [
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ahora quiero planificar un viaje para Bariloche, argentina",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-72b06f96-4300-4577-bbcb-d7ace9d8cb84",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "d3f53dc3-976c-40d9-9add-5b2611cf6c78",
+            "timestamp": 1776299271.14756
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Para planificar tu viaje a Bariloche, Argentina, varias aerolíneas ofrecen vuelos a este popular destino patagónico.\n\nLas principales aerolíneas que vuelan a Bariloche incluyen Aerolíneas Argentinas, Flybondi, JetSMART, LATAM, Azul y Gol. También SKY ofrece vuelos desde Santiago de Chile.\n\nLos precios de los vuelos varían considerablemente según el origen y la aerolínea:\n*   Desde ciudades dentro de Argentina, los vuelos directos o con una escala a Bariloche pueden encontrarse desde aproximadamente ARS 64,200 con JetSMART desde Buenos Aires.\n*   Otras opciones desde Buenos Aires (EZE) comienzan alrededor de ARS 114,019 y ARS 162,585.\n*   Desde Córdoba (COR) con una escala, los precios parten de ARS 143,856.\n*   Desde Salta (SLA) con una escala, los vuelos inician desde ARS 177,022.\n*   Si viajas desde Santiago de Chile (SCL), puedes encontrar pasajes desde CLP 152,320.\n*   Para vuelos internacionales con conexión en Buenos Aires, como desde Miami, los precios de ida y vuelta a Bariloche pueden ser de aproximadamente USD 958, y desde Madrid, alrededor de € 1,133.\n\nSe recomienda verificar las tarifas y disponibilidad directamente con las aerolíneas o en buscadores de vuelos, ya que los precios pueden fluctuar.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "google.com",
+                    "title": "google.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ-FJ6ujWeLMnullnS4pQqyMEoAS94lj9L_u36DyrySQH12qrdH4qCleYkBm01y-cW0oiM_F3K4TeePl5p4Fbiwal1ShQkXj9RGkiX0fKw2bDJYLrDb6UJdOEK-5ZBXGWwEMlw-rBv80TdCJ-B_2zsJsIlKDJ_kTk-TMJzzzO8EgRYw-hoW18QM2M2fv2r6Gfoimj1AFdpeA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "skyairline.com",
+                    "title": "skyairline.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAYjCaRsgsNYX7QsV8UmFRpO6ksuqfJNlnm0X_CVoZaKwfsn2llIyX4IEf_4TIOxIltSUICfiqjsH7IN1V2rVyISP1mHWCSY2P_hBnu2nqKFc-baolrDtZZAEmr7JUc3nHLW4E1otkR26rBJatNUqZ0Hb5dm-R"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "latamairlines.com",
+                    "title": "latamairlines.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhinwbyrtHbuN2rqB3ck1Oy_s1AmPlMVhCNTg25hVZgECJQKVza-M-OyhZoojONxU3Dbqg67vx5JByUxSfaFLPixGdD8Tiy1KWfSnJFldvowG5OSfvkgVeoNLeEETRfZ_dZJorpegC"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "jetsmart.com",
+                    "title": "jetsmart.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN8NYoAvwkTpVo5IzKg7xGaQdGBb58JB9BIGQfC05jZFBUoyZ_TlHo69zVT2BmH4l8wlmnDnILOP9WPuw_k0DjGCpE23A6BLoEQnHpF-O9dNEbIsMtnem7yM13dyArgAgsd0UYJT5qOCKNE_59097o"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "almundo.com.ar",
+                    "title": "almundo.com.ar",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjf-WsSfOKYVxV1m1jrU4UfEOKuDT0m_NCakIq80mi663CXacd15FeIFtpvONq3XRms6iwHmi_CfFL1VUqfzAOCn7M5uyK4cGZPI2s6ihisNkbx6tHm8eZR_uIIiyisKGIKymb4s707vJfvD27jjBobzGsNeTD6ewETsVdBsm3CjM="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "aerolineas.com.ar",
+                    "title": "aerolineas.com.ar",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcGy5Px0hyuBw7fG--HFAb6dJ3QMDfJImTcUWkqAEmRl3swSG7ZyEWxv_goUr_6Qr-zpR0ks8Vbe2lQYimnv2uj0nXA9-kuGppwMwTpvjt2LuCT7Sxv0p4-YoN23M-WA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "aerolineas.com.ar",
+                    "title": "aerolineas.com.ar",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJ3cLVou9TiuRaMfiB_g0_6yfbSZwvTDnOzSvKYwxn9OXL8gwEY1aLcdFgsXrah0k0XMIiIlRYJ_abUHXKBvPbrecnljoJz6Ao_LmOP5WFUdM6x-59xDMG2S93o91Cqg=="
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 243,
+                    "end_index": 293,
+                    "part_index": null,
+                    "text": "También SKY ofrece vuelos desde Santiago de Chile"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 296,
+                    "end_index": 554,
+                    "part_index": null,
+                    "text": "Los precios de los vuelos varían considerablemente según el origen y la aerolínea:\n*   Desde ciudades dentro de Argentina, los vuelos directos o con una escala a Bariloche pueden encontrarse desde aproximadamente ARS 64,200 con JetSMART desde Buenos Aires"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 556,
+                    "end_index": 634,
+                    "part_index": null,
+                    "text": "*   Otras opciones desde Buenos Aires (EZE) comienzan alrededor de ARS 114,019"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0
+                  ],
+                  "segment": {
+                    "start_index": 635,
+                    "end_index": 648,
+                    "part_index": null,
+                    "text": "y ARS 162,585"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0
+                  ],
+                  "segment": {
+                    "start_index": 650,
+                    "end_index": 724,
+                    "part_index": null,
+                    "text": "*   Desde Córdoba (COR) con una escala, los precios parten de ARS 143,856"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0
+                  ],
+                  "segment": {
+                    "start_index": 726,
+                    "end_index": 800,
+                    "part_index": null,
+                    "text": "*   Desde Salta (SLA) con una escala, los vuelos inician desde ARS 177,022"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 802,
+                    "end_index": 889,
+                    "part_index": null,
+                    "text": "*   Si viajas desde Santiago de Chile (SCL), puedes encontrar pasajes desde CLP 152,320"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    5
+                  ],
+                  "segment": {
+                    "start_index": 891,
+                    "end_index": 1049,
+                    "part_index": null,
+                    "text": "*   Para vuelos internacionales con conexión en Buenos Aires, como desde Miami, los precios de ida y vuelta a Bariloche pueden ser de aproximadamente USD 958"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 1049,
+                    "end_index": 1089,
+                    "part_index": null,
+                    "text": ", y desde Madrid, alrededor de € 1,133"
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcYiYnkaGkThVApG6cbCyHH7snFi-zY2GgfavUdzge8pyWMs4I1OO_K2hUkKw6dlhFgACDoBYcH0DEuizWfLTqTZW_D3XtIk3nJTswO3muxOzPR3bUh1W0FGFM7DI2xTk6O0n6CJ7ChPqCDIw-nqoC0i9cpETOw-ivLMABOgaL3JPpFvDng5XZFYr8n_b8EcVU2_6ol3_iOktANhnN7E3FHdXFGg==\">aerolineas que vuelan a Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzy4dIcknw3zlGfyhRZ3NUgLnpDc1WBi2hpsUOCJ6k4LdTs-u_wyTpj76RA7tDJRcBDv4cYlimmqvu0LiK-htgoCcmwAiiyRKJrJYCYYvac4A8U-1pgvt1OwTuLsDnObFVHd19E3dLGdonqv-Ybcx5WkKJLuRPZeHiIDMMW1BHBPkILPusFVwgyzclEYqbQlTHL7uNodxZL9-9O-12zqM=\">vuelos a Bariloche Argentina</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "vuelos a Bariloche Argentina",
+                "aerolineas que vuelan a Bariloche"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "bbdecf74-5d0f-4e73-8e6c-c1582024c17b"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 335,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 335
+                }
+              ],
+              "prompt_token_count": 124,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 124
+                }
+              ],
+              "thoughts_token_count": 472,
+              "tool_use_prompt_token_count": 73,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 73
+                }
+              ],
+              "total_token_count": 1004,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-72b06f96-4300-4577-bbcb-d7ace9d8cb84",
+            "author": "InvestigadorVuelos",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "c6fbf6f6-9884-4e66-8fb7-5ad3f1d51565",
+                "resultado_vuelos": "Para planificar tu viaje a Bariloche, Argentina, varias aerolíneas ofrecen vuelos a este popular destino patagónico.\n\nLas principales aerolíneas que vuelan a Bariloche incluyen Aerolíneas Argentinas, Flybondi, JetSMART, LATAM, Azul y Gol. También SKY ofrece vuelos desde Santiago de Chile.\n\nLos precios de los vuelos varían considerablemente según el origen y la aerolínea:\n*   Desde ciudades dentro de Argentina, los vuelos directos o con una escala a Bariloche pueden encontrarse desde aproximadamente ARS 64,200 con JetSMART desde Buenos Aires.\n*   Otras opciones desde Buenos Aires (EZE) comienzan alrededor de ARS 114,019 y ARS 162,585.\n*   Desde Córdoba (COR) con una escala, los precios parten de ARS 143,856.\n*   Desde Salta (SLA) con una escala, los vuelos inician desde ARS 177,022.\n*   Si viajas desde Santiago de Chile (SCL), puedes encontrar pasajes desde CLP 152,320.\n*   Para vuelos internacionales con conexión en Buenos Aires, como desde Miami, los precios de ida y vuelta a Bariloche pueden ser de aproximadamente USD 958, y desde Madrid, alrededor de € 1,133.\n\nSe recomienda verificar las tarifas y disponibilidad directamente con las aerolíneas o en buscadores de vuelos, ya que los precios pueden fluctuar."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorVuelos",
+            "id": "a354c605-4562-44ff-94db-11ff2f9356b5",
+            "timestamp": 1776299271.1728349
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Bariloche, Argentina, ofrece una amplia gama de opciones de alojamiento adaptadas a diversos gustos y presupuestos, distribuidas en distintas zonas populares que se destacan por sus características únicas. La elección de dónde hospedarse dependerá de las prioridades del viajero, como la proximidad al centro, las vistas, la tranquilidad o el acceso a actividades específicas.\n\n**Zonas populares para alojarse:**\n\n*   **Centro de Bariloche:** Es ideal para quienes no disponen de coche, ya que ofrece cercanía a restaurantes, tiendas, y transporte público, así como una mayor variedad de hospedajes y precios más económicos. Sin embargo, puede ser más ruidoso y menos conectado con la naturaleza inmediata.\n*   **Avenida Bustillo o \"Los Kilómetros\":** Esta zona, que se extiende a lo largo del lago Nahuel Huapi, es perfecta para quienes buscan tranquilidad, vistas espectaculares al lago y las montañas, y un ambiente más natural. Aquí predominan las cabañas, apart-hoteles y hoteles boutique. Es una excelente opción si se cuenta con coche.\n    *   **Kilómetro 5 a 8 (Playa Bonita):** Combina la proximidad al centro (unos 10 minutos en coche) con tranquilidad y acceso a la playa. Es uno de los mejores equilibrios entre ciudad y paisaje.\n    *   **Kilómetro 20 (Llao Llao):** Ofrece alojamientos más exclusivos en un entorno natural impresionante, ideal para desconectar y disfrutar de la paz patagónica. Aquí se encuentra el icónico Hotel Llao Llao.\n*   **Cerro Catedral:** Es la zona predilecta para los amantes del esquí y los deportes de nieve en invierno, con acceso directo a las pistas y servicios cercanos.\n*   **Lago Gutiérrez:** Recomendado para quienes buscan disfrutar de actividades en la naturaleza como el trekking, rodeados de bosques y paisajes hermosos. La oferta de alojamientos es más limitada pero vale la pena por su tranquilidad.\n\n**Tipos de hoteles:**\n\n*   **Hoteles de Lujo:** Bariloche cuenta con opciones exclusivas que ofrecen servicios de alta gama y vistas impresionantes. Entre ellos destacan el Llao Llao Resort, Golf-Spa, conocido por su arquitectura de estilo alpino y su entorno elegante, Alma Del Lago Suites & Spa, Sheraton Bariloche Hotel, Villa Beluno Hotel & Spa y Design Suites Bariloche.\n*   **Hoteles Boutique:** Para una experiencia más personalizada y con encanto, hay hoteles boutique como Monasterio Hotel Boutique, con su decoración alpina y vistas al bosque, Hosteria El Condado by Nordic, Hotel Nahuel Huapi y Rochester Bariloche Suites & Spa.\n*   **Hoteles Económicos:** Existen diversas opciones asequibles, especialmente en el centro de la ciudad y algunos hostales. Algunos ejemplos incluyen Hostel Capsula Refugio Oeste y Bonita Lake House - Hostel & Bungalows, así como hoteles como Hotel Cottbus o Huinid Pioneros Hotel. Los precios varían significativamente según la temporada, siendo diciembre y octubre meses con tarifas más bajas.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "espartedelviaje.com",
+                    "title": "espartedelviaje.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7_Q57B-RQ7zmi0Rerofq96j-WpUmqR4RDwBXThZtAkxCXTtnpdgYJme-nrMue_94lgAehIL-nLj6kZGjy0iOSOnR3JCi8IanqMEJnbOrEWBhpXScKE882v1FwBtuYYP_EpLIjeKhVCv9btjGKholIX0m0F4BBIBwEWnRBWh24Lee0MqxqvR9hjNHF"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "postcardsfromivi.com",
+                    "title": "postcardsfromivi.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEvBBV3Pfd0ojKii7_SaoibNL1M-iXWVjykkeWQJjgQkCmNoxR2fQ4eVtISIm4PnrciGlvVOrdq_ub4hRnXX4EgY_o5TSB5nUkLlHlh5dLt2TzCd6KDh0VelaMOOwOhOQ5CJRg6gnBDXE8zCjtqfBMq9v1rQscfkKOd-0="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "dondealojarse.net",
+                    "title": "dondealojarse.net",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEOALgqCuGVZhLLTCDe6Stb0825e3jECcB7PbgjZAamU7-4su7iFbTBBJdiKimKBXOJTQLB12y2QuC2RmEwTQEhui-u6fwK2sGsHvbrR2iyuNSVyjzw1gvPshssi9Ve18Kf_e3Vkugw-5PRBOF1_g-A=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "dondeviajo.com.ar",
+                    "title": "dondeviajo.com.ar",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_WX4vQO0HTwNjPDYcl7CeEsX1sdc3c-EUm5KQVY2mir5bie-_c5bp0KqrUFeoLxbCBBJSVxcKlD88ec6nmvW4haS7twLLzNXDHK7CEJxC5uVpklZsP0SDbDHoSCZCObK4Y3Qrwg0xQtCwVC28HOtaZg=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "worldpackers.com",
+                    "title": "worldpackers.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPK40QhuYfCAvazucUgGFU8UYT8r5QSEe_tQGlQL_IgjKb2UWFwwBIbipZ7MzoVa7IwVTBF-THy17k3ADtkXWbKEQiMhnIItbl9xoFi2t6HWDjLwnJ4z2msk3PSqHNjd7eFMz9G8qhHCqe7DY8RV3_6tWKhJpw2QmdkQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "turismocity.com.ar",
+                    "title": "turismocity.com.ar",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo2b9hsuO2BHbMWh7Un5wPh8rTp9HosSM2lExORaOoLQgZo2E53PL-uv4mFAMcVh5tCJaAq2DED3cByNfvOLQyL5e98d_JxuDLdzVEzDGLlzFjEDdlRwQKNqNYmyo_nqMZWQL7MPXglQYE_v1VMMrlZ_qrVksJtcPGJ0snVmX9ZdZlreYK1eh3gFkW2dqNgXFE3z66MgaygJwpC1cz4MLD"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "luxuryhotel.world",
+                    "title": "luxuryhotel.world",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXzDUBAufROm-KguMyMvrAIYEewSomc3omttcXj0lcmIJc-G9M0wgZdNPXC724W8oSyViVzilpCAx4ongXMsZdRxoRB1u34H69YaI_k3wT0a5EsAIjceZ2MXSVyPPwiIg2t64LMjg0tqwxfL_Q9h5U"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "llaollao.com",
+                    "title": "llaollao.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOTnh9A876dG7ZUPt8FT9hbf8k0dwPx21kBjAGDGWyttV66WQEDVUoN8sG49EX0iYRRhYybYuHNJFKmOvByzwI8LacTIDrBCYc3xl3eSvU_A=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "girlwhotravelstheworld.com",
+                    "title": "girlwhotravelstheworld.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF2ovAmeX_rOGMy8YhZIBen0oZa2X-UAlJm8GlMj-iLtMkIZMzUrOStSyAuow8LAlF0n_VvLdpKlaBj5aa2_-iuQD3q9RXbLeJMNzoS2ikJi8EAxXXzqHRRTAlespi4HxS2u3tOJDQf4wpUn1ZcumQxbgZsF16puRyFBStWTDuI9Xsu88pNJdy"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "barilochetophotels.com",
+                    "title": "barilochetophotels.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMGonZmJBlTsrSPEIVh6dA4aUNEC5tbqc_L5e1mCsex8pfO9R7YbACw8b3D0d89f32iB4l7Dr0bDeQgSOrRXmCfuOncxF37fmYMISuTUK9hCuJGqQj2yC980y3Bx1K95oBRdnn7QQYcjORNY235bFRzNWleu5sNao="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "sancarlosdebarilochehotels.com",
+                    "title": "sancarlosdebarilochehotels.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEDbgnqrt6AH6T8Xr1w1uEPDKPPrlnGufXLugXc-_LDpdy6PuREmyEWKpO5w0U7uVQLGUuju_1aInR4vhfGlGKBo9QPwM02YkkMeXSP7cZeR_bVPTukbIyvcp93_2ZW8GqjwUdgGV0EUB21MarDldcjvfyzAmo10LBI8ST-aQmG0b7iI9nO7gs07Sv"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "barilochetophotels.com",
+                    "title": "barilochetophotels.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1WftjpRd7HYmZXrvAoeZUMJxKIVhpbYEJwrbIsTwI87gyfKfNoZcJKqQFNUnQpWvBmcWqvgudkyMFUuwzW8p64JThUA2xLlwiMxqlz3bdlLssNXkl184fPMoDtWkkwgAifwSkGoo22VDZU9JfUAY0t8HhvFSYdFCx"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "boutiquehotel.org",
+                    "title": "boutiquehotel.org",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBp3uKCbCsT35yPH0POQUzfnv1o9QHT73BAlh-C-o3_qcp5hRmVQkBVXFEte2TG6CYY0O11TRX1r5SOJKodl5DT4Ydv6P9iLDGblx3-9O-2kpF-GZ_njus9eOQ7GtYeUsqVA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDF9lFQvOTbRwd3zB-F2ziauYyjgQh28gT_wWhKjtfBBrIGeVObCltuXVHbuLjKxJZtrleYiUjL77ZZ5tnymBGBKE-W3N_k972_y1hsNetGDwFfoKJGt_nxiGCNRO_McLYL4lQrMn0jRdj5qLrMHRPya6oJnr1tF3jfSpPKwn9oBf6oP0="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "insancarlosdebariloche.com",
+                    "title": "insancarlosdebariloche.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQdaO3x1amxez49Xn_yJcW2uPZpMmxx4Oy_8fVt3ZEd1FlRUaPAOLGGkWA8Y_SVyIDaCIJek9hzhTcqKBpHXfT4tCXzGj954biHEHGiWGyd2BsVIhC9BCic-KUPBf5wOrdM13t6L3NQKGZ6SVaDzQUHo27aUxcuNENivU5XA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "hoteles.com",
+                    "title": "hoteles.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdKG1qZoSJOGnr8jGMhPz0aubILrojq7SxkunyL2siv97iDJTeO53QzY0gglgoY73mD5E9yzEkU_22-ChOwVXH6F7ufCAneg3jQTEXdO9-4BKFrb1C3bAiayhATrI-Ke9yLVGO8x4plF-pChn8X-ALAhvOFxJtIC_fIjIq1X8B08opvFWapLVbHdBaFZzGNLL7PzrSHmryI3naysKr7Gguy62ilw=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "hotelesenpatagonia.com",
+                    "title": "hotelesenpatagonia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0H_U_sqHtO6xK3Mdrot1ct9jjlq4dYIlXbp1QfMiPZxQhaK3JdT2IzJuR0XZDnV_d3lxGMVutuh1sWOf-zqc8SpigPxQpazC7jeX-TpjPKOlEsAqSzWcvA2pVFXJcyVhVUdVOfQlALNMQZBvicXJJ4g=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "momondo.cl",
+                    "title": "momondo.cl",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEte2oG2rwnjXR1TMTZS2fCtbBtxp75nXBW6EfMTXOVeBslNRWH8jQvpjlH1PXw64YuAv0kG282d_x_UqG5CRjq00fh2pF4vwlgXi0lbemJgX7Dl60eXZydjqHTL-IPjdiD2Z4X8IudmxlSeKbnjw4swA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvneuT9lKn-854o77feQ-BReBhn1aKOdK-sdiDjP_-72Ge6CKyzNkY45EbtE1r2F3iZ7zwNZjEK0ewMyOwL13KM1Q40gHofpOSSEtE5sswa34C5oAiJv7NesdysRub3RAeScojmscI_qAUPGJ8AK5Tj4UQyDkhBBLrNVISHgJxyGl_afE="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "kayak.cl",
+                    "title": "kayak.cl",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmFUqxlis-X8fT3GJNVRzrbNmOwO541wdyQA7W0S-kPvzpvAFMh8sz-friDTBG9vlHjZfpNaAcmtJktYnPIcdTzlcc3H-ueVNklxbJEARfANclsUQpNaeOmCNV_rkuvQ3dxUKHKtOI_W7kd3PJl97lPrqfnw=="
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 636,
+                    "end_index": 717,
+                    "part_index": null,
+                    "text": "Sin embargo, puede ser más ruidoso y menos conectado con la naturaleza inmediata"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    2,
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 1203,
+                    "end_index": 1259,
+                    "part_index": null,
+                    "text": "Es uno de los mejores equilibrios entre ciudad y paisaje"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 1431,
+                    "end_index": 1477,
+                    "part_index": null,
+                    "text": "Aquí se encuentra el icónico Hotel Llao Llao"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    3
+                  ],
+                  "segment": {
+                    "start_index": 1479,
+                    "end_index": 1642,
+                    "part_index": null,
+                    "text": "*   **Cerro Catedral:** Es la zona predilecta para los amantes del esquí y los deportes de nieve en invierno, con acceso directo a las pistas y servicios cercanos"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 1802,
+                    "end_index": 1882,
+                    "part_index": null,
+                    "text": "La oferta de alojamientos es más limitada pero vale la pena por su tranquilidad"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1,
+                    4,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 2034,
+                    "end_index": 2153,
+                    "part_index": null,
+                    "text": "Entre ellos destacan el Llao Llao Resort, Golf-Spa, conocido por su arquitectura de estilo alpino y su entorno elegante"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10,
+                    11,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 2153,
+                    "end_index": 2181,
+                    "part_index": null,
+                    "text": ", Alma Del Lago Suites & Spa"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10
+                  ],
+                  "segment": {
+                    "start_index": 2181,
+                    "end_index": 2207,
+                    "part_index": null,
+                    "text": ", Sheraton Bariloche Hotel"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 2207,
+                    "end_index": 2233,
+                    "part_index": null,
+                    "text": ", Villa Beluno Hotel & Spa"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12,
+                    10,
+                    11,
+                    13,
+                    14,
+                    15
+                  ],
+                  "segment": {
+                    "start_index": 2234,
+                    "end_index": 2259,
+                    "part_index": null,
+                    "text": "y Design Suites Bariloche"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12,
+                    16,
+                    11,
+                    13
+                  ],
+                  "segment": {
+                    "start_index": 2261,
+                    "end_index": 2439,
+                    "part_index": null,
+                    "text": "*   **Hoteles Boutique:** Para una experiencia más personalizada y con encanto, hay hoteles boutique como Monasterio Hotel Boutique, con su decoración alpina y vistas al bosque"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12,
+                    11,
+                    13
+                  ],
+                  "segment": {
+                    "start_index": 2439,
+                    "end_index": 2470,
+                    "part_index": null,
+                    "text": ", Hosteria El Condado by Nordic"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12,
+                    11,
+                    13
+                  ],
+                  "segment": {
+                    "start_index": 2470,
+                    "end_index": 2490,
+                    "part_index": null,
+                    "text": ", Hotel Nahuel Huapi"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12,
+                    10,
+                    11,
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 2491,
+                    "end_index": 2525,
+                    "part_index": null,
+                    "text": "y Rochester Bariloche Suites & Spa"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    17
+                  ],
+                  "segment": {
+                    "start_index": 2654,
+                    "end_index": 2749,
+                    "part_index": null,
+                    "text": "Algunos ejemplos incluyen Hostel Capsula Refugio Oeste y Bonita Lake House - Hostel & Bungalows"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    18,
+                    19
+                  ],
+                  "segment": {
+                    "start_index": 2749,
+                    "end_index": 2787,
+                    "part_index": null,
+                    "text": ", así como hoteles como Hotel Cottbus"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10,
+                    18
+                  ],
+                  "segment": {
+                    "start_index": 2788,
+                    "end_index": 2811,
+                    "part_index": null,
+                    "text": "o Huinid Pioneros Hotel"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    19
+                  ],
+                  "segment": {
+                    "start_index": 2813,
+                    "end_index": 2928,
+                    "part_index": null,
+                    "text": "Los precios varían significativamente según la temporada, siendo diciembre y octubre meses con tarifas más bajas"
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi1ejkwTcgKitc6pXGQ2lqRbg7Oj6Vri50CKNzD0FnzuLHHavZJHf_jzGRJGcHQmQLnGJVRvVi2lu2rgFTr2HM-qNeWseQ2z3q-5QodIolOXnKfwx-tASbz88E9dHCRqr-ELhpDXiicgTsRhG38ObSnEcBsc5XPfrN1AURIPN5CnAkgHcj-iOIU2meIvxFQHHyM9-A8rfSzXH4kyW5lnlpjis=\">mejores zonas hoteles Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-1tAy1VmrpXFswQ204J07-wXVruYepV7ZNQpkar5BulYrOa2iqbCD9JwycOw2266OwijuWkMU0elyOe7b7gF--HQaQt26UEMD2TQfc2DleMubt-CsjHGlqW4Bz2yhxd264908GRwbPn_Qq9JVa2en6BKJbltlLMKLY8OKyub1B7LXKbE1lwelGBIKLywgp9UqL3KQv-EB81G6fSRmQxH_DvVKGA==\">hoteles económicos Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUTIUyO5Lq5bqBPEdEZT0ktZRTwkTwZB93Cu9uF-Z0QN3ANtb-WwTR9JozYHYdtIxgZNfbMoSPxtDiJsrZeTe3GBcfKvlF5XPwNGOQZOFjgM9cuLIZLD72Fa9AKfXlDlgF3emZnqGvPjKgQ_ZBfWHidghvbM-fYndJfm513CvRpu-eoyzGUQTaWHAYR58P2-xOLl74zHZysVFx3AY=\">hoteles de lujo Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqgmMBxRz6MO47BHKSPEXo-ftFepDiaf3a6lJ5CiisRCjr6BMpCr3rnfBz6to9etmVfKXIXubJB9bk0XAQc0g6D1I0mKZLoiyOp6Pku_1lzMfYvHwhGzKHYobZVijmpy4XHzvfGBTjbeDPHu9K8ol3UZj1wCp1yl3Y7UN6Q7HQ2hKoYx3aeVI-EO55jsan236mxB_2ea8Nwm-agAbU\">hoteles boutique Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx9nPitcF19K7P4_m6cykYxy06Xu0dioXR_4QwEDLqNc6eFPhk7frxvt5zujozrilCldQ7Ki_sPM7MdGUl29jcbB7vfPSNi_EIoBQ8zAhwG2RF5DRMsYJ67LsPv9P-rOIKirw2TGcD69vf2maKVvmbBjoBeaJW9vCKo867r3TJWw-QE2iToqc13QW9p4zFMD8DMhvDywBcriIaNEpVcL9Zl4m5g0NA02Ozhbvxhg==\">zonas populares para alojarse en Bariloche</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "hoteles de lujo Bariloche",
+                "hoteles boutique Bariloche",
+                "hoteles económicos Bariloche",
+                "zonas populares para alojarse en Bariloche",
+                "mejores zonas hoteles Bariloche"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "bbdecf74-5d0f-4e73-8e6c-c1582024c17b"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 658,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 658
+                }
+              ],
+              "prompt_token_count": 128,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 128
+                }
+              ],
+              "thoughts_token_count": 495,
+              "tool_use_prompt_token_count": 53,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 53
+                }
+              ],
+              "total_token_count": 1334,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-72b06f96-4300-4577-bbcb-d7ace9d8cb84",
+            "author": "InvestigadorHoteles",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "f8e6c220-3308-4a4a-a2e1-62ebc38cc9f6",
+                "resultado_hoteles": "Bariloche, Argentina, ofrece una amplia gama de opciones de alojamiento adaptadas a diversos gustos y presupuestos, distribuidas en distintas zonas populares que se destacan por sus características únicas. La elección de dónde hospedarse dependerá de las prioridades del viajero, como la proximidad al centro, las vistas, la tranquilidad o el acceso a actividades específicas.\n\n**Zonas populares para alojarse:**\n\n*   **Centro de Bariloche:** Es ideal para quienes no disponen de coche, ya que ofrece cercanía a restaurantes, tiendas, y transporte público, así como una mayor variedad de hospedajes y precios más económicos. Sin embargo, puede ser más ruidoso y menos conectado con la naturaleza inmediata.\n*   **Avenida Bustillo o \"Los Kilómetros\":** Esta zona, que se extiende a lo largo del lago Nahuel Huapi, es perfecta para quienes buscan tranquilidad, vistas espectaculares al lago y las montañas, y un ambiente más natural. Aquí predominan las cabañas, apart-hoteles y hoteles boutique. Es una excelente opción si se cuenta con coche.\n    *   **Kilómetro 5 a 8 (Playa Bonita):** Combina la proximidad al centro (unos 10 minutos en coche) con tranquilidad y acceso a la playa. Es uno de los mejores equilibrios entre ciudad y paisaje.\n    *   **Kilómetro 20 (Llao Llao):** Ofrece alojamientos más exclusivos en un entorno natural impresionante, ideal para desconectar y disfrutar de la paz patagónica. Aquí se encuentra el icónico Hotel Llao Llao.\n*   **Cerro Catedral:** Es la zona predilecta para los amantes del esquí y los deportes de nieve en invierno, con acceso directo a las pistas y servicios cercanos.\n*   **Lago Gutiérrez:** Recomendado para quienes buscan disfrutar de actividades en la naturaleza como el trekking, rodeados de bosques y paisajes hermosos. La oferta de alojamientos es más limitada pero vale la pena por su tranquilidad.\n\n**Tipos de hoteles:**\n\n*   **Hoteles de Lujo:** Bariloche cuenta con opciones exclusivas que ofrecen servicios de alta gama y vistas impresionantes. Entre ellos destacan el Llao Llao Resort, Golf-Spa, conocido por su arquitectura de estilo alpino y su entorno elegante, Alma Del Lago Suites & Spa, Sheraton Bariloche Hotel, Villa Beluno Hotel & Spa y Design Suites Bariloche.\n*   **Hoteles Boutique:** Para una experiencia más personalizada y con encanto, hay hoteles boutique como Monasterio Hotel Boutique, con su decoración alpina y vistas al bosque, Hosteria El Condado by Nordic, Hotel Nahuel Huapi y Rochester Bariloche Suites & Spa.\n*   **Hoteles Económicos:** Existen diversas opciones asequibles, especialmente en el centro de la ciudad y algunos hostales. Algunos ejemplos incluyen Hostel Capsula Refugio Oeste y Bonita Lake House - Hostel & Bungalows, así como hoteles como Hotel Cottbus o Huinid Pioneros Hotel. Los precios varían significativamente según la temporada, siendo diciembre y octubre meses con tarifas más bajas."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorHoteles",
+            "id": "a997d8ea-c2f9-4c71-862c-fde8c44e5430",
+            "timestamp": 1776299278.0162566
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Bariloche, cuyo nombre oficial es San Carlos de Bariloche, es un destino turístico destacado en la Patagonia argentina, conocido por sus impresionantes paisajes de montañas, lagos glaciares y bosques andino-patagónicos. La ciudad ofrece una combinación de naturaleza, aventura y una gastronomía excepcional, lo que la convierte en un lugar atractivo en cualquier época del año.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Recorrer el Circuito Chico:** Este es un recorrido circular de aproximadamente 60 kilómetros que bordea el lago Nahuel Huapi, ofreciendo vistas panorámicas y paisajes emblemáticos. Incluye paradas en puntos como el famoso Punto Panorámico, el imponente Hotel Llao Llao, la Capilla San Eduardo y la pintoresca Colonia Suiza.\n*   **Subir al Cerro Campanario:** Considerado uno de los miradores con las \"mejores vistas del mundo\", ofrece una panorámica de 360 grados de los lagos Nahuel Huapi y Moreno, la laguna El Trébol, la península San Pedro y la Isla Victoria, entre otros. Se puede acceder mediante una aerosilla abierta.\n*   **Visitar el Cerro Catedral:** Es uno de los centros de esquí más grandes de Sudamérica y un paraíso para los deportes de nieve en invierno, con pistas para todos los niveles. Durante el verano, el Cerro Catedral también ofrece actividades de montaña y vistas espectaculares.\n*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Se pueden realizar paseos en barco para visitar la Isla Victoria y el Bosque de Arrayanes, un lugar único con árboles milenarios de color canela intenso. También se ofrecen excursiones a Puerto Blest y la Cascada de los Cántaros.\n*   **Disfrutar de la gastronomía local:** Bariloche es famosa por sus chocolates artesanales y cervezas locales, destacando la Calle Mitre por sus chocolaterías como Mamuschka y Rapa Nui. La ciudad es conocida como la Capital Nacional del Chocolate en Argentina.\n\nOtras actividades populares incluyen recorrer la Ruta de los 7 Lagos, practicar senderismo en el Parque Nacional Nahuel Huapi, visitar el Centro Cívico de Bariloche y ascender al Cerro Otto. En verano, los lagos ofrecen oportunidades para kayak, stand up paddle y navegación.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "tur.com",
+                    "title": "tur.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3-bGWGTLdfNQuYLLa-MVAZ4Ln3hcRZlPRVzhn4iZUiMzjM_wSZTTQyz5jXwkBw2TjcLv5Dxsl71ZieQdheHQ06bp4JT_3rGBvv9BTSGpdXzrNAVnI5EnoA879cE-y2i94dJT9chdm6qfnskV1"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "monoviajero.com",
+                    "title": "monoviajero.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG63SK_yWkuRzG0xhK2lDY36Qlh48zkzqXHTtgDgGcgDPSc3kZ8b6iZgaG7gNFmMoCjkH0v6wmMPlolmUP1rtI0u3OhzR5Jirnut4lXucxfD5w-j1x2KQnIzGLcIFSkMMU_SFp3QFlW8q-SrLgBGeiQiQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "flybondi.com",
+                    "title": "flybondi.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcSiI3wtYgHXClFoRwOgHXON-f4KAdyGiyQigTFOom3T8hOYQolRa0vuLWRmt3wq8D_IKggcOQpQNdtUzTI-KggjcVUvDacqjVgA3orOjdRIJY6M7vyQzpV02_MGSOibUEK8cjiymtibg7Zlay5xffKfnMVVEVGuKbqAXnng=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "misindromeviajero.com",
+                    "title": "misindromeviajero.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0lquwaNyrZah5yoBADwTtCHgCGkIwvvQCRJZOHrd0E0knYnfsT1fAwr9ZoDaPj0YpICNMHVaVEpsWvWEZ_xTlAa9sR7V3WoB-Og0kxlhi45Gurlchut-jR12aFLKT64KM-kQIAeMM_NfSrAC6hJtXXCXDAtU="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "viajeroscallejeros.com",
+                    "title": "viajeroscallejeros.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx5Dlc7JmmWmbeVnUOechZ-1y-9aq1bOdjUgXABtiFUYReQ7Xot0awvXFwUhFDCLXB3fF3Nb6CmkRPLknALPlneoYxcGVU75EYZSnn9yzRoGbu01OgYHCygT1OP5t5AjoOHvbCkFcj4x9OsNbeTeR_nL7urS4="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "aquidepaso.com",
+                    "title": "aquidepaso.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrv9Zj36bp6sfe6GNf8iz05ZkakGh1VP06k8gIXRBm47WRWAEl0onz1AJ2nZ7M_HZxR3gFialm3VzJFvSyq_E_OQd1ztisLlIqADAIpjEpFIsBY0UngjYt4E2eFlaJBb1w-CfSn6Bq-64="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "moebiusviajes.com",
+                    "title": "moebiusviajes.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8BicbfbAah-2mqkVYTfdtk0D2hTRO7YkGI2ogPalynoAEBYNA-FoLsv1Z_lQPXs7qSs7bAYgar8ydkdc3LaKzvcTxBh5Q4zDyyRO6ZBQFaHxs22BEp6teQXvby6idyxhOVpV6pH_2Utz5-ZQQ87MFlK05TBxnxFVOdDOZrlPK"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "viator.com",
+                    "title": "viator.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTFf1k1nYfmkgerRl_B0F83jzi_Cvt98y8i4apJQZTsjgostfY5GPvo8x8qg9yOOfjJ7k6mrb0oNG0cBZ73vVrOv7kdsP7ugTR1l3pL8yu3knQr7yaZXqGXrBs8SfYZNuupjPU4kA="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "excursionaustral.com",
+                    "title": "excursionaustral.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-oFVO3CVEaZvkeDGA_QAq9_o1vM8q8ryPaIV26zdh5OHX6ez8sD3Ryk7R9YnIA6PkBxGvFako3Ybqtve-L83IhKy5CqiAUWko_GeBRpsp-pdLEyK28OsEPunf4p8VPfT-VoybcKdZu4k2OW1f7tkeLqwgT2AgchiVqZDPpg=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "bariloche.org",
+                    "title": "bariloche.org",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHspfr6Qbx-K4maJ0TZ4nBpcZ23ssrSTHv9ji89XrsYm0CQ9ukGKpxoPB9lizZTWOvl7LpUQwkxNb7ec63KBMmH0_ODZ5jPfJNbyFXTHx1Cv9AMTYCGnhct7NIrUOoXML4g-pUArjkE4beO5vlPwu-nvg=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "espartedelviaje.com",
+                    "title": "espartedelviaje.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBm-ydylNfp8qJW1BQoM6JOCrz6mN5juICYS2vAwy7irVRsWHy47eimYAeS7YOaNd_bGddc4f3kfQ-UF7rlvvS9Y9TsDnSRfJzZKbs6sMQPwpi74T09dinVlLkYccXBM14i2p28Rn3kmZYWoPoq_B4VX-3Cl0Iq6krVRdj"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "civitatis.com",
+                    "title": "civitatis.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb1eHNQ3srIy_2H74SccEiRYSQUdPMebLz1jFJjYQ9MRkXKKH6zu8DLKXiYkBXUeyXE3PaUwWnFBZYGLEh12RLc0ebTYUxlUNNiiJp2PZI8PI588qildcnawDSJHSXwshBGQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "plataforma10.com.ar",
+                    "title": "plataforma10.com.ar",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjm2HeHpgpAz6eMXZHCEhDrQotQBcP8duqB39clFM7vrrayuD8KvSQtYVRzyd6tpw0mLe0sGk6Pd-K-QeHcbwnUgjGWAcDQiKQQA6SzJSV070bW__yvdlrfcybcu3kQqPaYSI1FfwnNdrKPywQ2lLGs2hFkz2D-2oiYlNUbKtW22Yc"
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 223,
+                    "end_index": 384,
+                    "part_index": null,
+                    "text": "La ciudad ofrece una combinación de naturaleza, aventura y una gastronomía excepcional, lo que la convierte en un lugar atractivo en cualquier época del año."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    4,
+                    0,
+                    5
+                  ],
+                  "segment": {
+                    "start_index": 462,
+                    "end_index": 651,
+                    "part_index": null,
+                    "text": "*   **Recorrer el Circuito Chico:** Este es un recorrido circular de aproximadamente 60 kilómetros que bordea el lago Nahuel Huapi, ofreciendo vistas panorámicas y paisajes emblemáticos."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    0,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 652,
+                    "end_index": 795,
+                    "part_index": null,
+                    "text": "Incluye paradas en puntos como el famoso Punto Panorámico, el imponente Hotel Llao Llao, la Capilla San Eduardo y la pintoresca Colonia Suiza."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    0,
+                    1,
+                    7
+                  ],
+                  "segment": {
+                    "start_index": 796,
+                    "end_index": 1051,
+                    "part_index": null,
+                    "text": "*   **Subir al Cerro Campanario:** Considerado uno de los miradores con las \"mejores vistas del mundo\", ofrece una panorámica de 360 grados de los lagos Nahuel Huapi y Moreno, la laguna El Trébol, la península San Pedro y la Isla Victoria, entre otros."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 1052,
+                    "end_index": 1100,
+                    "part_index": null,
+                    "text": "Se puede acceder mediante una aerosilla abierta."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    8,
+                    1,
+                    2,
+                    5
+                  ],
+                  "segment": {
+                    "start_index": 1101,
+                    "end_index": 1284,
+                    "part_index": null,
+                    "text": "*   **Visitar el Cerro Catedral:** Es uno de los centros de esquí más grandes de Sudamérica y un paraíso para los deportes de nieve en invierno, con pistas para todos los niveles."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1,
+                    5
+                  ],
+                  "segment": {
+                    "start_index": 1285,
+                    "end_index": 1386,
+                    "part_index": null,
+                    "text": "Durante el verano, el Cerro Catedral también ofrece actividades de montaña y vistas espectaculares."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    9,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 1387,
+                    "end_index": 1599,
+                    "part_index": null,
+                    "text": "*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Se pueden realizar paseos en barco para visitar la Isla Victoria y el Bosque de Arrayanes, un lugar único con árboles milenarios de color canela intenso."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10,
+                    11,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 1600,
+                    "end_index": 1677,
+                    "part_index": null,
+                    "text": "También se ofrecen excursiones a Puerto Blest y la Cascada de los Cántaros."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 1678,
+                    "end_index": 1868,
+                    "part_index": null,
+                    "text": "*   **Disfrutar de la gastronomía local:** Bariloche es famosa por sus chocolates artesanales y cervezas locales, destacando la Calle Mitre por sus chocolaterías como Mamuschka y Rapa Nui."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 1869,
+                    "end_index": 1943,
+                    "part_index": null,
+                    "text": "La ciudad es conocida como la Capital Nacional del Chocolate en Argentina."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    4,
+                    12,
+                    10,
+                    7
+                  ],
+                  "segment": {
+                    "start_index": 1945,
+                    "end_index": 2136,
+                    "part_index": null,
+                    "text": "Otras actividades populares incluyen recorrer la Ruta de los 7 Lagos, practicar senderismo en el Parque Nacional Nahuel Huapi, visitar el Centro Cívico de Bariloche y ascender al Cerro Otto."
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 2137,
+                    "end_index": 2222,
+                    "part_index": null,
+                    "text": "En verano, los lagos ofrecen oportunidades para kayak, stand up paddle y navegación."
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG6m6rFhtXc4fDZVQtoLBpNXyZLxhi1bzD2As79_e7W4VprHCInOUNWOJ53m7ZSuBd9mv43tYIFOPJMnSF7LG1pbPK28rrERwCxpko83yk-mRnz3kcqQgZIgWq233DckNjGEi7fQAwO4tVTGt3QSzgT8A3_k3zN2cGb0EgX614mKCJVU55SKyAWAtaOw5TRtqnvBkjmwSi7a0ZsjBi1hXM\">mejores excursiones Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIe5LcBGLL7UdaI0bvUIPcPArH-vTU3B6wd6EdvLVLsSrXTVwY2I7XjEIf2aOcNvFah7wCB04eip5tXVemPKimYHtVMM2MwQMnIzFejjCNazkQWcrzTBfV2wTuxXlpeqFMm0IyS6UHs3eCESWRwiBRkBrn5-F7MHIYtO1CTMFth-qnFnVVRjzsYGlwt5-TaLsodJ7rCd61ExOzpmCjKpr8lFPLwARsWA==\">atractivos turísticos Bariloche</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnj0rnxtEgbnmKY03YTcH7HJ2Q59x-tJPVLU7GGzPCbDlsIYB_2Li-Li_u25TlqPHmh4S_SUUIpPqAaEIr-xCHdEkwB_FfYVBhKhGP32bPIXPJ-Iu4bRIq2Ql5pOdsuxEeEs_BX1aX9NpisxCs76GEk63rvU1LTyg_rB78rebjgnBWt7bIs3M6jh1Q9PtbS5yIB2OZHSgTW_57WHvI1WStU4_PPwnj3q14lHQDoevrzFpodykLzzBYvIBBFE_0jw==\">principales actividades turísticas Bariloche Argentina</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm2spkFAwjTvd26_OJMiD9leWLjRBVDfnBWprKaRKTt12mM1mDPlUDFjjvGFGXHKfAOw8a_uDDhbXzeMXBq9Yxt0CfifdcTLGiIqVxHpx7wmbvkGjrgTBrAJQMLU0znVAifvQWr1g-e_4rdJ_eMUSiTs--SEOguFKJUNhJ7cx2zy0gVg4Qc3k6Ko_Ii7dQOvjTSp_AAw5XOZhsuWeG4lyxH4CAwxDpr8w=\">qué hacer en Bariloche argentina</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "principales actividades turísticas Bariloche Argentina",
+                "atractivos turísticos Bariloche",
+                "qué hacer en Bariloche argentina",
+                "mejores excursiones Bariloche"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "c6fbf6f6-9884-4e66-8fb7-5ad3f1d51565"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 500,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 500
+                }
+              ],
+              "prompt_token_count": 126,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 126
+                }
+              ],
+              "thoughts_token_count": 374,
+              "tool_use_prompt_token_count": 51,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 51
+                }
+              ],
+              "total_token_count": 1051,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-72b06f96-4300-4577-bbcb-d7ace9d8cb84",
+            "author": "InvestigadorActividades",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "bbdecf74-5d0f-4e73-8e6c-c1582024c17b",
+                "resultado_actividades": "Bariloche, cuyo nombre oficial es San Carlos de Bariloche, es un destino turístico destacado en la Patagonia argentina, conocido por sus impresionantes paisajes de montañas, lagos glaciares y bosques andino-patagónicos. La ciudad ofrece una combinación de naturaleza, aventura y una gastronomía excepcional, lo que la convierte en un lugar atractivo en cualquier época del año.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Recorrer el Circuito Chico:** Este es un recorrido circular de aproximadamente 60 kilómetros que bordea el lago Nahuel Huapi, ofreciendo vistas panorámicas y paisajes emblemáticos. Incluye paradas en puntos como el famoso Punto Panorámico, el imponente Hotel Llao Llao, la Capilla San Eduardo y la pintoresca Colonia Suiza.\n*   **Subir al Cerro Campanario:** Considerado uno de los miradores con las \"mejores vistas del mundo\", ofrece una panorámica de 360 grados de los lagos Nahuel Huapi y Moreno, la laguna El Trébol, la península San Pedro y la Isla Victoria, entre otros. Se puede acceder mediante una aerosilla abierta.\n*   **Visitar el Cerro Catedral:** Es uno de los centros de esquí más grandes de Sudamérica y un paraíso para los deportes de nieve en invierno, con pistas para todos los niveles. Durante el verano, el Cerro Catedral también ofrece actividades de montaña y vistas espectaculares.\n*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Se pueden realizar paseos en barco para visitar la Isla Victoria y el Bosque de Arrayanes, un lugar único con árboles milenarios de color canela intenso. También se ofrecen excursiones a Puerto Blest y la Cascada de los Cántaros.\n*   **Disfrutar de la gastronomía local:** Bariloche es famosa por sus chocolates artesanales y cervezas locales, destacando la Calle Mitre por sus chocolaterías como Mamuschka y Rapa Nui. La ciudad es conocida como la Capital Nacional del Chocolate en Argentina.\n\nOtras actividades populares incluyen recorrer la Ruta de los 7 Lagos, practicar senderismo en el Parque Nacional Nahuel Huapi, visitar el Centro Cívico de Bariloche y ascender al Cerro Otto. En verano, los lagos ofrecen oportunidades para kayak, stand up paddle y navegación."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorActividades",
+            "id": "b78af513-a4fa-4427-b667-47958db8f5e6",
+            "timestamp": 1776299283.4641232
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nPara viajar a Bariloche, Argentina, diversas aerolíneas ofrecen rutas. Las principales aerolíneas incluyen Aerolíneas Argentinas, Flybondi, JetSMART, LATAM, Azul y Gol. Desde Santiago de Chile, SKY también ofrece vuelos.\n\nLos precios varían según el origen:\n*   Desde ciudades dentro de Argentina:\n    *   Desde Buenos Aires (JetSMART): desde ARS 64,200.\n    *   Otras opciones desde Buenos Aires (EZE): alrededor de ARS 114,019 y ARS 162,585.\n    *   Desde Córdoba (COR) con escala: desde ARS 143,856.\n    *   Desde Salta (SLA) con escala: desde ARS 177,022.\n*   Desde Santiago de Chile (SCL): desde CLP 152,320.\n*   Vuelos internacionales con conexión en Buenos Aires:\n    *   Desde Miami (ida y vuelta): aproximadamente USD 958.\n    *   Desde Madrid (ida y vuelta): alrededor de € 1,133.\n\nSe recomienda verificar tarifas y disponibilidad directamente con las aerolíneas o en buscadores de vuelos.\n\n### Opciones de Alojamiento\nBariloche ofrece una amplia gama de alojamientos en distintas zonas, adaptándose a preferencias de proximidad al centro, vistas, tranquilidad o acceso a actividades.\n\n**Zonas populares para alojarse:**\n*   **Centro de Bariloche:** Conveniente si no se dispone de coche, con cercanía a restaurantes, tiendas y transporte público. Ofrece variedad de hospedajes y precios más económicos, aunque puede ser más ruidoso.\n*   **Avenida Bustillo o \"Los Kilómetros\":** Ideal para tranquilidad, vistas al lago Nahuel Huapi y las montañas. Predominan cabañas, apart-hoteles y hoteles boutique.\n    *   **Kilómetro 5 a 8 (Playa Bonita):** Equilibrio entre proximidad al centro (10 minutos en coche) y tranquilidad con acceso a la playa.\n    *   **Kilómetro 20 (Llao Llao):** Alojamientos exclusivos en un entorno natural para desconectar, incluyendo el Hotel Llao Llao.\n*   **Cerro Catedral:** Preferido para amantes del esquí y deportes de nieve en invierno, con acceso directo a pistas.\n*   **Lago Gutiérrez:** Recomendado para actividades en la naturaleza como trekking, con bosques y paisajes hermosos. La oferta de alojamientos es más limitada.\n\n**Tipos de hoteles:**\n*   **Hoteles de Lujo:** Ofrecen servicios de alta gama y vistas impresionantes. Ejemplos incluyen Llao Llao Resort, Golf-Spa; Alma Del Lago Suites & Spa; Sheraton Bariloche Hotel; Villa Beluno Hotel & Spa; y Design Suites Bariloche.\n*   **Hoteles Boutique:** Para una experiencia personalizada y con encanto. Algunos son Monasterio Hotel Boutique, Hosteria El Condado by Nordic, Hotel Nahuel Huapi y Rochester Bariloche Suites & Spa.\n*   **Hoteles Económicos:** Opciones asequibles, especialmente en el centro. Ejemplos incluyen Hostel Capsula Refugio Oeste, Bonita Lake House - Hostel & Bungalows, Hotel Cottbus o Huinid Pioneros Hotel. Diciembre y octubre suelen tener tarifas más bajas.\n\n### Actividades Recomendadas\nBariloche ofrece una combinación de naturaleza, aventura y gastronomía.\n\n**Principales actividades y atracciones:**\n*   **Recorrer el Circuito Chico:** Recorrido circular de 60 km con vistas panorámicas. Incluye paradas en Punto Panorámico, Hotel Llao Llao, Capilla San Eduardo y Colonia Suiza.\n*   **Subir al Cerro Campanario:** Mirador con vistas de 360 grados de lagos (Nahuel Huapi, Moreno), laguna El Trébol, península San Pedro e Isla Victoria. Accesible mediante aerosilla.\n*   **Visitar el Cerro Catedral:** Centro de esquí en invierno. En verano, ofrece actividades de montaña y vistas.\n*   **Explorar el Lago Nahuel Huapi y sus alrededores:** Paseos en barco a Isla Victoria y Bosque de Arrayanes (árboles milenarios). Excursiones a Puerto Blest y Cascada de los Cántaros.\n*   **Disfrutar de la gastronomía local:** Famosa por chocolates artesanales y cervezas locales. La Calle Mitre destaca por chocolaterías como Mamuschka y Rapa Nui.\n\n**Otras actividades populares:**\n*   Recorrer la Ruta de los 7 Lagos.\n*   Practicar senderismo en el Parque Nacional Nahuel Huapi.\n*   Visitar el Centro Cívico de Bariloche.\n*   Ascender al Cerro Otto.\n*   En verano, los lagos ofrecen kayak, stand up paddle y navegación.\n\n### Conclusión del Plan\nBariloche ofrece un destino completo con diversas opciones de vuelo adaptadas a distintos presupuestos y orígenes, una variada oferta de alojamiento en entornos que van desde el centro urbano hasta la exclusiva paz natural, y una riqueza de actividades que abarcan desde el esquí y el senderismo hasta paseos en barco y experiencias gastronómicas con chocolates y cervezas locales.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "c45bbe95-9279-45e0-8f15-6ac6d877aeb6"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 1177,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 1177
+                }
+              ],
+              "prompt_token_count": 3417,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 3417
+                }
+              ],
+              "thoughts_token_count": 171,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 4765,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": -0.1695342862008483,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-72b06f96-4300-4577-bbcb-d7ace9d8cb84",
+            "author": "AgenteSintesisItinerario",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "c45bbe95-9279-45e0-8f15-6ac6d877aeb6"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "ef97899d-d0ec-4b08-a7d2-234a910f6c2d",
+            "timestamp": 1776299316.5681171
+          }
+        ],
+        "last_update_time": 1776299316.5681171
+      },
+      "user_id": "user"
+    }
+  ],
+  "creation_timestamp": 1776299338.7245607
+}

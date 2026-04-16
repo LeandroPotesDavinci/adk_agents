@@ -1,0 +1,1750 @@
+{
+  "eval_set_result_id": "planificador_viajes_planificador_evalset_1776310081.9778216",
+  "eval_set_result_name": "planificador_viajes_planificador_evalset_1776310081.9778216",
+  "eval_set_id": "planificador_evalset",
+  "eval_case_results": [
+    {
+      "eval_set_file": "planificador_evalset",
+      "eval_set_id": "planificador_evalset",
+      "eval_id": "viaje_italia_case",
+      "final_eval_status": 1,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": {
+            "threshold": 1.0,
+            "match_type": "ANY_ORDER"
+          },
+          "custom_function_path": null,
+          "score": 1.0,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        },
+        {
+          "metric_name": "final_response_match_v2",
+          "threshold": 0.8,
+          "criterion": {
+            "threshold": 0.8,
+            "judge_model_options": {
+              "judge_model": "gemini-flash-latest",
+              "num_samples": 5
+            }
+          },
+          "custom_function_path": null,
+          "score": 1.0,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-aeb26c91-05df-4ca1-bb6e-2b002c158d3c",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hola quiero realizar un vaje a la emilia romagna en italia",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nLas principales opciones de llegada a Emilia-Romaña son a través de los aeropuertos de Bolonia (BLQ), Rímini (RMI), Parma (PMF) y Forlì (FRL).\n\n**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**: Es el aeropuerto internacional más grande de la región.\n*   **Aerolíneas:** Ryanair (desde €14.99), Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea.\n*   **Rangos de precios (desde España):** Vuelos directos desde Málaga (desde 75 €), Madrid (desde 118 €), Las Palmas de Gran Canaria (desde 129 €). Opciones más económicas desde Palma y Sevilla con Ryanair o Vueling (desde 15 € o 17 €). Vuelo de ida y vuelta desde Barcelona (alrededor de 235 €).\n\n**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**: Sirve a la zona costera de Rímini.\n*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair, Wizz Air, Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia.\n*   **Rangos de precios (desde España):** Vuelos de ida y vuelta desde Barcelona con Wizz Air Malta (a partir de 88 €). Vuelos desde Madrid y Barcelona con conexiones (entre 66 € y 117 €).\n\n**Aeropuerto de Parma (PMF)**: Ofrece acceso a la ciudad de Parma.\n*   **Aerolíneas:** Ryanair y Wizz Air Malta.\n*   **Rangos de precios (desde España):** Vuelos de ida y vuelta con conexiones desde Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) (entre 93 € y 146 €).\n\n**Aeropuerto de Forlì (FRL)**: Otro aeropuerto regional.\n*   **Aerolíneas:** Ryanair, easyJet, Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines.\n*   **Rangos de precios (desde España):** Vuelos de ida y vuelta con conexiones desde Valencia, Barcelona o Málaga con Ryanair y easyJet (entre 119 € y 155 €).\n\n### Opciones de Alojamiento\nEmilia-Romaña ofrece una variedad de alojamientos para distintos gustos y presupuestos.\n\n**Tipos de alojamiento:**\n*   **Hoteles de lujo y boutique:** Con habitaciones elegantes, servicios personalizados, restaurantes gourmet y vistas panorámicas. Ejemplos incluyen Executive SPA Hotel (Fiorano Modenese), Villa Monty Banks (Cesena), Casa Maria Luigia (Módena) y Hotel Orologio (Bolonia).\n*   **Opciones económicas:** Hoteles que se ajustan a presupuestos más ajustados.\n*   **Resorts y hoteles con spa:** Para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel.\n*   **Hoteles en la playa:** En la costa adriática (Rimini y Riccione), con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea.\n*   **Agriturismos:** Casas de campo convertidas para escapadas rurales.\n*   **B&Bs y apartamentos:** Estancias acogedoras, incluyendo Bed & Breakfast en centros urbanos.\n*   **Hoteles con servicios específicos:** Con piscina, que permiten animales o con aparcamiento.\n\n**Zonas populares para alojarse:**\n*   **Bolonia:** Capital cultural y gastronómica, ideal para historia y comida, bien conectada. Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton.\n*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas, diversión y ambiente relajado.\n*   **Parma y Módena:** Ideales para amantes de la comida (jamón de Parma, Parmigiano Reggiano, vinagre balsámico) y museos de Ferrari (Módena).\n*   **Rávena y Ferrara:** Ciudades con riqueza histórica y cultural, Ferrara es Patrimonio de la Humanidad por la UNESCO.\n*   **Reggio Emilia:** Centro histórico atractivo con diversas opciones de alojamiento.\n*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación.\n\n### Actividades Recomendadas\nLa Emilia-Romaña es un destino ideal por su historia, cultura, gastronomía y atracciones variadas.\n\n**Explorar ciudades históricas y su patrimonio artístico:**\n*   **Bolonia:** Famosa por su casco antiguo, soportales, universidad y gastronomía.\n*   **Ferrara:** Patrimonio de la Humanidad por la UNESCO, arquitectura medieval y renacentista, Castillo Estense.\n*   **Rávena:** Conocida por sus mosaicos bizantinos y monumentos Patrimonio de la Humanidad por la UNESCO.\n*   **Parma y Módena:** Monumentos medievales como Duomos y baptisterios, además de ser centros gastronómicos.\n\n**Disfrutar de la reconocida gastronomía local:**\n*   La región es el \"Valle de la Gastronomía\" de Italia.\n*   Cuna de productos como Parmigiano-Reggiano, prosciutto de Parma, vinagre balsámico de Módena, tortellini y lasaña.\n*   Posibilidad de realizar tours gastronómicos para degustar y aprender sobre su elaboración.\n\n**Visitar el \"Valle del Motor\":**\n*   Para entusiastas del automovilismo.\n*   Museos de marcas icónicas como Ferrari (Maranello), Maserati y Ducati (cerca de Bolonia).\n*   Autodromo Internazionale Enzo e Dino Ferrari.\n\n**Relajarse en la Riviera Romagnola:**\n*   Costa del Adriático con extensas playas de arena.\n*   Localidades como Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini.\n\n**Descubrir sitios naturales y culturales únicos:**\n*   Santuario de la Madonna di San Luca en Bolonia: Ofrece vistas panorámicas.\n*   Valles de Comacchio: Ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\" por sus canales y el Puente Trepponti.\n*   Parques temáticos: Mirabilandia, uno de los más grandes de Italia.\n\n### Conclusión del Plan\nLa Emilia-Romaña ofrece múltiples opciones de llegada aérea a través de sus cuatro aeropuertos principales, una vasta gama de alojamientos desde lujo hasta económicos distribuidos por toda la región y una riqueza de actividades que abarcan desde la exploración cultural y gastronómica hasta el ocio en la playa o la visita a museos de motor.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": []
+            },
+            "creation_timestamp": 1776310026.278375,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "InvestigadorActividades": {
+                  "name": "InvestigadorActividades",
+                  "instructions": "Eres un Asistente de IA especializado en turismo local.\nInvestiga y resume las principales actividades y atracciones turísticas para hacer en el destino indicado por el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando al menos 3 actividades populares.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorActividades\". The description about you is \"Investiga y resume actividades turísticas.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "InvestigadorVuelos": {
+                  "name": "InvestigadorVuelos",
+                  "instructions": "Eres un Asistente de IA especializado en turismo local.\nInvestiga y resume las principales actividades y atracciones turísticas para hacer en el destino indicado por el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando al menos 3 actividades populares.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorActividades\". The description about you is \"Investiga y resume actividades turísticas.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "InvestigadorHoteles": {
+                  "name": "InvestigadorHoteles",
+                  "instructions": "Eres un Asistente de IA especializado en viajes.\nInvestiga y resume las opciones de vuelos para un viaje segun indique el usuario.\nUsa la herramienta de Búsqueda de Google proporcionada.\nResume tus hallazgos clave de forma concisa, mencionando aerolíneas y rangos de precios aproximados.\nTu salida debe ser *únicamente* el resumen.\n\n\nYou are an agent. Your internal name is \"InvestigadorVuelos\". The description about you is \"Investiga y resume opciones de vuelos.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": {
+                        "search_types": null,
+                        "blocking_confidence": null,
+                        "exclude_domains": null,
+                        "time_range_filter": null
+                      },
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": null,
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null
+                    }
+                  ]
+                },
+                "AgenteSintesisItinerario": {
+                  "name": "AgenteSintesisItinerario",
+                  "instructions": "Eres un Asistente de IA experto en crear itinerarios de viaje.\n\nTu tarea principal es combinar los siguientes resúmenes de investigación en una propuesta de viaje clara y estructurada.\n\n**Fundamental: Tu respuesta completa DEBE basarse *exclusivamente* en la información proporcionada en los 'Resúmenes de Entrada' a continuación. NO añadas ningún conocimiento externo, hechos o detalles que no estén presentes en estos resúmenes específicos.**\n\n**Resúmenes de Entrada:**\n\n* **Vuelos:**\n    Para tu viaje a la Emilia-Romaña, Italia, las principales opciones de llegada son a través de los aeropuertos de Bolonia (BLQ), Rímini (RMI), Parma (PMF) y Forlì (FRL).\n\n**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**\nEste es el aeropuerto internacional más grande de la región y un punto de entrada clave.\n*   **Aerolíneas:** Ryanair ofrece vuelos desde €14.99. Otras aerolíneas importantes que operan aquí incluyen Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea.\n*   **Rangos de precios (desde España):** Se han encontrado vuelos directos desde Málaga a Bolonia a partir de 75 €, desde Madrid a partir de 118 €, y desde Las Palmas de Gran Canaria a partir de 129 €. También hay opciones más económicas desde Palma y Sevilla, con precios que pueden ir desde los 15 € o 17 € con Ryanair o Vueling. Un vuelo de ida y vuelta desde Barcelona puede costar alrededor de 235 €.\n\n**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**\nSirve a la popular zona costera de Rímini.\n*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair y Wizz Air son algunas de las aerolíneas que operan vuelos directos a Rímini. También se mencionan Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta desde Barcelona pueden encontrarse a partir de 88 € con Wizz Air Malta. Desde Madrid y Barcelona, con conexiones, los precios pueden variar entre 66 € y 117 €.\n\n**Aeropuerto de Parma (PMF)**\nEste aeropuerto ofrece acceso a la ciudad de Parma y sus alrededores.\n*   **Aerolíneas:** Ryanair es una opción frecuente para volar a Parma. Wizz Air Malta también opera en esta ruta.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades españolas como Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) pueden oscilar entre los 93 € y los 146 €.\n\n**Aeropuerto de Forlì (FRL)**\nOtro aeropuerto regional que sirve a la Emilia-Romaña.\n*   **Aerolíneas:** Ryanair y easyJet son mencionadas entre las aerolíneas que vuelan a Forlì. Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines también operan en este aeropuerto.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades como Valencia, Barcelona o Málaga, operados por aerolíneas como Ryanair y easyJet, pueden encontrarse en un rango de 119 € a 155 €.\n\n* **Alojamiento:**\n    La región de Emilia-Romaña en Italia ofrece una amplia gama de opciones de alojamiento para satisfacer diversos gustos y presupuestos, destacando su hospitalidad, riqueza cultural y excelencia gastronómica.\n\nEntre los tipos de hoteles disponibles, se encuentran:\n*   **Hoteles de lujo y boutique:** Con habitaciones elegantes, servicios personalizados, restaurantes gourmet y vistas panorámicas. Algunos ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Villa Monty Banks en Cesena, Casa Maria Luigia en Módena y Hotel Orologio en Bolonia.\n*   **Opciones económicas:** Existen hoteles que se ajustan a presupuestos más ajustados.\n*   **Resorts y hoteles con spa:** Ideales para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel.\n*   **Hoteles en la playa:** En la costa adriática, especialmente en Rimini y Riccione, con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea.\n*   **Agriturismos:** Casas de campo convertidas, perfectas para una escapada rural.\n*   **B&Bs y apartamentos:** Ofrecen una estancia acogedora, incluyendo Bed & Breakfast en centros urbanos pintorescos.\n*   **Hoteles con servicios específicos:** Como hoteles con piscina, que permiten animales o con aparcamiento.\n\nLas zonas más populares para alojarse, que ofrecen una excelente base para explorar la región, incluyen:\n*   **Bolonia:** Considerada la capital cultural y gastronómica, es ideal para los amantes de la historia y la comida, y está bien conectada con otras ciudades. Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton.\n*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas extensas, diversión y ambiente relajado, con numerosos hoteles a lo largo de la costa.\n*   **Parma y Módena:** Ideales para los amantes de la comida, conocidas por productos como el jamón de Parma y el Parmigiano Reggiano (Parma), y el vinagre balsámico y los museos de Ferrari (Módena).\n*   **Rávena y Ferrara:** Ciudades con gran riqueza histórica y cultural, siendo Ferrara Patrimonio de la Humanidad por la UNESCO.\n*   **Reggio Emilia:** Ofrece un centro histórico atractivo y diversas opciones de alojamiento, desde hoteles de lujo hasta bed and breakfasts.\n*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación.\n\nLa Emilia-Romaña proporciona una experiencia única, combinando entornos históricos y belleza natural, con opciones de hospedaje que van desde establecimientos de lujo hasta alojamientos más económicos, adaptándose a cualquier tipo de viajero.\n\n* **Actividades:**\n    La Emilia-Romaña, en Italia, es una región rica en historia, cultura, gastronomía y atracciones variadas, lo que la convierte en un destino turístico ideal.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Explorar ciudades históricas y su patrimonio artístico:** Bolonia, la capital, es famosa por su casco antiguo, sus soportales, su universidad antigua y su deliciosa gastronomía. Ferrara, declarada Patrimonio de la Humanidad por la UNESCO, destaca por su arquitectura medieval y renacentista, incluyendo el majestuoso Castillo Estense. Rávena es mundialmente conocida por sus impresionantes mosaicos bizantinos y monumentos declarados Patrimonio de la Humanidad por la UNESCO, ya que fue capital del Imperio Romano de Occidente y del Imperio Bizantino en Europa. Parma y Módena también ofrecen importantes monumentos medievales como sus Duomos y baptisterios, además de ser centros gastronómicos de renombre.\n*   **Disfrutar de la reconocida gastronomía local:** La Emilia-Romaña es considerada el \"Valle de la Gastronomía\" de Italia y es la cuna de productos famosos como el Parmigiano-Reggiano, el prosciutto de Parma, el vinagre balsámico de Módena, los tortellini y la lasaña. Se pueden realizar tours gastronómicos para degustar estas especialidades y aprender sobre su elaboración.\n*   **Visitar el \"Valle del Motor\":** Para los entusiastas del automovilismo, la región ofrece la oportunidad de explorar museos de marcas icónicas como Ferrari (en Maranello), Maserati y Ducati (cerca de Bolonia), así como el Autodromo Internazionale Enzo e Dino Ferrari.\n*   **Relajarse en la Riviera Romagnola:** En la costa del Adriático, la región cuenta con extensas playas de arena, como las de Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini, que atraen a familias y jóvenes durante el verano.\n*   **Descubrir sitios naturales y culturales únicos:** El Santuario de la Madonna di San Luca en Bolonia ofrece vistas panorámicas espectaculares. Los Valles de Comacchio son ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\", destaca por sus canales y el Puente Trepponti. También hay parques temáticos como Mirabilandia, uno de los más grandes de Italia.\n\n**Formato de Salida:**\n\n## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\n(Basado en los hallazgos del InvestigadorVuelos)\n[Sintetiza y detalla *únicamente* la información del resumen de vuelos proporcionado.]\n\n### Opciones de Alojamiento\n(Basado en los hallazgos del InvestigadorHoteles)\n[Sintetiza y detalla *únicamente* la información del resumen de hoteles proporcionado.]\n\n### Actividades Recomendadas\n(Basado en los hallazgos del InvestigadorActividades)\n[Sintetiza y detalla *únicamente* la información del resumen de actividades proporcionado.]\n\n### Conclusión del Plan\n[Ofrece una breve declaración final que conecte *únicamente* los hallazgos presentados anteriormente.]\n\nTu salida debe ser *únicamente* el reporte estructurado siguiendo este formato. No incluyas frases introductorias o finales fuera de esta estructura.\n\n\nYou are an agent. Your internal name is \"AgenteSintesisItinerario\". The description about you is \"Combina los hallazgos de los agentes de investigación en una propuesta de viaje estructurada.\".",
+                  "tool_declarations": []
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-20bb715b-9468-4d70-89e5-d9a01faa6216",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hola quiero realizar un vaje a la emilia romagna en italia",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nEl principal punto de entrada para Emilia Romagna es el Aeropuerto Guglielmo Marconi de Bolonia (BLQ), considerado el más importante de la región. Otros aeropuertos internacionales disponibles son el de Rímini (RMI), Parma (PMF) y Forlì (FRL). Diversas aerolíneas operan vuelos a Bolonia, incluyendo Ryanair, Vueling, Iberia, Lufthansa, ITA Airways, Swiss, TAP Portugal, Eurowings, Air Europa, KLM, Austrian Airlines, Neos Air y Wizz Air.\n\nEn cuanto a precios, se han registrado vuelos directos de ida desde España a Bolonia a partir de 15€ con aerolíneas como Ryanair (ej. desde Palma de Mallorca). Vuelos directos de ida desde Barcelona con Vueling pueden costar entre 29€ y 31€. El costo promedio de un viaje de ida y vuelta desde Barcelona a Bolonia es de 235€. Para obtener precios más precisos, se requiere la ciudad de salida y las fechas deseadas.\n\n### Opciones de Alojamiento\nEmilia-Romagna ofrece una vasta selección de alojamiento que se adapta a diversos gustos y presupuestos, con más de 7000 hoteles listados.\n\nSe pueden encontrar:\n*   **Hoteles de lujo y boutique:** Ofrecen estancias elegantes y servicios personalizados. Ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Hotel Orologio y Art Hotel Commercianti en Bolonia, Casa Maria Luigia en Módena, Antico Borgo di Tabiano Castello en Salsomaggiore Terme, y Relais Roncolo 1888 en Quattro Castella/Roncolo.\n*   **Opciones económicas y con encanto:** Para presupuestos ajustados, hay agriturismos (casas de campo convertidas), B&Bs románticos en centros urbanos como Santa Maria Foris en Rávena y Gregorini Bingham - Art Luxury Suites en Bolonia, y hoteles económicos bien valorados como Hotel Castello Artemide Congressi en Castel San Pietro Terme y Atlas Hotel en Riccione.\n*   **Hoteles modernos y con servicios específicos:** Incluyen opciones con diseño moderno como The Box Hotel en Riccione, y establecimientos que ofrecen piscinas, spas y habitaciones familiares.\n\nLas **zonas populares para alojarse** varían según el interés:\n*   **Amantes de la gastronomía:** Parma y Módena.\n*   **Escapada urbana y cultural:** Bolonia, Ferrara y Rávena.\n*   **Disfrute de la playa:** Ciudades costeras como Rímini, Riccione, Milano Marittima y Cattolica en la Riviera Adriática.\n*   **Experiencia rural e histórica:** Pueblos como Salsomaggiore Terme, Castelvetro y Quattro Castella.\n\n### Actividades Recomendadas\nEmilia-Romagna es una región rica en gastronomía, historia, cultura y paisajes, ofreciendo múltiples actividades:\n\n1.  **Exploración Gastronómica:** Considerada el \"Valle de la Gastronomía\", la región es ideal para tours de comida en Bolonia, Parma y Módena. Se pueden degustar productos como Parmigiano Reggiano, Prosciutto di Parma, vinagre balsámico tradicional de Módena, tortellini y piadina romagnola. Existen 24 Museos del Gusto (como el del Parmigiano Reggiano o el Jamón de Parma) y la posibilidad de visitar fábricas de producción.\n2.  **Visita a Ciudades Históricas y Culturales:**\n    *   **Bolonia:** Capital con torres inclinadas y Piazza Maggiore.\n    *   **Rávena:** Famosa por sus mosaicos bizantinos y ocho sitios UNESCO.\n    *   **Módena:** Casco antiguo medieval, Piazza Grande y Museo Enzo Ferrari.\n    *   **Parma:** Arte, música, gastronomía, con su Catedral y Baptisterio.\n    *   **Ferrara:** Arquitectura medieval y renacentista, Patrimonio de la Humanidad por la UNESCO, con murallas para pasear.\n3.  **El \"Valle del Motor\" y la Costa Adriática:**\n    *   **Valle del Motor:** Para entusiastas, con museos de marcas legendarias como Ferrari (Maranello y Módena), Lamborghini y Ducati.\n    *   **Riviera Romagnola:** Playas de arena en la costa adriática, con localidades como Rímini y Cervia.\n    *   **Delta del Po:** Área natural para la observación de flamencos en los Valles de Comacchio, conocida como la \"pequeña Venecia\".\n\n### Conclusión del Plan\nLa región de Emilia Romagna ofrece una experiencia de viaje completa, con una excelente conectividad aérea a través de varios aeropuertos, una amplia gama de opciones de alojamiento para todos los presupuestos e intereses, y un sinfín de actividades que van desde la exploración gastronómica y cultural hasta la pasión por el motor y el disfrute de la costa.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "tool_uses": [],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 1776295700.0979676,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": {
+                "threshold": 1.0,
+                "match_type": "ANY_ORDER"
+              },
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "final_response_match_v2",
+              "threshold": 0.8,
+              "criterion": {
+                "threshold": 0.8,
+                "judge_model_options": {
+                  "judge_model": "gemini-flash-latest",
+                  "num_samples": 5
+                }
+              },
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "___eval___session___d114bf96-77cc-4b93-b0a6-1bf36ea72d2f",
+      "session_details": {
+        "id": "___eval___session___d114bf96-77cc-4b93-b0a6-1bf36ea72d2f",
+        "app_name": "planificador_viajes",
+        "user_id": "user",
+        "state": {
+          "resultado_vuelos": "Para tu viaje a la Emilia-Romaña, Italia, las principales opciones de llegada son a través de los aeropuertos de Bolonia (BLQ), Rímini (RMI), Parma (PMF) y Forlì (FRL).\n\n**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**\nEste es el aeropuerto internacional más grande de la región y un punto de entrada clave.\n*   **Aerolíneas:** Ryanair ofrece vuelos desde €14.99. Otras aerolíneas importantes que operan aquí incluyen Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea.\n*   **Rangos de precios (desde España):** Se han encontrado vuelos directos desde Málaga a Bolonia a partir de 75 €, desde Madrid a partir de 118 €, y desde Las Palmas de Gran Canaria a partir de 129 €. También hay opciones más económicas desde Palma y Sevilla, con precios que pueden ir desde los 15 € o 17 € con Ryanair o Vueling. Un vuelo de ida y vuelta desde Barcelona puede costar alrededor de 235 €.\n\n**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**\nSirve a la popular zona costera de Rímini.\n*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair y Wizz Air son algunas de las aerolíneas que operan vuelos directos a Rímini. También se mencionan Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta desde Barcelona pueden encontrarse a partir de 88 € con Wizz Air Malta. Desde Madrid y Barcelona, con conexiones, los precios pueden variar entre 66 € y 117 €.\n\n**Aeropuerto de Parma (PMF)**\nEste aeropuerto ofrece acceso a la ciudad de Parma y sus alrededores.\n*   **Aerolíneas:** Ryanair es una opción frecuente para volar a Parma. Wizz Air Malta también opera en esta ruta.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades españolas como Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) pueden oscilar entre los 93 € y los 146 €.\n\n**Aeropuerto de Forlì (FRL)**\nOtro aeropuerto regional que sirve a la Emilia-Romaña.\n*   **Aerolíneas:** Ryanair y easyJet son mencionadas entre las aerolíneas que vuelan a Forlì. Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines también operan en este aeropuerto.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades como Valencia, Barcelona o Málaga, operados por aerolíneas como Ryanair y easyJet, pueden encontrarse en un rango de 119 € a 155 €.",
+          "resultado_hoteles": "La región de Emilia-Romaña en Italia ofrece una amplia gama de opciones de alojamiento para satisfacer diversos gustos y presupuestos, destacando su hospitalidad, riqueza cultural y excelencia gastronómica.\n\nEntre los tipos de hoteles disponibles, se encuentran:\n*   **Hoteles de lujo y boutique:** Con habitaciones elegantes, servicios personalizados, restaurantes gourmet y vistas panorámicas. Algunos ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Villa Monty Banks en Cesena, Casa Maria Luigia en Módena y Hotel Orologio en Bolonia.\n*   **Opciones económicas:** Existen hoteles que se ajustan a presupuestos más ajustados.\n*   **Resorts y hoteles con spa:** Ideales para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel.\n*   **Hoteles en la playa:** En la costa adriática, especialmente en Rimini y Riccione, con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea.\n*   **Agriturismos:** Casas de campo convertidas, perfectas para una escapada rural.\n*   **B&Bs y apartamentos:** Ofrecen una estancia acogedora, incluyendo Bed & Breakfast en centros urbanos pintorescos.\n*   **Hoteles con servicios específicos:** Como hoteles con piscina, que permiten animales o con aparcamiento.\n\nLas zonas más populares para alojarse, que ofrecen una excelente base para explorar la región, incluyen:\n*   **Bolonia:** Considerada la capital cultural y gastronómica, es ideal para los amantes de la historia y la comida, y está bien conectada con otras ciudades. Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton.\n*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas extensas, diversión y ambiente relajado, con numerosos hoteles a lo largo de la costa.\n*   **Parma y Módena:** Ideales para los amantes de la comida, conocidas por productos como el jamón de Parma y el Parmigiano Reggiano (Parma), y el vinagre balsámico y los museos de Ferrari (Módena).\n*   **Rávena y Ferrara:** Ciudades con gran riqueza histórica y cultural, siendo Ferrara Patrimonio de la Humanidad por la UNESCO.\n*   **Reggio Emilia:** Ofrece un centro histórico atractivo y diversas opciones de alojamiento, desde hoteles de lujo hasta bed and breakfasts.\n*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación.\n\nLa Emilia-Romaña proporciona una experiencia única, combinando entornos históricos y belleza natural, con opciones de hospedaje que van desde establecimientos de lujo hasta alojamientos más económicos, adaptándose a cualquier tipo de viajero.",
+          "resultado_actividades": "La Emilia-Romaña, en Italia, es una región rica en historia, cultura, gastronomía y atracciones variadas, lo que la convierte en un destino turístico ideal.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Explorar ciudades históricas y su patrimonio artístico:** Bolonia, la capital, es famosa por su casco antiguo, sus soportales, su universidad antigua y su deliciosa gastronomía. Ferrara, declarada Patrimonio de la Humanidad por la UNESCO, destaca por su arquitectura medieval y renacentista, incluyendo el majestuoso Castillo Estense. Rávena es mundialmente conocida por sus impresionantes mosaicos bizantinos y monumentos declarados Patrimonio de la Humanidad por la UNESCO, ya que fue capital del Imperio Romano de Occidente y del Imperio Bizantino en Europa. Parma y Módena también ofrecen importantes monumentos medievales como sus Duomos y baptisterios, además de ser centros gastronómicos de renombre.\n*   **Disfrutar de la reconocida gastronomía local:** La Emilia-Romaña es considerada el \"Valle de la Gastronomía\" de Italia y es la cuna de productos famosos como el Parmigiano-Reggiano, el prosciutto de Parma, el vinagre balsámico de Módena, los tortellini y la lasaña. Se pueden realizar tours gastronómicos para degustar estas especialidades y aprender sobre su elaboración.\n*   **Visitar el \"Valle del Motor\":** Para los entusiastas del automovilismo, la región ofrece la oportunidad de explorar museos de marcas icónicas como Ferrari (en Maranello), Maserati y Ducati (cerca de Bolonia), así como el Autodromo Internazionale Enzo e Dino Ferrari.\n*   **Relajarse en la Riviera Romagnola:** En la costa del Adriático, la región cuenta con extensas playas de arena, como las de Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini, que atraen a familias y jóvenes durante el verano.\n*   **Descubrir sitios naturales y culturales únicos:** El Santuario de la Madonna di San Luca en Bolonia ofrece vistas panorámicas espectaculares. Los Valles de Comacchio son ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\", destaca por sus canales y el Puente Trepponti. También hay parques temáticos como Mirabilandia, uno de los más grandes de Italia.",
+          "__llm_request_key__": "35a7f79f-dd8a-4139-a1a7-deec9c457a32"
+        },
+        "events": [
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hola quiero realizar un vaje a la emilia romagna en italia",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-aeb26c91-05df-4ca1-bb6e-2b002c158d3c",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "4ea9865d-66ff-455c-8e81-2623543aed39",
+            "timestamp": 1776310006.1518767
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "La Emilia-Romaña, en Italia, es una región rica en historia, cultura, gastronomía y atracciones variadas, lo que la convierte en un destino turístico ideal.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Explorar ciudades históricas y su patrimonio artístico:** Bolonia, la capital, es famosa por su casco antiguo, sus soportales, su universidad antigua y su deliciosa gastronomía. Ferrara, declarada Patrimonio de la Humanidad por la UNESCO, destaca por su arquitectura medieval y renacentista, incluyendo el majestuoso Castillo Estense. Rávena es mundialmente conocida por sus impresionantes mosaicos bizantinos y monumentos declarados Patrimonio de la Humanidad por la UNESCO, ya que fue capital del Imperio Romano de Occidente y del Imperio Bizantino en Europa. Parma y Módena también ofrecen importantes monumentos medievales como sus Duomos y baptisterios, además de ser centros gastronómicos de renombre.\n*   **Disfrutar de la reconocida gastronomía local:** La Emilia-Romaña es considerada el \"Valle de la Gastronomía\" de Italia y es la cuna de productos famosos como el Parmigiano-Reggiano, el prosciutto de Parma, el vinagre balsámico de Módena, los tortellini y la lasaña. Se pueden realizar tours gastronómicos para degustar estas especialidades y aprender sobre su elaboración.\n*   **Visitar el \"Valle del Motor\":** Para los entusiastas del automovilismo, la región ofrece la oportunidad de explorar museos de marcas icónicas como Ferrari (en Maranello), Maserati y Ducati (cerca de Bolonia), así como el Autodromo Internazionale Enzo e Dino Ferrari.\n*   **Relajarse en la Riviera Romagnola:** En la costa del Adriático, la región cuenta con extensas playas de arena, como las de Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini, que atraen a familias y jóvenes durante el verano.\n*   **Descubrir sitios naturales y culturales únicos:** El Santuario de la Madonna di San Luca en Bolonia ofrece vistas panorámicas espectaculares. Los Valles de Comacchio son ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\", destaca por sus canales y el Puente Trepponti. También hay parques temáticos como Mirabilandia, uno de los más grandes de Italia.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "saltaconmigo.com",
+                    "title": "saltaconmigo.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE_b-2UoMxbw7kO6wS7J_8uuPbuuBhy8bjCU00h-32P9OYPa4pdBZ5PC7Q27g5wfb-MzUzDGToFzLKVP3EDxUgS9vAfH3Fu2hsM2e8MTbeP0_Z9nLrhI5L-SWTHxODQMGoPL2OifyrRnxV70XPT_c6c_zGaqjSpeMdJVTb24yp2Qh6AL6vsr1RN1oHbnlaaw=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "www.italia.it",
+                    "title": "www.italia.it",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAWzpSnzRPRH4_9a9rgjuJK2hh-oZ0o96JILq5XKwjR_UEqnWw8cMSD485OjA_IkHfZ8-rqGbJZsNFPxLf7bIG_TLzobbTmDRzVdgQ9AVnk-b5NlP8-l_TZIN8qOhibsgE"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "youtube.com",
+                    "title": "youtube.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzQFs3C1IZAqWA8PiIwjCVgc3A63qu7PPEWL4DSNq4hZg9zucPI5RpKFcYnX3sVyYnQKHBPCzk8wLWvNBqQAGsZTo34P2icAzP9dxigY7n9Btezgz-Roo-QyCj_eNki74flfRbyw0="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "travel365.it",
+                    "title": "travel365.it",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_yX1oYI5Or-3FLgbVs-TFAVe7Eb9h6f4adEoPPqEvuQfynm-z37E24kgs4Q2-ya1tXi4WJxG-RmlBFwmy3283FkslpwwdfDlONKK3lWe7ksGR1tS6uYqZMZr1MRV-JrmtbA0zVTcOPB5PxRIYLakTM1B_hP3s2RY="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "viator.com",
+                    "title": "viator.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE87IfqblAUA20hiQSfrDsK5jgF0V8X-F99b3SqKpoeFGc0AMV7kx6QEi9KUCOU7PI070dEYW925qjwUOZpArKvg-JLSynuNUd02q82O6Wrgx2dX4QNqjDanL38plM7IQCX2as3M9RJyJJjFxJ6"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "viator.com",
+                    "title": "viator.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPdhUMCf_vdQN0TrQIvpQ8C1wGKkTQ9K8m8sWJlpySQl95UKMyWiGwvx81NkPFRzqVaXVI9fBRSJxK_QCkNYz4PwcGxzpPGFeFqvrMIYB0iypJ6ISW_EyLzvNcGCs8ULGu76RNEuEtwF7cbrbE"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "expedia.com",
+                    "title": "expedia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYMawjFsS682Kljw6ijIdsJ3U-nYqYAKxpaeyLFdjQyC7-5xMcfdZ1whBvh4HTsQOFEFhxHGZd7LWv7O__xDEoA4LnkUAtxv4m0TTGWTZVn9KyCpbWGP9tYi9crmHfuCcn8svhjXAAPWihk1Bv3-1bB-QyIUKexXG1oavO_RJrCV546xRZqvv2LKSaAQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "enfant-en-voyage.com",
+                    "title": "enfant-en-voyage.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBEFvWuKP9_71D_jXEzvVHPLjhEHZPe39-b6p9uKrpJ698oh-5qkrhpohQKOZhyLPtH3ULjeseRXZ4DFI7APuqvy5xTyooU5LBWjqruxnBAuGxpTkpuWyeRnsfhEMx6fibBxWDVSqElDlQena1rfGiMV6wtqw="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "www.italia.it",
+                    "title": "www.italia.it",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVUJbyKzAzE6GlggduBynZupwKFnGUySqMoaQDz88Ea9eYEiZyavnCks7CGZKScmMRZb8lvZJ7V7MCHCu1F6MDBoa72ddQPhocGOfGKm09q1IDE5t5zrTX4bTK9j1kIoKnzQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "komoot.com",
+                    "title": "komoot.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzOvENSi9o1kAR8hcUlHJKURFLDMgMmwSYBwCBK_g43u0XMwSR5P4tMhfMY6cCpUmBtPRFKYpl57GtEcE_ZrTeCZdl_wJRYPuD3y6orAEKt-MJHultGiHtYFvj4Z1Ra2yPMZHWafBBz09Y-T8jzBsfuwcqBbXBOp_CdOVWaCuMbZpXBC5jppe1oe9dMwm1CXTW"
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": null,
+                    "end_index": 159,
+                    "part_index": null,
+                    "text": "La Emilia-Romaña, en Italia, es una región rica en historia, cultura, gastronomía y atracciones variadas, lo que la convierte en un destino turístico ideal"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    3,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 238,
+                    "end_index": 423,
+                    "part_index": null,
+                    "text": "*   **Explorar ciudades históricas y su patrimonio artístico:** Bolonia, la capital, es famosa por su casco antiguo, sus soportales, su universidad antigua y su deliciosa gastronomía"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 425,
+                    "end_index": 580,
+                    "part_index": null,
+                    "text": "Ferrara, declarada Patrimonio de la Humanidad por la UNESCO, destaca por su arquitectura medieval y renacentista, incluyendo el majestuoso Castillo Estense"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 582,
+                    "end_index": 808,
+                    "part_index": null,
+                    "text": "Rávena es mundialmente conocida por sus impresionantes mosaicos bizantinos y monumentos declarados Patrimonio de la Humanidad por la UNESCO, ya que fue capital del Imperio Romano de Occidente y del Imperio Bizantino en Europa"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 810,
+                    "end_index": 958,
+                    "part_index": null,
+                    "text": "Parma y Módena también ofrecen importantes monumentos medievales como sus Duomos y baptisterios, además de ser centros gastronómicos de renombre"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    4,
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 960,
+                    "end_index": 1236,
+                    "part_index": null,
+                    "text": "*   **Disfrutar de la reconocida gastronomía local:** La Emilia-Romaña es considerada el \"Valle de la Gastronomía\" de Italia y es la cuna de productos famosos como el Parmigiano-Reggiano, el prosciutto de Parma, el vinagre balsámico de Módena, los tortellini y la lasaña"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4
+                  ],
+                  "segment": {
+                    "start_index": 1238,
+                    "end_index": 1345,
+                    "part_index": null,
+                    "text": "Se pueden realizar tours gastronómicos para degustar estas especialidades y aprender sobre su elaboración"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4,
+                    5,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 1347,
+                    "end_index": 1621,
+                    "part_index": null,
+                    "text": "*   **Visitar el \"Valle del Motor\":** Para los entusiastas del automovilismo, la región ofrece la oportunidad de explorar museos de marcas icónicas como Ferrari (en Maranello), Maserati y Ducati (cerca de Bolonia), así como el Autodromo Internazionale Enzo e Dino Ferrari"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    7,
+                    8
+                  ],
+                  "segment": {
+                    "start_index": 1623,
+                    "end_index": 1864,
+                    "part_index": null,
+                    "text": "*   **Relajarse en la Riviera Romagnola:** En la costa del Adriático, la región cuenta con extensas playas de arena, como las de Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini, que atraen a familias y jóvenes durante el verano"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 1866,
+                    "end_index": 2014,
+                    "part_index": null,
+                    "text": "*   **Descubrir sitios naturales y culturales únicos:** El Santuario de la Madonna di San Luca en Bolonia ofrece vistas panorámicas espectaculares"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 2016,
+                    "end_index": 2184,
+                    "part_index": null,
+                    "text": "Los Valles de Comacchio son ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\", destaca por sus canales y el Puente Trepponti"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    6,
+                    8
+                  ],
+                  "segment": {
+                    "start_index": 2186,
+                    "end_index": 2270,
+                    "part_index": null,
+                    "text": "También hay parques temáticos como Mirabilandia, uno de los más grandes de Italia"
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQRMhloOHi85VdviwwXlOQntjNLUKytA_fWFA_Pr1VfUWbq1jZQviK6wsJrpIsE0QChWHcgwV5i3yjNS8axYblzYyvXr25IYJAnnupy71WpGVjKB4BfW7PjxRiW361PiQ95JA9GWVsiYdu4RbAjoT6e3iTYdsP4H2bkor6XUY6BYyYFQrWsEVqUm907rqjfpnJh184KGRZQRQglb_g4EM8ZRpHmQIHh8Q3tKua\">atractivos turísticos Emilia-Romagna</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3hob3JAZoEVVxBwQHUnXst5E7Z5z7ZdsDx6xXtKxD2ulHD3EUPKq1R77raYHhGBYtSfjbms4jsXcRvopBi__Pz1oBnrS2nH_XzjxRT-qJOr77vg7QoFVedr6I-cVjJ_mk7O3pw439dINoMJG0wyajrgtSblJU-5El062I8R_RLZoe_ZNG2Pf3Cj9N-5GvkIcDO-MBGSTAEywsLq5lN37G5XoYKHyKKwQjeWLDSMZWQWdqLrE=\">actividades turísticas Emilia-Romagna Italia</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHlPl7AKwJaJOe6-8VEVQWlW9T_RZo5eYixUBHRFeZ8BGZHV7KEpeURNkcMQW965orLdSYsdRhktClopNX9gNky_Bxe_7s_FZ5rpdbmoQ9rT9LQGymunasfQMPekGcaVsjVlqTzDb_mkYddQEjqS1a0SLveqzS-zapIqCQ0FxSecqA7EaYaswLd53P13zb7XqnZRWn6U45-mhBrXjiWrqsu90-\">qué hacer en Emilia-Romagna</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "actividades turísticas Emilia-Romagna Italia",
+                "qué hacer en Emilia-Romagna",
+                "atractivos turísticos Emilia-Romagna"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "ebbc847b-d521-41d4-bbdb-a854ec2343ec"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 516,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 516
+                }
+              ],
+              "prompt_token_count": 127,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 127
+                }
+              ],
+              "thoughts_token_count": 182,
+              "tool_use_prompt_token_count": 56,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 56
+                }
+              ],
+              "total_token_count": 881,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-aeb26c91-05df-4ca1-bb6e-2b002c158d3c",
+            "author": "InvestigadorActividades",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "ebbc847b-d521-41d4-bbdb-a854ec2343ec",
+                "resultado_actividades": "La Emilia-Romaña, en Italia, es una región rica en historia, cultura, gastronomía y atracciones variadas, lo que la convierte en un destino turístico ideal.\n\nEntre las principales actividades y atracciones turísticas se encuentran:\n\n*   **Explorar ciudades históricas y su patrimonio artístico:** Bolonia, la capital, es famosa por su casco antiguo, sus soportales, su universidad antigua y su deliciosa gastronomía. Ferrara, declarada Patrimonio de la Humanidad por la UNESCO, destaca por su arquitectura medieval y renacentista, incluyendo el majestuoso Castillo Estense. Rávena es mundialmente conocida por sus impresionantes mosaicos bizantinos y monumentos declarados Patrimonio de la Humanidad por la UNESCO, ya que fue capital del Imperio Romano de Occidente y del Imperio Bizantino en Europa. Parma y Módena también ofrecen importantes monumentos medievales como sus Duomos y baptisterios, además de ser centros gastronómicos de renombre.\n*   **Disfrutar de la reconocida gastronomía local:** La Emilia-Romaña es considerada el \"Valle de la Gastronomía\" de Italia y es la cuna de productos famosos como el Parmigiano-Reggiano, el prosciutto de Parma, el vinagre balsámico de Módena, los tortellini y la lasaña. Se pueden realizar tours gastronómicos para degustar estas especialidades y aprender sobre su elaboración.\n*   **Visitar el \"Valle del Motor\":** Para los entusiastas del automovilismo, la región ofrece la oportunidad de explorar museos de marcas icónicas como Ferrari (en Maranello), Maserati y Ducati (cerca de Bolonia), así como el Autodromo Internazionale Enzo e Dino Ferrari.\n*   **Relajarse en la Riviera Romagnola:** En la costa del Adriático, la región cuenta con extensas playas de arena, como las de Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini, que atraen a familias y jóvenes durante el verano.\n*   **Descubrir sitios naturales y culturales únicos:** El Santuario de la Madonna di San Luca en Bolonia ofrece vistas panorámicas espectaculares. Los Valles de Comacchio son ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\", destaca por sus canales y el Puente Trepponti. También hay parques temáticos como Mirabilandia, uno de los más grandes de Italia."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorActividades",
+            "id": "d99b8499-5c4f-4c19-9db1-a54cd9208153",
+            "timestamp": 1776310010.8645823
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Para tu viaje a la Emilia-Romaña, Italia, las principales opciones de llegada son a través de los aeropuertos de Bolonia (BLQ), Rímini (RMI), Parma (PMF) y Forlì (FRL).\n\n**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**\nEste es el aeropuerto internacional más grande de la región y un punto de entrada clave.\n*   **Aerolíneas:** Ryanair ofrece vuelos desde €14.99. Otras aerolíneas importantes que operan aquí incluyen Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea.\n*   **Rangos de precios (desde España):** Se han encontrado vuelos directos desde Málaga a Bolonia a partir de 75 €, desde Madrid a partir de 118 €, y desde Las Palmas de Gran Canaria a partir de 129 €. También hay opciones más económicas desde Palma y Sevilla, con precios que pueden ir desde los 15 € o 17 € con Ryanair o Vueling. Un vuelo de ida y vuelta desde Barcelona puede costar alrededor de 235 €.\n\n**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**\nSirve a la popular zona costera de Rímini.\n*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair y Wizz Air son algunas de las aerolíneas que operan vuelos directos a Rímini. También se mencionan Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta desde Barcelona pueden encontrarse a partir de 88 € con Wizz Air Malta. Desde Madrid y Barcelona, con conexiones, los precios pueden variar entre 66 € y 117 €.\n\n**Aeropuerto de Parma (PMF)**\nEste aeropuerto ofrece acceso a la ciudad de Parma y sus alrededores.\n*   **Aerolíneas:** Ryanair es una opción frecuente para volar a Parma. Wizz Air Malta también opera en esta ruta.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades españolas como Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) pueden oscilar entre los 93 € y los 146 €.\n\n**Aeropuerto de Forlì (FRL)**\nOtro aeropuerto regional que sirve a la Emilia-Romaña.\n*   **Aerolíneas:** Ryanair y easyJet son mencionadas entre las aerolíneas que vuelan a Forlì. Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines también operan en este aeropuerto.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades como Valencia, Barcelona o Málaga, operados por aerolíneas como Ryanair y easyJet, pueden encontrarse en un rango de 119 € a 155 €.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "wikipedia.org",
+                    "title": "wikipedia.org",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXZt7p84HWVct_1eL9miq7sm-aeSi8_QroHOBOL5NrLSnwarMW_eMhSO4oExwJg-oi_W2vgBdMF6QVvpHkQXFCNAY6RnzLwbBpXeRh-VhPZpJZjPWbPUyZ0JQ42fxS1CSJcZt8aDyDH03_mcaFn5WiRochXVYpOByZ"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "conociendoitalia.com",
+                    "title": "conociendoitalia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPSvxZyQTSsXCB7FQkcpqe369WIZsT-aOsIj9tKWNq-Z-ri5R9qMK_CuXA7MvAJUiFcsc4XCXwxN6Jvxsrxg27mEZoDGpFZlCH8D0KJ75t9nLGCdZFWzMk_Gk8Y06grfl323kB1kk42OD51ugKB_iHcbWpYq1t_Zh_Kn3dwg=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "ryanair.com",
+                    "title": "ryanair.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjOjgKQhlSXIb6tby7si1Krknm8hTKDFiB0-0uKH1U9aOJpILqpOFFNrTGY6_8GqEix-jYLxa1-3kXrF5OZg2vvr3-BE6PREiQIFmXUui4BXa05Ty_aJ8rVWMrU-mzKSzSQ7jFy3xrzEOW39k1MCM2"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "vueling.com",
+                    "title": "vueling.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFRCe1ADbMOnzdG9mO5PtbSsH5-xf0GaTF8WUkKCONPP51ETtL1g73NUBj_S-THph1dICqUnlj6aakjQ7bGzwl1Fem7GdfcmxYesLe74xORtZ4JSlWqpzrZL2osv_fw1QS4OlLqYSvd0wrmjng"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "google.com",
+                    "title": "google.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5-3vobURvAUA08PpKOqPVhK-9OZKbhq3wTAMA9xPw1dYt3iBWBan0cC2w8Fh0lrN_girkjGvJh8AZtcoFskldDdREg9tGEBuqH_k3RZBEKoAuxBjOW3ftCGOei_28iqj6cj0kx7ot34RFZxFi6La7IZE8uZjXNzbYfgbhfzhAMwBB3g=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "kayak.es",
+                    "title": "kayak.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAAxDxlahhIHmwqRy42IoQnczT0BEjgTWa-VIx_oPGBBQqFyv_PjLM7mJoDhCko4lczn-YFMnBVcVDz5yFjvR_0KgHtctiaLi_mmSRCRMnUXSvP9N2fu73s0YKbpe18d3esRi3xHX4zH_WAGCFNsNUwqH74X7YsBCp6lPCqSA="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaw5K4Mm0dvIglEmgLmLpoe7wvDNCM8V7amWQN0ZNLrh9UJGjv9PnbgBmviAsNbtarULtr-O2mLS6d2fLyQk6vtMG8EREsAsjFQ2c5LJrWjqg_a4N9_ZhroEMgsVsn1F_Ws9FO8MhsCpYMEptmbwx-SxG_UmBIO_O5iFkZCQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "air-port-codes.com",
+                    "title": "air-port-codes.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqiyDaNo8awemP-y2qdKht1AdJIx4DQBfzsG8fZdyjupJd1z1fogc606LovCaC8G4ejKTIRBR-f04t3-5erKFchdXFTccLt_pwhVVGf2GnlL-EyH_XHm4tAADosUKNSogZhD-XXm74m8pSWaHjHooULA69fNk="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "skyscanner.es",
+                    "title": "skyscanner.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGQqAVwGM0663jdcrs80q-1mrwc3mZoKRtFdZTAd9Np4PwMJ1BY1RFh6rhWqKR4bEBOmp4N6PYKNbUddNibEWtnB6B-yzAt9d9E9BH2JrIi3Qg4e75o-1r0_16113o5TQtdVvGuud-OYuiJWEXIp9f5-qZ_P2zWLaIJQUkouENlRTU3q4WXwOg"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "ourairports.com",
+                    "title": "ourairports.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_xcDN7X8NG37EbdZEpcdNhPluDy6J62nWiCo-dgBIOXDdHq7ZisEbrssGWsL5dmEFpPTV1ONaB_9sRyp4TuQSDX1j45KxCu8zL5zl8FZG_ZlwBu--vBznaFHl7oCSBcN5eocfZFy5tsqHcSF60e4="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "google.com",
+                    "title": "google.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVsG4x4UgBUp0asyyQJmfmELzGMqUv1CEFWcmIRMFzuCOZ2xtSB5YSpq3Yg10iz_TlsZQIGf5ysho4qQredU075nOVDeewXib-3VHOaz0Ps6UhyJlgWuQ5VIFmMfOTftf57VQHHow7rOdIXkkyshdmT2Ucd9vd"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "expedia.com",
+                    "title": "expedia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgu-Cf1VqecCeFRKmX8gXYKl-fWkBQC7xBrH4e3ubgpZ4tGaY75qTkud7_kGOiP7OMSiVM5lM-E1JywVOScXi3W5hr486n52Vbliw74N2-tpN9GV3Xuh_a295nbUHxQY0xx8IZ1djXp6CoQMBWPsKMSaW0u7qctIW282nvDO5D"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "kayak.es",
+                    "title": "kayak.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRapbXYHizArbBE-Rm5lXpPGBeTPQ_1QXxzvEhYGJVaqZL9Z_LWlPq2RvjwnHXGvzEB4J384GDKBStULcyv5VAPzhKmoukbNTYoTvo40_DCgCN4LtPd1EcUVrCz1tb297o6S5rACK2x9gdHP8B4mDt2IPfcA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "skyscanner.es",
+                    "title": "skyscanner.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7dYBGNNH8Qt7xS9OC8eGsMx5NXkzkY1ojiRIWysh3dAjSAW0r_Rb-ruPItCbfWi81FggbdXcuKZzCh1zslGS36T2yAxp6vVD0aZikdsO7RRRZSxmcaN_BJ7hxlkXeFtaqs6S8Sra_yu5uTSDRnX9_RnTusJK5xKRgbkcnfH7i3CRLKorWOCg="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "ryanair.com",
+                    "title": "ryanair.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjf9YU-dv2HmD9lCZBmPfXrJEyAgKQe5tyzbUsqBYkls33VnIO5E-5Md_SEmoZjnQpqDNuObiNubVToeTVSubSNF1CIbpdPES0OaCitmmtD_JpYsq5ScSX88KxH97mGp8ZU_7MI0aRI1revuniuQ=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "travelocity.com",
+                    "title": "travelocity.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpxgXAS8MMWultQaK0PpqA_nkJXzLOvFoBnCyp8cWEmg6P9eosatzPa5DKnU61N8tUuTdt9JPbY7kg_m7ls20PBycL1K4t4mWU7rN1nB0g-ehyNYXo_LNB95X0j0a0_wzRsXtKZrsXLlbr6DF-EC7p8Jq5i4hGyRRSKA2Fw0lung=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "skyscanner.net",
+                    "title": "skyscanner.net",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwE3c-bvBYks5QnMxtcXyLTPeZq9yMUnwug8cPzYIQ6vks7aKwTQhhJqGmeHCMeFP4NiOf_30-FHo46NAJpHnK5Ucl-xzp-P1UJuXPrxG1q38U7sjfE3ySa-LYuBzSwMjhFcaJheaSy4Nt02F6M5UeyCuqDcZIGtOSFsnlzt8riJN_6fOB5qg="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "skyscanner.es",
+                    "title": "skyscanner.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHboNt0bNNEn0Fp1JKGR0XEV8LGMIva-6uYdTYVB1v3ubn0_aGwsIUzdzplRC8bhQUIUU3UV1usmdFAarEFIL3Kfhz01EXWub2uywKT0odYouh4C8hMHARGdvNb5mT5uEQeRHm1z7IRFIkgjqjLuN8Qbbk2PMrpSZ927pAdGSbtBPsw8WiNzNc="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "expedia.mx",
+                    "title": "expedia.mx",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtAXqjQJiTWw5fPW3vetpSU7OE57nMpdpYeh3VeLjFMw3QrYno9TChURYBM3K86wk88co1f919JtSQuIjEE7lRSIDp5U63S19-0EzB9n0NhoWyBi60CMagzQTrbSBIi3H5TFCLZI90M31THwfHV-3YsQ9Pk5t663nkgA=="
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 174,
+                    "end_index": 313,
+                    "part_index": null,
+                    "text": "**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**\nEste es el aeropuerto internacional más grande de la región y un punto de entrada clave"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 315,
+                    "end_index": 372,
+                    "part_index": null,
+                    "text": "*   **Aerolíneas:** Ryanair ofrece vuelos desde €14.99"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    3,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 374,
+                    "end_index": 493,
+                    "part_index": null,
+                    "text": "Otras aerolíneas importantes que operan aquí incluyen Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4,
+                    5,
+                    6
+                  ],
+                  "segment": {
+                    "start_index": 843,
+                    "end_index": 917,
+                    "part_index": null,
+                    "text": "Un vuelo de ida y vuelta desde Barcelona puede costar alrededor de 235 €"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    7,
+                    8,
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 920,
+                    "end_index": 1024,
+                    "part_index": null,
+                    "text": "**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**\nSirve a la popular zona costera de Rímini"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    10
+                  ],
+                  "segment": {
+                    "start_index": 1026,
+                    "end_index": 1176,
+                    "part_index": null,
+                    "text": "*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair y Wizz Air son algunas de las aerolíneas que operan vuelos directos a Rímini"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    11
+                  ],
+                  "segment": {
+                    "start_index": 1178,
+                    "end_index": 1298,
+                    "part_index": null,
+                    "text": "También se mencionan Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    8
+                  ],
+                  "segment": {
+                    "start_index": 1300,
+                    "end_index": 1442,
+                    "part_index": null,
+                    "text": "*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta desde Barcelona pueden encontrarse a partir de 88 € con Wizz Air Malta"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    12
+                  ],
+                  "segment": {
+                    "start_index": 1444,
+                    "end_index": 1534,
+                    "part_index": null,
+                    "text": "Desde Madrid y Barcelona, con conexiones, los precios pueden variar entre 66 € y 117 €"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    7,
+                    1,
+                    9
+                  ],
+                  "segment": {
+                    "start_index": 1537,
+                    "end_index": 1635,
+                    "part_index": null,
+                    "text": "**Aeropuerto de Parma (PMF)**\nEste aeropuerto ofrece acceso a la ciudad de Parma y sus alrededores"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    13,
+                    14
+                  ],
+                  "segment": {
+                    "start_index": 1637,
+                    "end_index": 1709,
+                    "part_index": null,
+                    "text": "*   **Aerolíneas:** Ryanair es una opción frecuente para volar a Parma"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    13
+                  ],
+                  "segment": {
+                    "start_index": 1711,
+                    "end_index": 1753,
+                    "part_index": null,
+                    "text": "Wizz Air Malta también opera en esta ruta"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    13
+                  ],
+                  "segment": {
+                    "start_index": 1755,
+                    "end_index": 1991,
+                    "part_index": null,
+                    "text": "*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades españolas como Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) pueden oscilar entre los 93 € y los 146 €"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    7,
+                    9,
+                    15
+                  ],
+                  "segment": {
+                    "start_index": 1994,
+                    "end_index": 2079,
+                    "part_index": null,
+                    "text": "**Aeropuerto de Forlì (FRL)**\nOtro aeropuerto regional que sirve a la Emilia-Romaña"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    16,
+                    17
+                  ],
+                  "segment": {
+                    "start_index": 2081,
+                    "end_index": 2177,
+                    "part_index": null,
+                    "text": "*   **Aerolíneas:** Ryanair y easyJet son mencionadas entre las aerolíneas que vuelan a Forlì"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    18
+                  ],
+                  "segment": {
+                    "start_index": 2179,
+                    "end_index": 2340,
+                    "part_index": null,
+                    "text": "Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines también operan en este aeropuerto"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    17
+                  ],
+                  "segment": {
+                    "start_index": 2342,
+                    "end_index": 2578,
+                    "part_index": null,
+                    "text": "*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades como Valencia, Barcelona o Málaga, operados por aerolíneas como Ryanair y easyJet, pueden encontrarse en un rango de 119 € a 155 €"
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnmJ68Dy6F7zhbndnGuxq9eZslashDWNm5e4vb1GnCEt8dMbOjfa8Ja3QJOiG_Hh_S3XLaHoYXnZK8_uD3I7y6LZJq-EErFgZGOD-p8iSbkgYznKpFBU0Gt00eBRJ1AMz2CmFlBzeQgAXpP_OM5O2WwQQNRhjIQbjg0OJ2TOjXqS9woO3Jr9GHiZca97Wg94p2gUYfbULW\">vuelos a Parma Italia</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiu6frtU_JUOHxzOwJ4W9Y6vkAr-S3MFqCc7Tu1BWs_S1e61xQ3a_w9V5PtRYDaWc7Zn8IjM0KB5ENyruH2UVs5JaxxpbnqVO1K6O1N0KKBrRyy24z8r6fvpp150h274UldWs5ibiT__ORvIjJMxgbkzd6wBWGXprgQKQHkRmPEMPbGY7JeT7gnt3CcYFJcKAXbLALa4e-olY=\">vuelos a Bolonia Italia</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqAf-IrhtnBFBy1K8LW7m9vJ19Irh_xj5eA7Ozf5YZYvPIwk1Zx6K1-qdIXFj0EwsD-cjchKs_ROAWcbEMBLwDeBCvUlwjccaxBoOs-XXphQtJyUmTun56tA_knTVhYMYu09A-N71oy8K2PyAdh5dscDxozdgM_6-2D5xZhnStTVS_USTs3OxQUhxsQZivt4ztlP4xlYvC4_4KG7XtMH1fehhXEcHc__M=\">major airports in Emilia-Romagna Italy</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLh7MjzEtx9JNUMsKtQBY533g24XvIu62SPs6HY6SiutAcX8Xto7VM_QVUrUe0D5Qc55ALUKypAesB-ouLrxUnaMK5GLmR-PNq_JgBoo40GOSRBmSL3wOfSDEUFxj8JmE27KasLcHpYqPyGRGYTNGuhWvXpfAw8PysXBxEUmfEuzLHzOr33fJ9sU5DN2U4yT8W4UUv2nWk6A==\">vuelos a Rimini Italia</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqEQSODCnwCBJhHEXx6SgSxW1OvGktLg_BJhY4hDdTdqMyUjQACcL5WvDMghEzCzAK5jqIGiLRsEkN0vkOlWgjQIS-no5G-Z2Jj5oNl5PSdvORV4ME7VuOHDooRFmP9Ph-kADd-qyO0PQs8eLOCDBNdjyUFuq3ssQT6AHR2T_v8D9dq_XVZWxEkKjcC5Oj54OC73uvF2OlVhdxOF4=\">vuelos a Forlì Italia</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "major airports in Emilia-Romagna Italy",
+                "vuelos a Bolonia Italia",
+                "vuelos a Rimini Italia",
+                "vuelos a Parma Italia",
+                "vuelos a Forlì Italia"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "ebbc847b-d521-41d4-bbdb-a854ec2343ec"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 649,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 649
+                }
+              ],
+              "prompt_token_count": 125,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 125
+                }
+              ],
+              "thoughts_token_count": 923,
+              "tool_use_prompt_token_count": 83,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 83
+                }
+              ],
+              "total_token_count": 1780,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-aeb26c91-05df-4ca1-bb6e-2b002c158d3c",
+            "author": "InvestigadorVuelos",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "b940a26a-4111-4ee0-9821-56f7896ade8f",
+                "resultado_vuelos": "Para tu viaje a la Emilia-Romaña, Italia, las principales opciones de llegada son a través de los aeropuertos de Bolonia (BLQ), Rímini (RMI), Parma (PMF) y Forlì (FRL).\n\n**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**\nEste es el aeropuerto internacional más grande de la región y un punto de entrada clave.\n*   **Aerolíneas:** Ryanair ofrece vuelos desde €14.99. Otras aerolíneas importantes que operan aquí incluyen Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea.\n*   **Rangos de precios (desde España):** Se han encontrado vuelos directos desde Málaga a Bolonia a partir de 75 €, desde Madrid a partir de 118 €, y desde Las Palmas de Gran Canaria a partir de 129 €. También hay opciones más económicas desde Palma y Sevilla, con precios que pueden ir desde los 15 € o 17 € con Ryanair o Vueling. Un vuelo de ida y vuelta desde Barcelona puede costar alrededor de 235 €.\n\n**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**\nSirve a la popular zona costera de Rímini.\n*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair y Wizz Air son algunas de las aerolíneas que operan vuelos directos a Rímini. También se mencionan Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta desde Barcelona pueden encontrarse a partir de 88 € con Wizz Air Malta. Desde Madrid y Barcelona, con conexiones, los precios pueden variar entre 66 € y 117 €.\n\n**Aeropuerto de Parma (PMF)**\nEste aeropuerto ofrece acceso a la ciudad de Parma y sus alrededores.\n*   **Aerolíneas:** Ryanair es una opción frecuente para volar a Parma. Wizz Air Malta también opera en esta ruta.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades españolas como Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) pueden oscilar entre los 93 € y los 146 €.\n\n**Aeropuerto de Forlì (FRL)**\nOtro aeropuerto regional que sirve a la Emilia-Romaña.\n*   **Aerolíneas:** Ryanair y easyJet son mencionadas entre las aerolíneas que vuelan a Forlì. Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines también operan en este aeropuerto.\n*   **Rangos de precios (desde España):** Los vuelos de ida y vuelta con conexiones desde ciudades como Valencia, Barcelona o Málaga, operados por aerolíneas como Ryanair y easyJet, pueden encontrarse en un rango de 119 € a 155 €."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorVuelos",
+            "id": "25f11aef-aa73-49dd-9f0f-19bd0962ff81",
+            "timestamp": 1776310006.1548872
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "La región de Emilia-Romaña en Italia ofrece una amplia gama de opciones de alojamiento para satisfacer diversos gustos y presupuestos, destacando su hospitalidad, riqueza cultural y excelencia gastronómica.\n\nEntre los tipos de hoteles disponibles, se encuentran:\n*   **Hoteles de lujo y boutique:** Con habitaciones elegantes, servicios personalizados, restaurantes gourmet y vistas panorámicas. Algunos ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Villa Monty Banks en Cesena, Casa Maria Luigia en Módena y Hotel Orologio en Bolonia.\n*   **Opciones económicas:** Existen hoteles que se ajustan a presupuestos más ajustados.\n*   **Resorts y hoteles con spa:** Ideales para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel.\n*   **Hoteles en la playa:** En la costa adriática, especialmente en Rimini y Riccione, con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea.\n*   **Agriturismos:** Casas de campo convertidas, perfectas para una escapada rural.\n*   **B&Bs y apartamentos:** Ofrecen una estancia acogedora, incluyendo Bed & Breakfast en centros urbanos pintorescos.\n*   **Hoteles con servicios específicos:** Como hoteles con piscina, que permiten animales o con aparcamiento.\n\nLas zonas más populares para alojarse, que ofrecen una excelente base para explorar la región, incluyen:\n*   **Bolonia:** Considerada la capital cultural y gastronómica, es ideal para los amantes de la historia y la comida, y está bien conectada con otras ciudades. Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton.\n*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas extensas, diversión y ambiente relajado, con numerosos hoteles a lo largo de la costa.\n*   **Parma y Módena:** Ideales para los amantes de la comida, conocidas por productos como el jamón de Parma y el Parmigiano Reggiano (Parma), y el vinagre balsámico y los museos de Ferrari (Módena).\n*   **Rávena y Ferrara:** Ciudades con gran riqueza histórica y cultural, siendo Ferrara Patrimonio de la Humanidad por la UNESCO.\n*   **Reggio Emilia:** Ofrece un centro histórico atractivo y diversas opciones de alojamiento, desde hoteles de lujo hasta bed and breakfasts.\n*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación.\n\nLa Emilia-Romaña proporciona una experiencia única, combinando entornos históricos y belleza natural, con opciones de hospedaje que van desde establecimientos de lujo hasta alojamientos más económicos, adaptándose a cualquier tipo de viajero.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": {
+              "image_search_queries": null,
+              "grounding_chunks": [
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "hotelesenitalia.click",
+                    "title": "hotelesenitalia.click",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMOSRCWXwcHCOOp6NVEhdMZBG6qBo1W28tIB5keaI8JXWH18XGCEamt4vWeSGS_tE2jTaYZ4IYNmXE1y618v8b3vxhd-gbWqOKS0tQPcs4Jh1yVOAI2gVtml6BEbVfmKVA9zSsCy_Rlw=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "secretplaces.es",
+                    "title": "secretplaces.es",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk2nWAHNlQBFvaUU0_gYemDHUNdSSKYTCy3GV3Qt5fWdTuO-hLgxlvxp2XNdXGvvf0q1L46Jz94sdTrfPMbnq1AOOe6SCn9ywhYpDRQ60A2_u-SLhIw94u0r7p_mfN_Qgzj-qgEMpYRQF4CL7-EP2sb6Pu_U-BSRc2LjQ--J_4yJS6lfwmoOUKJ2NvDjvj_MjpgS_Iew=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "trivago.it",
+                    "title": "trivago.it",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgq25DPG0Y9ae-pfnr_pzlbIf39SupHNLT6naThu7cWtLxjdzAAl5VWAF6AjKmvyDpzfIn7FL-Fp9rFibzjZA07YVEfN7fi727DXGRrGNi8GLL99pnUTsxNBKjiRXeRVy1-OfWhz5DZ1bDBluABqXgEtvySc8R6471q3OHZlBpCAGgQuW3"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "michelin.com",
+                    "title": "michelin.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG13CD6XQvxewHK8ZMAs51omsAQQ8nLA-c5Z_4wFai6u9SJEd5LTEPIlH-CxI-TmAt9LJfkiL8jAzwtn9FuluaKx467N_DGzFpY6_8OEhnb9vchMEaOMg5-JdqkZoZZAMxbxl8sDPa6cFaJB4WdoP-Ix6QIztZavA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl88ORZ8iAT-dEHjKIA1vuWBOitZB35HbKOJG6iaIyY_UeU5ySGX1XUDtZInn3Lms0Dkq6_h91IpeJ5IQ8JHwloKFv87XVctBvvJ0DRvdlE_Nz_Nova7bg7MBuUNgLJcyw0P8bWyIKklZTVXsKC1xm"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6fX-vyH5aA37qq4NsuuFdDsdCBUGqozvMKlxbu5TYGQW2tQnvG_iwy1VrsR0iB7BilFcwsU1eSOWWB9n0XgcDa0YGDV2o60AUcsrJ91GIsbHtSYze6ojnryDhm_BNmk_8bnrxlpZdczBd0-MwyEJlii0D"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "booking.com",
+                    "title": "booking.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPVQ4rQFvL2Tehm7uLGm4BbtKWpkHCZWkWz-JyzL7T9vUbTzJV_Gp_cIKzp42K5I8PW8x9xzSQfR1Yx78DxVkpewISYD9tYyJz600thXc0vWIpCb3T4kitaBYcNCSnej3rHZEGLnxNvAC4OYFCW8lsKtMD"
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "conalmadeviaje.com",
+                    "title": "conalmadeviaje.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGONWYKs_jzRuu-iwzz3MY_TY9Mitl_XCdLrINzgrTlTGhXX7Sk9FKrd5prCjWOqU8PLUbWQS5iwsmI2LNIAzI9mRTbA15VDdLpWKVbZzEhn2MdsTrQK5SxSKQAO72NgqyVZPphj2LrZ_GfFK0HhO6dsZcAnJaG1M5xotq38huH2leBs6WiYSl4f9YWnQB8J9gJTrUA1Q=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "thehotelguru.com",
+                    "title": "thehotelguru.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEmo7Iw2EaUhKBItlTllxJfK-cQmIpGteyVk6D_fULhHlFQxr66pjJhXcV4qgyffzAgTtAdS-OjetckVqL3LPX0MTjtN4zqxirTE9OG3Q6f-Sw6OLofltMT5ahQbk4M8fX_0LwAN13MfOJjZTgC8ZmdBBT1qNwBFIIz0osUqUSDRw="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "agoda.com",
+                    "title": "agoda.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDbcu_wTSzo7rwIwfWDal5FzbzU7K7Zq3Pbm8TsYNs-k3UH2P02_b7T9MRqC09rGKQe8f0z506j2_4wWi85aYy7YmWULiU4TRZ6c1CnzZ6mAYppBLPqDTm1zz5AwARGCXVZw0WfRkjGj7gEdEFeAfiEdK30VclDgMd4k="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "girlsgottadrink.com",
+                    "title": "girlsgottadrink.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-OEhVpG3M-NpKexe__R0ZhgqI6MP8ls4ZDZD_jQRUvVZoeI9nddpILuCDg9c3Wo62urs1AiR6IwodNP5e7kQhzzzzhLd7FZqjXTEIYMDwYb-he9n-TvVthmuJizHEVW0DKhuq-f6LjVjepiaFAmZCQ5V2cx-8NA=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "dormirenitalia.com",
+                    "title": "dormirenitalia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_5vM4Ao-_EZwML2CsF5gcEk4ErSvrPSvPx4aH8HYfKi2p99dLMopyPkedCpUafU6Qxo1cRn6WgEwALu66l3cTMXpJU6EPHZDuWkNQT-agbIuRWerEjcf-eXXyN1AOrUTxWAzF2w=="
+                  }
+                },
+                {
+                  "image": null,
+                  "maps": null,
+                  "retrieved_context": null,
+                  "web": {
+                    "domain": "conociendoitalia.com",
+                    "title": "conociendoitalia.com",
+                    "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF99RYdTTV_z1bSHSj-z8RwlLHYuF7EMkvgJMxDVUwuhXpJ8A39mkAf1WIBli533p9Y_4cXF90V08RlqmGECKvZhuRETDC4w_QuEa2zX3vtahrRWlwCKNOpgAektMPsm0V87agMTL3gX6StooS4IOVjQyKbc31RuhHZVI1D"
+                  }
+                }
+              ],
+              "grounding_supports": [
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": null,
+                    "end_index": 208,
+                    "part_index": null,
+                    "text": "La región de Emilia-Romaña en Italia ofrece una amplia gama de opciones de alojamiento para satisfacer diversos gustos y presupuestos, destacando su hospitalidad, riqueza cultural y excelencia gastronómica"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2,
+                    3,
+                    0,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 400,
+                    "end_index": 552,
+                    "part_index": null,
+                    "text": "Algunos ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Villa Monty Banks en Cesena, Casa Maria Luigia en Módena y Hotel Orologio en Bolonia"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 554,
+                    "end_index": 644,
+                    "part_index": null,
+                    "text": "*   **Opciones económicas:** Existen hoteles que se ajustan a presupuestos más ajustados"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 646,
+                    "end_index": 786,
+                    "part_index": null,
+                    "text": "*   **Resorts y hoteles con spa:** Ideales para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "segment": {
+                    "start_index": 788,
+                    "end_index": 1003,
+                    "part_index": null,
+                    "text": "*   **Hoteles en la playa:** En la costa adriática, especialmente en Rimini y Riccione, con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    8
+                  ],
+                  "segment": {
+                    "start_index": 1005,
+                    "end_index": 1088,
+                    "part_index": null,
+                    "text": "*   **Agriturismos:** Casas de campo convertidas, perfectas para una escapada rural"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2,
+                    8,
+                    1
+                  ],
+                  "segment": {
+                    "start_index": 1090,
+                    "end_index": 1208,
+                    "part_index": null,
+                    "text": "*   **B&Bs y apartamentos:** Ofrecen una estancia acogedora, incluyendo Bed & Breakfast en centros urbanos pintorescos"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    2
+                  ],
+                  "segment": {
+                    "start_index": 1210,
+                    "end_index": 1320,
+                    "part_index": null,
+                    "text": "*   **Hoteles con servicios específicos:** Como hoteles con piscina, que permiten animales o con aparcamiento"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    5,
+                    9,
+                    8,
+                    10
+                  ],
+                  "segment": {
+                    "start_index": 1593,
+                    "end_index": 1673,
+                    "part_index": null,
+                    "text": "Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    4,
+                    6,
+                    8,
+                    7
+                  ],
+                  "segment": {
+                    "start_index": 1675,
+                    "end_index": 1885,
+                    "part_index": null,
+                    "text": "*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas extensas, diversión y ambiente relajado, con numerosos hoteles a lo largo de la costa"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    9,
+                    8,
+                    11,
+                    10
+                  ],
+                  "segment": {
+                    "start_index": 1887,
+                    "end_index": 2090,
+                    "part_index": null,
+                    "text": "*   **Parma y Módena:** Ideales para los amantes de la comida, conocidas por productos como el jamón de Parma y el Parmigiano Reggiano (Parma), y el vinagre balsámico y los museos de Ferrari (Módena)"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    8,
+                    11
+                  ],
+                  "segment": {
+                    "start_index": 2092,
+                    "end_index": 2223,
+                    "part_index": null,
+                    "text": "*   **Rávena y Ferrara:** Ciudades con gran riqueza histórica y cultural, siendo Ferrara Patrimonio de la Humanidad por la UNESCO"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    11,
+                    12
+                  ],
+                  "segment": {
+                    "start_index": 2225,
+                    "end_index": 2368,
+                    "part_index": null,
+                    "text": "*   **Reggio Emilia:** Ofrece un centro histórico atractivo y diversas opciones de alojamiento, desde hoteles de lujo hasta bed and breakfasts"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    11
+                  ],
+                  "segment": {
+                    "start_index": 2370,
+                    "end_index": 2456,
+                    "part_index": null,
+                    "text": "*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación"
+                  }
+                },
+                {
+                  "confidence_scores": null,
+                  "grounding_chunk_indices": [
+                    0,
+                    8
+                  ],
+                  "segment": {
+                    "start_index": 2459,
+                    "end_index": 2706,
+                    "part_index": null,
+                    "text": "La Emilia-Romaña proporciona una experiencia única, combinando entornos históricos y belleza natural, con opciones de hospedaje que van desde establecimientos de lujo hasta alojamientos más económicos, adaptándose a cualquier tipo de viajero"
+                  }
+                }
+              ],
+              "retrieval_metadata": {
+                "google_search_dynamic_retrieval_score": null
+              },
+              "search_entry_point": {
+                "rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSnUZl5cczNbZe9EDOsohP-3TbcRL0d51lPBI63fHEF8Lt5eLp0CrAwmZjaksQ1zrOdI2-wqedVtirhJyZQ4jESKBbEenqHZGQzxm5QlZi6QxsUxFl9zd4cXSD7J2sz4vuPCrZ19VjRLkCRgqOAWM3AwSifIGHk2OWpm91XtcN4GwlDTObxbcHdHASBCiSA14GRkUyCAvM0OERgGO0fDmHhb9yxUs=\">tipos de hoteles en Emilia-Romagna</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTs0ZCL_Xj6LCLZDx_jI6PW4mr7ugwYxPy3zYktQJa5sNt9RVzyv9vYcIGPYw3xwwxHHMXMbJCECbU1qNrKEnqDxWDni5rtOWzE5oqL0GfbhIpWVLE1ZlcEEz79Fx5sBH5wcb3k8BukVjew3fuRWCq1pq8MuXM0UW39PjTH0oKNBU0ClpkJGxPdojI0YaMDufT9ImAMyjmo-CnW1aZsUVB\">hoteles Emilia-Romagna Italia</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF73a-Yy3Mc5OVsxeHD82445fyhRdue1Od4Q6Rv_Pr2O-EfFXG-10qUZdj5OEJQNAM8VuTISQRT5XnrWG8MTVgW1H2RdDW2TXk-GHJuQYhhKnYV6Ue3cImCi9R92poO5QDDcFmzkCgBNstDhmNJWS8g6_fCK7Qxe0il7ZxrWO6WENCwFnmwDuH4uMTRnDW4udNcLgml2i00VYHcD4hl9r0KHhvxQe_ObOzYFfgvQQd82HfA\">zonas populares para alojarse en Emilia-Romagna</a>\n  </div>\n</div>\n",
+                "sdk_blob": null
+              },
+              "web_search_queries": [
+                "hoteles Emilia-Romagna Italia",
+                "tipos de hoteles en Emilia-Romagna",
+                "zonas populares para alojarse en Emilia-Romagna"
+              ],
+              "google_maps_widget_context_token": null,
+              "retrieval_queries": null,
+              "source_flagging_uris": null
+            },
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "b940a26a-4111-4ee0-9821-56f7896ade8f"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 617,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 617
+                }
+              ],
+              "prompt_token_count": 129,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 129
+                }
+              ],
+              "thoughts_token_count": 754,
+              "tool_use_prompt_token_count": 68,
+              "tool_use_prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 68
+                }
+              ],
+              "total_token_count": 1568,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-aeb26c91-05df-4ca1-bb6e-2b002c158d3c",
+            "author": "InvestigadorHoteles",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "eb9b01b5-fe34-4a34-9f3d-2d93403ef2ad",
+                "resultado_hoteles": "La región de Emilia-Romaña en Italia ofrece una amplia gama de opciones de alojamiento para satisfacer diversos gustos y presupuestos, destacando su hospitalidad, riqueza cultural y excelencia gastronómica.\n\nEntre los tipos de hoteles disponibles, se encuentran:\n*   **Hoteles de lujo y boutique:** Con habitaciones elegantes, servicios personalizados, restaurantes gourmet y vistas panorámicas. Algunos ejemplos incluyen Executive SPA Hotel en Fiorano Modenese, Villa Monty Banks en Cesena, Casa Maria Luigia en Módena y Hotel Orologio en Bolonia.\n*   **Opciones económicas:** Existen hoteles que se ajustan a presupuestos más ajustados.\n*   **Resorts y hoteles con spa:** Ideales para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel.\n*   **Hoteles en la playa:** En la costa adriática, especialmente en Rimini y Riccione, con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea.\n*   **Agriturismos:** Casas de campo convertidas, perfectas para una escapada rural.\n*   **B&Bs y apartamentos:** Ofrecen una estancia acogedora, incluyendo Bed & Breakfast en centros urbanos pintorescos.\n*   **Hoteles con servicios específicos:** Como hoteles con piscina, que permiten animales o con aparcamiento.\n\nLas zonas más populares para alojarse, que ofrecen una excelente base para explorar la región, incluyen:\n*   **Bolonia:** Considerada la capital cultural y gastronómica, es ideal para los amantes de la historia y la comida, y está bien conectada con otras ciudades. Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton.\n*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas extensas, diversión y ambiente relajado, con numerosos hoteles a lo largo de la costa.\n*   **Parma y Módena:** Ideales para los amantes de la comida, conocidas por productos como el jamón de Parma y el Parmigiano Reggiano (Parma), y el vinagre balsámico y los museos de Ferrari (Módena).\n*   **Rávena y Ferrara:** Ciudades con gran riqueza histórica y cultural, siendo Ferrara Patrimonio de la Humanidad por la UNESCO.\n*   **Reggio Emilia:** Ofrece un centro histórico atractivo y diversas opciones de alojamiento, desde hoteles de lujo hasta bed and breakfasts.\n*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación.\n\nLa Emilia-Romaña proporciona una experiencia única, combinando entornos históricos y belleza natural, con opciones de hospedaje que van desde establecimientos de lujo hasta alojamientos más económicos, adaptándose a cualquier tipo de viajero."
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": "AgenteInvestigacionParalelaViaje.InvestigadorHoteles",
+            "id": "80e0ddd5-3c2d-4458-9006-5673860bcb88",
+            "timestamp": 1776310008.7805367
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "## Propuesta de Itinerario de Viaje\n\n### Opciones de Vuelos\nLas principales opciones de llegada a Emilia-Romaña son a través de los aeropuertos de Bolonia (BLQ), Rímini (RMI), Parma (PMF) y Forlì (FRL).\n\n**Aeropuerto de Bolonia Guglielmo Marconi (BLQ)**: Es el aeropuerto internacional más grande de la región.\n*   **Aerolíneas:** Ryanair (desde €14.99), Vueling, ITA Airways, Lufthansa, Air France, Wizz Air y Volotea.\n*   **Rangos de precios (desde España):** Vuelos directos desde Málaga (desde 75 €), Madrid (desde 118 €), Las Palmas de Gran Canaria (desde 129 €). Opciones más económicas desde Palma y Sevilla con Ryanair o Vueling (desde 15 € o 17 €). Vuelo de ida y vuelta desde Barcelona (alrededor de 235 €).\n\n**Aeropuerto Internacional Federico Fellini (Rímini) (RMI)**: Sirve a la zona costera de Rímini.\n*   **Aerolíneas:** Ryanair, easyJet, Vueling, British Airways, Luxair, Wizz Air, Lufthansa, KLM, ITA Airways, Swiss International Air Lines, Air France, Austrian Airlines e Iberia.\n*   **Rangos de precios (desde España):** Vuelos de ida y vuelta desde Barcelona con Wizz Air Malta (a partir de 88 €). Vuelos desde Madrid y Barcelona con conexiones (entre 66 € y 117 €).\n\n**Aeropuerto de Parma (PMF)**: Ofrece acceso a la ciudad de Parma.\n*   **Aerolíneas:** Ryanair y Wizz Air Malta.\n*   **Rangos de precios (desde España):** Vuelos de ida y vuelta con conexiones desde Valencia, Barcelona o Madrid con Ryanair (y ocasionalmente Wizz Air Malta) (entre 93 € y 146 €).\n\n**Aeropuerto de Forlì (FRL)**: Otro aeropuerto regional.\n*   **Aerolíneas:** Ryanair, easyJet, Lufthansa, Swiss International Air Lines, KLM, Air France, ITA Airways, Austrian Airlines, British Airways y Brussels Airlines.\n*   **Rangos de precios (desde España):** Vuelos de ida y vuelta con conexiones desde Valencia, Barcelona o Málaga con Ryanair y easyJet (entre 119 € y 155 €).\n\n### Opciones de Alojamiento\nEmilia-Romaña ofrece una variedad de alojamientos para distintos gustos y presupuestos.\n\n**Tipos de alojamiento:**\n*   **Hoteles de lujo y boutique:** Con habitaciones elegantes, servicios personalizados, restaurantes gourmet y vistas panorámicas. Ejemplos incluyen Executive SPA Hotel (Fiorano Modenese), Villa Monty Banks (Cesena), Casa Maria Luigia (Módena) y Hotel Orologio (Bolonia).\n*   **Opciones económicas:** Hoteles que se ajustan a presupuestos más ajustados.\n*   **Resorts y hoteles con spa:** Para relajación, como Ròseo Euroterme Wellness Resort y Oste del Castello Wellness & Bike Hotel.\n*   **Hoteles en la playa:** En la costa adriática (Rimini y Riccione), con opciones modernas y cerca de la playa, como Augustus Hotel Riccione, chiAma Hotel, Erbavoglio Hotel y Hotel Villa Augustea.\n*   **Agriturismos:** Casas de campo convertidas para escapadas rurales.\n*   **B&Bs y apartamentos:** Estancias acogedoras, incluyendo Bed & Breakfast en centros urbanos.\n*   **Hoteles con servicios específicos:** Con piscina, que permiten animales o con aparcamiento.\n\n**Zonas populares para alojarse:**\n*   **Bolonia:** Capital cultural y gastronómica, ideal para historia y comida, bien conectada. Ofrece hoteles céntricos como Hotel Palace Bologna Centro y Royal Hotel Carlton.\n*   **Rimini y la Riviera Romagnola (incluyendo Riccione, Milano Marittima, Cervia y Cesenatico):** Destacan por sus playas, diversión y ambiente relajado.\n*   **Parma y Módena:** Ideales para amantes de la comida (jamón de Parma, Parmigiano Reggiano, vinagre balsámico) y museos de Ferrari (Módena).\n*   **Rávena y Ferrara:** Ciudades con riqueza histórica y cultural, Ferrara es Patrimonio de la Humanidad por la UNESCO.\n*   **Reggio Emilia:** Centro histórico atractivo con diversas opciones de alojamiento.\n*   **Salsomaggiore Terme:** Conocida por sus spas termales, ideal para la relajación.\n\n### Actividades Recomendadas\nLa Emilia-Romaña es un destino ideal por su historia, cultura, gastronomía y atracciones variadas.\n\n**Explorar ciudades históricas y su patrimonio artístico:**\n*   **Bolonia:** Famosa por su casco antiguo, soportales, universidad y gastronomía.\n*   **Ferrara:** Patrimonio de la Humanidad por la UNESCO, arquitectura medieval y renacentista, Castillo Estense.\n*   **Rávena:** Conocida por sus mosaicos bizantinos y monumentos Patrimonio de la Humanidad por la UNESCO.\n*   **Parma y Módena:** Monumentos medievales como Duomos y baptisterios, además de ser centros gastronómicos.\n\n**Disfrutar de la reconocida gastronomía local:**\n*   La región es el \"Valle de la Gastronomía\" de Italia.\n*   Cuna de productos como Parmigiano-Reggiano, prosciutto de Parma, vinagre balsámico de Módena, tortellini y lasaña.\n*   Posibilidad de realizar tours gastronómicos para degustar y aprender sobre su elaboración.\n\n**Visitar el \"Valle del Motor\":**\n*   Para entusiastas del automovilismo.\n*   Museos de marcas icónicas como Ferrari (Maranello), Maserati y Ducati (cerca de Bolonia).\n*   Autodromo Internazionale Enzo e Dino Ferrari.\n\n**Relajarse en la Riviera Romagnola:**\n*   Costa del Adriático con extensas playas de arena.\n*   Localidades como Riccione, Cervia, Milano Marittima, Lido de Savio y Rimini.\n\n**Descubrir sitios naturales y culturales únicos:**\n*   Santuario de la Madonna di San Luca en Bolonia: Ofrece vistas panorámicas.\n*   Valles de Comacchio: Ideales para observar flamencos y la ciudad de Comacchio, conocida como la \"pequeña Venecia\" por sus canales y el Puente Trepponti.\n*   Parques temáticos: Mirabilandia, uno de los más grandes de Italia.\n\n### Conclusión del Plan\nLa Emilia-Romaña ofrece múltiples opciones de llegada aérea a través de sus cuatro aeropuertos principales, una vasta gama de alojamientos desde lujo hasta económicos distribuidos por toda la región y una riqueza de actividades que abarcan desde la exploración cultural y gastronómica hasta el ocio en la playa o la visita a museos de motor.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "35a7f79f-dd8a-4139-a1a7-deec9c457a32"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 1540,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 1540
+                }
+              ],
+              "prompt_token_count": 3996,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 3996
+                }
+              ],
+              "thoughts_token_count": 172,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 5708,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": -0.11748050838321834,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-aeb26c91-05df-4ca1-bb6e-2b002c158d3c",
+            "author": "AgenteSintesisItinerario",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "35a7f79f-dd8a-4139-a1a7-deec9c457a32"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null,
+              "render_ui_widgets": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "a75ac692-5bed-46bd-8f05-ac0f73c50a9a",
+            "timestamp": 1776310030.6888523
+          }
+        ],
+        "last_update_time": 1776310030.6888523
+      },
+      "user_id": "user"
+    }
+  ],
+  "creation_timestamp": 1776310081.9778216
+}
