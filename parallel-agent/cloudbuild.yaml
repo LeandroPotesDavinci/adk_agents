@@ -6,8 +6,7 @@ steps:
     args:
       - -c
       - |
-        pip install google-adk 
-        pip install -r requirements.txt
+        pip install google-adk 'google-adk[eval]'
 
   # 2. Evaluación con adk eval
   - name: 'python:3.10'
