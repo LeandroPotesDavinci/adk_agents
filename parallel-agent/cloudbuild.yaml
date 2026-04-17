@@ -1,5 +1,5 @@
 steps:
-  # 1. Instalación y Evaluación 
+  # 1. Evaluación 
   - name: 'python:3.10'
     id: 'Pruebas_de_Calidad'
     dir: 'parallel-agent'
@@ -15,7 +15,6 @@ steps:
         
         adk eval ./planificador_viajes ./planificador_viajes/planificador_evalset.evalset.json \
           --config_file_path=./planificador_viajes/test_config.json \
-          --print_detailed_results
 
   # 2. Despliegue 
   - name: 'python:3.10'
