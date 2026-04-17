@@ -31,4 +31,6 @@ steps:
           --project=interno-geminienterprise \
           --region=us-central1 \
           planificador_viajes
-          
+
+options:
+  logging: CLOUD_LOGGING_ONLY
