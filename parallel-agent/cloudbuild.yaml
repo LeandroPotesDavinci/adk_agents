@@ -6,13 +6,14 @@ steps:
     args:
       - -c
       - |
-        # Instalamos las herramientas necesarias en este contenedor
         pip install google-adk
         pip install 'google-adk[eval]'
+
+        echo "Contenido del directorio actual:"
+        ls -F
         
-        # Ejecutamos la evaluación inmediatamente
-        adk eval planificador_viajes planificador_viajes/planificador_evalset.evalset.json \
-          --config_file_path=planificador_viajes/test_config.json \
+        adk eval ./planificador_viajes ./planificador_viajes/planificador_evalset.evalset.json \
+          --config_file_path=./planificador_viajes/test_config.json \
           --print_detailed_results
 
   # 2. Despliegue 
