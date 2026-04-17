@@ -20,7 +20,7 @@ steps:
           --config_file_path=planificador_viajes/test_config.json \
           --print_detailed_results
 
-  # 3. Despliegue Directo
+  # 3. Despliegue Directo a Agent Engine
   - name: 'python:3.10'
     id: 'Actualizacion_Continua_Agente'
     entrypoint: /bin/bash
