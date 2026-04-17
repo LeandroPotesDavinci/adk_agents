@@ -9,7 +9,7 @@ steps:
       - |
         pip install google-adk
         adk deploy agent_engine \
-          --agent_engine_id=2693689688597725184
+          --agent_engine_id=2693689688597725184 \
           --project=interno-geminienterprise \
           --region=us-central1 \
           planificador_viajes
