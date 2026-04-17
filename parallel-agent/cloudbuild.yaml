@@ -17,19 +17,19 @@ steps:
           --config_file_path=./planificador_viajes/test_config.json \
 
   # 2. Despliegue 
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-    id: 'Actualizacion_Agent_Engine'
+  - name: 'python:3.10'
+    id: 'Despliegue_Agent_Engine'
     dir: 'parallel-agent'
     entrypoint: /bin/bash
     args:
       - -c
-      - | 
-        gcloud beta ai reasoning-engines deploy \
+      - |
+        pip install google-adk
+        adk deploy agent_engine \
           --project=interno-geminienterprise \
-          --location=us-central1 \
-          --agent-id="2693689688597725184" \
-          --source="." \
-          --alias="prod"
+          --region=us-central1 \
+          --agent_engine_id=2693689688597725184 \  
+          planificador_viajes
 
 options:
   logging: CLOUD_LOGGING_ONLY
