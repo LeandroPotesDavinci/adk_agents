@@ -24,7 +24,7 @@ steps:
     args:
       - -c
       - | 
-        cloud beta ai reasoning-engines deploy \
+        gcloud beta ai reasoning-engines deploy \
           --project=interno-geminienterprise \
           --location=us-central1 \
           --agent-id="2693689688597725184" \
