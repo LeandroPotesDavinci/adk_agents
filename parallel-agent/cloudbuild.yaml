@@ -1,31 +1,28 @@
 steps:
-  # 1. Instalar dependencias
+  # 1. Instalación y Evaluación 
   - name: 'python:3.10'
-    id: 'Instalacion'
+    id: 'Pruebas_de_Calidad'
     entrypoint: /bin/bash
     args:
       - -c
       - |
-        pip install google-adk 'google-adk[eval]'
-
-  # 2. Evaluación con adk eval
-  - name: 'python:3.10'
-    id: 'Evaluacion_ADK'
-    entrypoint: /bin/bash
-    args:
-      - -c
-      - |
+        # Instalamos las herramientas necesarias en este contenedor
+        pip install google-adk
+        pip install 'google-adk[eval]'
+        
+        # Ejecutamos la evaluación inmediatamente
         adk eval planificador_viajes planificador_viajes/planificador_evalset.evalset.json \
           --config_file_path=planificador_viajes/test_config.json \
           --print_detailed_results
 
-  # 3. Despliegue Directo a Agent Engine
+  # 2. Despliegue 
   - name: 'python:3.10'
-    id: 'Actualizacion_Continua_Agente'
+    id: 'Despliegue_Agent_Engine'
     entrypoint: /bin/bash
     args:
       - -c
       - |
+        pip install google-adk
         adk deploy agent_engine \
           --project=interno-geminienterprise \
           --region=us-central1 \
