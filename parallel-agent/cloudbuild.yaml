@@ -9,7 +9,7 @@ steps:
         pip install google-adk 
         pip install -r requirements.txt
 
-  # 2. Evaluación con tu comando original
+  # 2. Evaluación con adk eval
   - name: 'python:3.10'
     id: 'Evaluacion_ADK'
     entrypoint: /bin/bash
@@ -20,7 +20,7 @@ steps:
           --config_file_path=planificador_viajes/test_config.json \
           --print_detailed_results
 
-  # 3. Despliegue Directo (Unificado)
+  # 3. Despliegue Directo
   - name: 'python:3.10'
     id: 'Actualizacion_Continua_Agente'
     entrypoint: /bin/bash
