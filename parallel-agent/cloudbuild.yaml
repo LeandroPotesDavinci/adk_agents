@@ -28,7 +28,7 @@ steps:
         adk deploy agent_engine \
           --project=interno-geminienterprise \
           --region=us-central1 \
-          2693689688597725184
+          projects/398185662520/locations/us-central1/reasoningEngines/2693689688597725184
 
 options:
   logging: CLOUD_LOGGING_ONLY
